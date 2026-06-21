@@ -1,0 +1,17 @@
+{
+  "year": "2024",
+  "make": "Nissan",
+  "model": "Kicks",
+  "trim": "SV",
+  "price": "",
+  "mileage": "19,603 mi",
+  "stock": "3N1CP5CV4RL561172",
+  "dealer_name": "Metro Nissan of Montclair",
+  "dealer_phone": "818-450-6500",
+  "salesperson": "Devin Rangel",
+  "cta": "DM \"INFO\" BEFORE IT'S GONE",
+  "exterior_dir": "work/photos/3N1CP5CV4RL561172/exterior",
+  "interior_dir": "work/photos/3N1CP5CV4RL561172/interior",
+  "output": "ready_to_post/3N1CP5CV4RL561172/video.mp4",
+  "orientation": "vertical"
+}

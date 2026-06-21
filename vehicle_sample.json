@@ -1,0 +1,16 @@
+{
+    "year": "2024",
+    "make": "Nissan",
+    "model": "Kicks",
+    "trim": "SV",
+    "price": "$15,899",
+    "mileage": "46,284 mi",
+    "stock": "33974A",
+    "dealer_name": "Metro Nissan of Montclair",
+    "dealer_phone": "(909) 403-1121",
+    "cta": "DM US TO SCHEDULE A TEST DRIVE",
+    "exterior_dir": "sample_photos/exterior",
+    "interior_dir": "sample_photos/interior",
+    "output": "output/showcase_sample.mp4",
+    "orientation": "vertical"
+}
