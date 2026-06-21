@@ -1,0 +1,58 @@
+name: Check inventory and post showcase videos
+
+on:
+  schedule:
+    - cron: '*/30 * * * *'   # every 30 minutes
+  workflow_dispatch: {}       # lets you also trigger it manually from the Actions tab
+
+jobs:
+  run-pipeline:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install ffmpeg
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg
+
+      - name: Install Python deps
+        run: pip install -r requirements.txt
+
+      - name: Run pipeline
+        env:
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          NOTIFY_TO: ${{ secrets.NOTIFY_TO }}
+        run: |
+          python run_pipeline.py \
+            --base-url https://www.metronissanmontclair.com/inventory/used/ \
+            --dealer-name "Metro Nissan of Montclair" \
+            --dealer-phone "818-450-6500" \
+            --salesperson "Devin Rangel" \
+            --orientation vertical \
+            --notify
+
+      # Keep a copy in the Actions tab too, as a backup to email
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: ready-to-post-${{ github.run_number }}
+          path: ready_to_post/
+          if-no-files-found: ignore
+
+      # Persist known_vins.json back to the repo so the next run remembers
+      # what it already saw (GitHub Actions runners are wiped every run).
+      - name: Save state
+        run: |
+          git config user.name "inventory-bot"
+          git config user.email "inventory-bot@users.noreply.github.com"
+          git add known_vins.json
+          git diff --staged --quiet || git commit -m "Update known VINs [skip ci]"
+          git push || true
