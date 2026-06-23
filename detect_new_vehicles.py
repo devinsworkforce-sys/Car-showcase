@@ -43,9 +43,22 @@ HEADERS = {
     "User-Agent": "Mozilla/5.0 (compatible; InventoryWatcher/1.0; +personal social-media tool)"
 }
 
+# Match a vehicle-detail-page slug wherever it appears, in any link form:
+#   https://www.metronissanmontclair.com/inventory/Used-...-VIN/
+#   /inventory/Used-...-VIN/
+#   [/inventory/Used-...-VIN/](https://.../inventory/Used-...-VIN/)
+# The reliable anchor is the "/inventory/Used-<stuff>-<17-char VIN>/" slug
+# itself, so we key on that and rebuild the absolute URL from the base
+# domain. This is far more robust than requiring an absolute href, which
+# broke because the site also uses relative links.
 VDP_RE = re.compile(
-    r'href="(https?://[^"]*?/inventory/(Used-[^"/]+-([A-HJ-NPR-Z0-9]{17}))/)"'
+    r'/inventory/(Used-[^"/\s\)\]]+-([A-HJ-NPR-Z0-9]{17}))/'
 )
+
+
+def _domain_root(base_url):
+    m = re.match(r'(https?://[^/]+)', base_url)
+    return m.group(1) if m else base_url.rstrip("/")
 
 
 def fetch(url):
@@ -73,10 +86,12 @@ def parse_slug(slug, vin):
 def collect_listings(base_url, max_pages=10, delay_seconds=1.0):
     """Walk paginated inventory pages, return dict {vin: info}."""
     found = {}
-    page_url = base_url.rstrip("/") + "/"
+    root = _domain_root(base_url)
+    base_no_slash = base_url.rstrip("/")
 
     for page_num in range(1, max_pages + 1):
-        url = page_url if page_num == 1 else base_url.rstrip("/") + f"-page-{page_num}/"
+        # The real site paginates as .../inventory/used-page-2/ etc.
+        url = base_no_slash + "/" if page_num == 1 else base_no_slash + f"-page-{page_num}/"
         try:
             html = fetch(url)
         except requests.RequestException as e:
@@ -88,12 +103,12 @@ def collect_listings(base_url, max_pages=10, delay_seconds=1.0):
             break
 
         new_on_page = 0
-        for full_url, slug, vin in matches:
+        for slug, vin in matches:
             if vin not in found:
                 year, make, model, trim = parse_slug(slug, vin)
                 found[vin] = {
                     "vin": vin,
-                    "url": full_url,
+                    "url": f"{root}/inventory/{slug}/",
                     "year": year,
                     "make": make,
                     "model": model,
@@ -101,7 +116,7 @@ def collect_listings(base_url, max_pages=10, delay_seconds=1.0):
                 }
                 new_on_page += 1
 
-        print(f"  page {page_num}: {len(matches)} listings found ({new_on_page} new VINs)")
+        print(f"  page {page_num}: {len(matches)} slug matches ({new_on_page} new VINs)")
         time.sleep(delay_seconds)
 
     return found
