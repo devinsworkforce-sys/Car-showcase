@@ -185,15 +185,44 @@ def make_card(lines, out_path, size, subtitle=None, accent_line=None,
     img.save(out_path)
 
 
-def make_overlay_png(out_path, size, top_label=None, lower_third=None):
-    """Render just the text/badges onto a transparent PNG, composited onto
-    the video later via ffmpeg's `overlay` filter. This avoids depending on
-    ffmpeg's `drawtext` filter, which requires the build to have been
-    compiled with libfreetype -- not guaranteed on every system (this is
-    exactly what broke on a stock Homebrew ffmpeg install)."""
+def _gradient_band(img, x0, y0, x1, y1, max_alpha, top_down=True):
+    """Draw a vertical alpha gradient rectangle (transparent->dark) so text
+    sits legibly over a photo without a hard-edged box."""
+    band = Image.new("RGBA", (x1 - x0, y1 - y0), (0, 0, 0, 0))
+    bd = ImageDraw.Draw(band)
+    h = y1 - y0
+    for yy in range(h):
+        frac = (yy / h) if top_down else (1 - yy / h)
+        a = int(max_alpha * frac)
+        bd.line([(0, yy), (x1 - x0, yy)], fill=(0, 0, 0, a))
+    img.alpha_composite(band, (x0, y0))
+
+
+def make_overlay_png(out_path, size, top_label=None, lower_third=None,
+                      headline=None, headline_sub=None):
+    """Render text/badges onto a transparent PNG, composited onto the video
+    via ffmpeg's `overlay` filter (avoids depending on ffmpeg's drawtext).
+
+    headline/headline_sub -> big bold title at top-left over a soft top scrim
+    lower_third           -> price/mileage at bottom over a soft bottom scrim
+    top_label             -> small centered chip (e.g. INTERIOR)
+    """
     W, H = size
     img = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     draw = ImageDraw.Draw(img)
+
+    if headline:
+        _gradient_band(img, 0, 0, W, int(H * 0.34), 170, top_down=True)
+        draw = ImageDraw.Draw(img)
+        hfont = ImageFont.truetype(FONT_BOLD, int(W * 0.072))
+        x = int(W * 0.06)
+        y = int(H * 0.05)
+        for line in wrap_text(draw, headline, hfont, int(W * 0.88)):
+            draw.text((x, y), line, font=hfont, fill=(255, 255, 255, 255))
+            y += text_size(draw, line, hfont)[1] + int(W * 0.015)
+        if headline_sub:
+            sfont = ImageFont.truetype(FONT_REG, int(W * 0.045))
+            draw.text((x, y + int(W * 0.005)), headline_sub, font=sfont, fill=(220, 220, 220, 255))
 
     if top_label:
         font = ImageFont.truetype(FONT_BOLD, int(W * 0.05))
@@ -207,22 +236,24 @@ def make_overlay_png(out_path, size, top_label=None, lower_third=None):
         draw.text(((W - w) // 2, by0 + pad // 2), top_label, font=font, fill=(255, 255, 255, 255))
 
     if lower_third:
-        box_h = int(H * 0.16)
-        draw.rectangle([0, H - box_h, W, H], fill=(0, 0, 0, 140))
-        fsize_main = int(W * 0.075)
-        fsize_sub = int(W * 0.04)
+        box_h = int(H * 0.22)
+        _gradient_band(img, 0, H - box_h, W, H, 190, top_down=True)
+        draw = ImageDraw.Draw(img)
+        fsize_main = int(W * 0.085)
+        fsize_sub = int(W * 0.045)
         font_main = ImageFont.truetype(FONT_BOLD, fsize_main)
-        draw.text((int(W * 0.06), H - box_h + int(box_h * 0.12)), lower_third[0],
+        draw.text((int(W * 0.06), H - box_h + int(box_h * 0.30)), lower_third[0],
                    font=font_main, fill=(255, 255, 255, 255))
         if len(lower_third) > 1:
             font_sub = ImageFont.truetype(FONT_REG, fsize_sub)
-            draw.text((int(W * 0.06), H - box_h + int(box_h * 0.58)), lower_third[1],
-                       font=font_sub, fill=(204, 204, 204, 255))
+            draw.text((int(W * 0.06), H - box_h + int(box_h * 0.66)), lower_third[1],
+                       font=font_sub, fill=(220, 220, 220, 255))
 
     img.save(out_path)
 
 
-def build_clip(image_path, out_path, size, duration, style="zoom_in", lower_third=None, top_label=None):
+def build_clip(image_path, out_path, size, duration, style="zoom_in", lower_third=None, top_label=None,
+               headline=None, headline_sub=None):
     """Render one Ken-Burns clip from a still image, with optional text overlay.
 
     style controls the camera motion, cycled across photos for variety:
@@ -266,9 +297,10 @@ def build_clip(image_path, out_path, size, duration, style="zoom_in", lower_thir
     )
 
     overlay_png = None
-    if top_label or lower_third:
+    if top_label or lower_third or headline:
         overlay_png = out_path + ".overlay.png"
-        make_overlay_png(overlay_png, size, top_label=top_label, lower_third=lower_third)
+        make_overlay_png(overlay_png, size, top_label=top_label, lower_third=lower_third,
+                         headline=headline, headline_sub=headline_sub)
 
     # These intermediate clips get re-encoded again during the final
     # crossfade step, so keep them near-lossless here (low CRF) -- otherwise
@@ -367,57 +399,40 @@ def main():
     phone = cfg.get("dealer_phone", "")
     cta = cfg.get("cta", "DM \"INFO\" BEFORE IT'S GONE")
 
-    default_hook = f"{price}?!" if price else "JUST LISTED"
-    hook_text = cfg.get("hook_text", default_hook)
-
-    stock = cfg.get("stock", "")
-
+    salesperson = cfg.get("salesperson", "")
     ext_photos = list_images(cfg.get("exterior_dir"))[:MAX_PHOTOS_PER_SECTION]
     int_photos = list_images(cfg.get("interior_dir"))[:MAX_PHOTOS_PER_SECTION]
 
     if not ext_photos and not int_photos:
         raise SystemExit("No photos found in exterior_dir or interior_dir.")
 
-    MOTION_CYCLE = ["zoom_in", "zoom_in_right", "zoom_out", "zoom_in_left"]
+    MOTION_CYCLE = ["zoom_in_right", "zoom_in", "zoom_in_left", "zoom_out"]
     motion_i = 0
 
     with tempfile.TemporaryDirectory() as tmp:
         clips, durations = [], []
 
-        # 0) HOOK -- fast, bold, different color than the rest of the video
-        # on purpose, so it reads as a pattern-interrupt in the first second.
-        hook_path = os.path.join(tmp, "00a_hook.mp4")
-        build_card_clip(
-            [hook_text], hook_path, size, HOOK_DURATION,
-            bg_color=HOOK_BG, text_color=HOOK_FG, size_boost=1.25, punchy=True,
-        )
-        clips.append(hook_path); durations.append(HOOK_DURATION)
-
-        # 1) Intro card
-        intro_path = os.path.join(tmp, "00_intro.mp4")
-        build_card_clip(
-            [headline, trim] if trim else [headline],
-            intro_path, size, CARD_DURATION,
-            subtitle=f"NOW AVAILABLE  ·  {dealer}" if dealer else "NOW AVAILABLE",
-        )
-        clips.append(intro_path); durations.append(CARD_DURATION)
-
-        # 2) Exterior photos, first one carries the price/mileage lower-third
+        # Open IMMEDIATELY on the car. First exterior shot carries the big
+        # headline (year/make/model + trim) so the viewer knows what it is
+        # within the first frame -- no intro card, no blank slides.
         for i, photo in enumerate(ext_photos):
             p = os.path.join(tmp, f"10_ext_{i:02d}.mp4")
-            lower = None
-            if i == 0 and (price or mileage):
-                lower = [price or "", mileage or ""]
+            head = headline if i == 0 else None
+            head_sub = (trim if trim else None) if i == 0 else None
+            # price/mileage rides on the 2nd shot so it doesn't crowd the
+            # opening title, then clears so the car gets clean screen time.
+            lower = [price or "", mileage or ""] if (i == 1 and (price or mileage)) else None
             build_clip(
                 photo, p, size, PHOTO_DURATION,
                 style=MOTION_CYCLE[motion_i % len(MOTION_CYCLE)],
+                headline=head, headline_sub=head_sub,
                 lower_third=lower,
-                top_label="EXTERIOR" if i == 0 and ext_photos else None,
             )
             motion_i += 1
             clips.append(p); durations.append(PHOTO_DURATION)
 
-        # 3) Interior divider + photos
+        # Interior shots -- clean, no blank divider card, just a small chip
+        # on the first one.
         if int_photos:
             for i, photo in enumerate(int_photos):
                 p = os.path.join(tmp, f"20_int_{i:02d}.mp4")
@@ -429,36 +444,24 @@ def main():
                 motion_i += 1
                 clips.append(p); durations.append(PHOTO_DURATION)
 
-        # 4) Details stat card — quick recap before the CTA
-        detail_bits = []
-        if trim:
-            detail_bits.append(f"{trim} TRIM")
-        if price:
-            detail_bits.append(price)
-        if mileage:
-            detail_bits.append(mileage)
-        if detail_bits:
-            details_path = os.path.join(tmp, "25_details.mp4")
-            build_card_clip(
-                [" · ".join(detail_bits)], details_path, size, 1.6,
-                subtitle=f"Stock #{stock}" if stock else None,
-            )
-            clips.append(details_path); durations.append(1.6)
-
-        # 5) Outro card
-        salesperson = cfg.get("salesperson", "")
-        outro_lines = [cta]
-        sub_bits = [b for b in [
-            f"Ask for {salesperson}" if salesperson else None,
-            dealer,
-            phone,
+        # Closing shot: reuse the best exterior photo (the first one) and
+        # overlay the call-to-action + contact info ON the car -- not on a
+        # blank screen.
+        closer_photo = ext_photos[0] if ext_photos else int_photos[0]
+        contact_bits = [b for b in [
+            f"Ask for {salesperson}" if salesperson else None, phone,
         ] if b]
-        outro_sub = "  ·  ".join(sub_bits)
-        outro_path = os.path.join(tmp, "30_outro.mp4")
-        build_card_clip(outro_lines, outro_path, size, CARD_DURATION + 0.6, subtitle=outro_sub)
-        clips.append(outro_path); durations.append(CARD_DURATION + 0.6)
+        closer_path = os.path.join(tmp, "90_closer.mp4")
+        build_clip(
+            closer_photo, closer_path, size, CARD_DURATION + 0.4,
+            style="zoom_out",
+            headline=cta,
+            headline_sub=dealer,
+            lower_third=contact_bits if contact_bits else None,
+        )
+        clips.append(closer_path); durations.append(CARD_DURATION + 0.4)
 
-        # 6) Crossfade everything together
+        # Crossfade everything together
         xfade_chain(clips, durations, out_final, size)
 
     print(f"Done -> {out_final}")
