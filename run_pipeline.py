@@ -58,6 +58,7 @@ def main():
     ap.add_argument("--salesperson", default="")
     ap.add_argument("--cta", default="DM \"INFO\" BEFORE IT'S GONE")
     ap.add_argument("--state-file", default="known_vins.json")
+    ap.add_argument("--videoed-state-file", default="videoed_vins.json")
     ap.add_argument("--work-dir", default="work")
     ap.add_argument("--out-dir", default="ready_to_post")
     ap.add_argument("--orientation", default="vertical", choices=["vertical", "square", "horizontal"])
@@ -71,6 +72,7 @@ def main():
     print("Step 1/3: checking inventory for new vehicles...")
     current = detector.collect_listings(args.base_url)
     known = json.load(open(args.state_file)) if os.path.exists(args.state_file) else {}
+    videoed = set(json.load(open(args.videoed_state_file))) if os.path.exists(args.videoed_state_file) else set()
     first_run = not known
     new_vins = [v for v in current if v not in known]
     json.dump(current, open(args.state_file, "w"), indent=2)
@@ -80,29 +82,49 @@ def main():
               f"Nothing to generate yet -- next run will catch real new arrivals.")
         return
 
-    if not new_vins:
-        print("No new vehicles since last check.")
+    # Candidates = brand-new VINs we've never seen, PLUS any VIN that's still
+    # listed but never got a video made (e.g. it had too few photos last
+    # time -- this is what lets a car get picked up automatically once the
+    # dealer adds more photos a day or two later, instead of being skipped
+    # forever).
+    retry_vins = [v for v in current if v in known and v not in videoed]
+    candidates = list(dict.fromkeys(new_vins + retry_vins))  # de-duped, order preserved
+
+    if not candidates:
+        print("No new vehicles, and nothing pending a retry.")
         return
 
-    print(f"Found {len(new_vins)} new vehicle(s): {', '.join(new_vins)}")
+    print(f"Found {len(new_vins)} brand-new vehicle(s) and {len(retry_vins)} "
+          f"pending retry: {', '.join(candidates)}")
 
-    for vin in new_vins:
+    # Pre-scan to detect stock/placeholder images reused across vehicles, so
+    # cars that haven't been photographed yet get skipped (and retried later)
+    # instead of producing a video full of generic stock graphics.
+    cand_html = {}
+    cand_urls = {}
+    for vin in candidates:
+        try:
+            cand_html[vin] = photos_fetcher.fetch_html(current[vin]["url"])
+            cand_urls[vin] = photos_fetcher.extract_photo_urls(cand_html[vin])
+        except requests.RequestException:
+            continue
+    placeholder_hashes = photos_fetcher.find_placeholder_hashes(cand_urls)
+
+    for vin in candidates:
         info = current[vin]
         print(f"\nStep 2/3: processing {info['year']} {info['make']} {info['model']} ({vin})")
 
-        try:
-            vdp_html = photos_fetcher.fetch_html(info["url"])
-        except requests.RequestException as e:
-            print(f"  could not load VDP page, skipping: {e}")
+        vdp_html = cand_html.get(vin)
+        if vdp_html is None:
+            print("  could not load VDP page earlier, skipping.")
             continue
 
-        photo_urls = photos_fetcher.extract_photo_urls(vdp_html)
+        photo_urls = photos_fetcher.extract_photo_urls(
+            vdp_html, extra_placeholder_hashes=placeholder_hashes)
         if len(photo_urls) < 2:
-            print(f"  only {len(photo_urls)} real photo(s) available -- skipping for now. "
-                  f"Dealers often add more photos within a day or two of listing; "
-                  f"re-run later and this VIN will be picked up automatically "
-                  f"(it's already marked as seen, so you may want to remove it "
-                  f"from {args.state_file} to retry).")
+            print(f"  no real photos yet (only stock/placeholder images) -- skipping. "
+                  f"This VIN will be checked again automatically on future runs "
+                  f"and picked up as soon as real photos are added.")
             continue
 
         vin_photo_dir = os.path.join(args.work_dir, "photos", vin)
@@ -161,6 +183,12 @@ def main():
             f.write(caption)
 
         print(f"  done -> {video_path}")
+
+        # Mark as videoed right away (and save immediately, not just at the
+        # end) so a later failure in this run can't cause a duplicate video
+        # next time.
+        videoed.add(vin)
+        json.dump(sorted(videoed), open(args.videoed_state_file, "w"), indent=2)
 
         if args.notify:
             subject = f"New: {info['year']} {info['make']} {info['model']} {info['trim']}".strip()
