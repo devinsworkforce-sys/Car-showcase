@@ -58,11 +58,33 @@ def upsize_photo_url(url):
 
 # Filename hash that showed up repeatedly as a generic "no photo available"
 # placeholder on this dealer's site as of June 2026. New placeholder hashes
-# may appear over time -- if downloaded images all look identical/wrong,
-# add the hash here.
+# may appear over time. We ALSO auto-detect placeholders dynamically (see
+# find_placeholder_hashes) by spotting any image reused across multiple
+# different vehicles -- a real photo is unique to one car, a stock/placeholder
+# image gets reused, so reuse is the giveaway.
 KNOWN_PLACEHOLDER_HASHES = {
     "d2c4dae1f55142c885cc8aab98d7cea7",
 }
+
+# Pull the CDN image hash (the filename without size/extension) out of a URL,
+# e.g. https://content.homenetiol.com/1600x1200/<hash>.jpg -> <hash>
+_HASH_RE = re.compile(r"/([0-9a-f]{16,40})\.(?:jpg|jpeg|png|webp)", re.IGNORECASE)
+
+
+def image_hash(url):
+    m = _HASH_RE.search(url)
+    return m.group(1).lower() if m else url
+
+
+def find_placeholder_hashes(vin_to_urls, reuse_threshold=2):
+    """Given {vin: [photo_urls]}, return the set of image hashes that appear
+    across `reuse_threshold` or more DIFFERENT vehicles. Those are almost
+    certainly stock/placeholder images (real photos are unique per car)."""
+    hash_vins = {}
+    for vin, urls in vin_to_urls.items():
+        for h in {image_hash(u) for u in urls}:
+            hash_vins.setdefault(h, set()).add(vin)
+    return {h for h, vins in hash_vins.items() if len(vins) >= reuse_threshold}
 
 
 def fetch_html(url):
@@ -71,7 +93,7 @@ def fetch_html(url):
     return resp.text
 
 
-def extract_photo_urls(html):
+def extract_photo_urls(html, extra_placeholder_hashes=None):
     urls = IMG_URL_RE.findall(html)
     urls = [upsize_photo_url(u) for u in urls]
     # de-dupe while preserving order (two thumbnail sizes of the same photo
@@ -81,8 +103,12 @@ def extract_photo_urls(html):
         if u not in seen:
             seen.add(u)
             ordered.append(u)
-    # drop known placeholders
-    real = [u for u in ordered if not any(h in u for h in KNOWN_PLACEHOLDER_HASHES)]
+    # drop known + dynamically-detected placeholders (by image hash)
+    block = set(KNOWN_PLACEHOLDER_HASHES)
+    if extra_placeholder_hashes:
+        block |= set(extra_placeholder_hashes)
+    real = [u for u in ordered if image_hash(u) not in block
+            and not any(h in u for h in KNOWN_PLACEHOLDER_HASHES)]
     return real
 
 
