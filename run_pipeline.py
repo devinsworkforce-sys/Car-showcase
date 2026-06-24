@@ -223,6 +223,7 @@ def build_caption(info, price, mileage, dealer_name, vdp_url):
     if specs:
         tiktok.append("  ".join(specs))
     tiktok.append("\U0001F525 DM \"INFO\" before it's gone")
+    tiktok.append("\U0001F4F2 Text me: 818-450-6500")
     tiktok.append("")
     tiktok.append(
         "#usedcars #carsforsale #cardeals #fyp #carsoftiktok #dealalert "
@@ -245,6 +246,8 @@ def build_caption(info, price, mileage, dealer_name, vdp_url):
     fb.append("")
     fb.append(f"This one won't last long. Message me, Devin, directly or call/text "
               f"818-450-6500 to set up a test drive. I'll take care of you from start to finish.")
+    fb.append("")
+    fb.append(f"\U0001F4F2 Tap to text me now: sms:+18184506500")
     if vdp_url:
         fb.append("")
         fb.append(f"\U0001F517 See full details & photos: {vdp_url}")
