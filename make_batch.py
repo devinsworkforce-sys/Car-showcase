@@ -165,7 +165,8 @@ def main():
         if args.email:
             email_result = subprocess.run(
                 [sys.executable, os.path.join(script_dir, "notify.py"),
-                 "--video", video_path, "--caption", caption_path, "--subject", label],
+                 "--video", video_path, "--caption", caption_path,
+                 "--photos-dir", vin_photo_dir, "--subject", label],
                 capture_output=True, text=True,
             )
             if email_result.returncode != 0:
