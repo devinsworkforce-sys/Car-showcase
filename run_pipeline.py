@@ -194,7 +194,8 @@ def main():
             subject = f"New: {info['year']} {info['make']} {info['model']} {info['trim']}".strip()
             notify_result = subprocess.run(
                 [sys.executable, os.path.join(script_dir, "notify.py"),
-                 "--video", video_path, "--caption", caption_path, "--subject", subject],
+                 "--video", video_path, "--caption", caption_path,
+                 "--photos-dir", vin_photo_dir, "--subject", subject],
                 capture_output=True, text=True,
             )
             if notify_result.returncode != 0:
@@ -207,27 +208,60 @@ def main():
 
 def build_caption(info, price, mileage, dealer_name, vdp_url):
     name = f"{info['year']} {info['make']} {info['model']} {info['trim']}".strip()
+    make = info["make"]
+    model = info["model"]
 
-    hook = f"POV: you just found a {info['year']} {info['make']} {info['model']} for {price} \U0001F440" if price \
-        else f"POV: you just found this {name} \U0001F440"
-
-    parts = [hook, ""]
+    # ---- TikTok / Reels (short, punchy) ----
+    tiktok_hook = (f"POV: you just found a {info['year']} {make} {model} for {price} \U0001F440"
+                   if price else f"POV: you just found this {name} \U0001F440")
+    tiktok = [tiktok_hook, ""]
     specs = []
     if price:
         specs.append(f"\U0001F4B0 {price}")
     if mileage:
         specs.append(f"\U0001F6E3 {mileage}")
     if specs:
-        parts.append("  ".join(specs))
-        parts.append("")
-    parts.append(f"\U0001F4CD {dealer_name}")
-    parts.append("\U0001F525 DM \"INFO\" or comment below before it's gone")
-    parts.append("")
-    parts.append(
+        tiktok.append("  ".join(specs))
+    tiktok.append("\U0001F525 DM \"INFO\" before it's gone")
+    tiktok.append("")
+    tiktok.append(
         "#usedcars #carsforsale #cardeals #fyp #carsoftiktok #dealalert "
-        f"#{info['make'].replace(' ', '')} #{info['model'].replace(' ', '')}"
+        f"#{make.replace(' ', '')} #{model.replace(' ', '')}"
     )
-    return "\n".join(parts)
+
+    # ---- Facebook (longer, detail-rich, conversational) ----
+    fb = []
+    fb.append(f"\U0001F697 {name} — Now Available at {dealer_name}!")
+    fb.append("")
+    line = []
+    if price:
+        line.append(f"Priced at {price}")
+    if mileage:
+        line.append(f"only {mileage}")
+    if line:
+        fb.append("\u2705 " + ", ".join(line) + ".")
+    fb.append(f"\u2705 Clean, inspected, and ready to drive home today.")
+    fb.append(f"\u2705 Easy financing available — all credit situations welcome.")
+    fb.append("")
+    fb.append(f"This one won't last long. Message me, Devin, directly or call/text "
+              f"818-450-6500 to set up a test drive. I'll take care of you from start to finish.")
+    if vdp_url:
+        fb.append("")
+        fb.append(f"\U0001F517 See full details & photos: {vdp_url}")
+    fb.append("")
+    fb.append(
+        f"#{make.replace(' ', '')} #{model.replace(' ', '')} #usedcars #carsforsale "
+        f"#cardealership #InlandEmpire #Montclair #SoCalCars #carfinancing "
+        f"#goodcredit #badcredit #firstcar #cardeals #testdrive #drivehometoday"
+    )
+
+    out = []
+    out.append("========== TIKTOK / REELS / STORIES ==========")
+    out.append("\n".join(tiktok))
+    out.append("")
+    out.append("========== FACEBOOK / MARKETPLACE ==========")
+    out.append("\n".join(fb))
+    return "\n".join(out)
 
 
 if __name__ == "__main__":
