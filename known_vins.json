@@ -103,21 +103,13 @@
     "model": "Sentra",
     "trim": "SV"
   },
-  "3N1CP5DV4RL573496": {
-    "vin": "3N1CP5DV4RL573496",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2024-Nissan-Kicks-SR-3N1CP5DV4RL573496/",
-    "year": "2024",
-    "make": "Nissan",
-    "model": "Kicks",
-    "trim": "SR"
-  },
-  "3N1CP5CV4RL561172": {
-    "vin": "3N1CP5CV4RL561172",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2024-Nissan-Kicks-SV-3N1CP5CV4RL561172/",
-    "year": "2024",
-    "make": "Nissan",
-    "model": "Kicks",
-    "trim": "SV"
+  "1C4RJEAG4KC805692": {
+    "vin": "1C4RJEAG4KC805692",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2019-Jeep-Grand_Cherokee-Laredo_E-1C4RJEAG4KC805692/",
+    "year": "2019",
+    "make": "Jeep",
+    "model": "Grand Cherokee",
+    "trim": "Laredo E"
   },
   "3N1CP5CV2RL577094": {
     "vin": "3N1CP5CV2RL577094",
@@ -127,13 +119,21 @@
     "model": "Kicks",
     "trim": "SV"
   },
-  "1C4RJEAG4KC805692": {
-    "vin": "1C4RJEAG4KC805692",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2019-Jeep-Grand_Cherokee-Laredo_E-1C4RJEAG4KC805692/",
-    "year": "2019",
-    "make": "Jeep",
-    "model": "Grand Cherokee",
-    "trim": "Laredo E"
+  "3N1CP5CV4RL561172": {
+    "vin": "3N1CP5CV4RL561172",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2024-Nissan-Kicks-SV-3N1CP5CV4RL561172/",
+    "year": "2024",
+    "make": "Nissan",
+    "model": "Kicks",
+    "trim": "SV"
+  },
+  "3N1CP5DV4RL573496": {
+    "vin": "3N1CP5DV4RL573496",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2024-Nissan-Kicks-SR-3N1CP5DV4RL573496/",
+    "year": "2024",
+    "make": "Nissan",
+    "model": "Kicks",
+    "trim": "SR"
   },
   "5N1BT3BA9PC850592": {
     "vin": "5N1BT3BA9PC850592",
