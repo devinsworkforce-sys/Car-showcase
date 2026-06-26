@@ -12,6 +12,8 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - uses: actions/setup-python@v5
         with:
@@ -30,6 +32,7 @@ jobs:
           SMTP_USER: ${{ secrets.SMTP_USER }}
           SMTP_PASS: ${{ secrets.SMTP_PASS }}
           NOTIFY_TO: ${{ secrets.NOTIFY_TO }}
+          GITHUB_RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
         run: |
           python run_pipeline.py \
             --base-url https://www.metronissanmontclair.com/inventory/used/ \
@@ -47,12 +50,16 @@ jobs:
           path: ready_to_post/
           if-no-files-found: ignore
 
-      # Persist known_vins.json back to the repo so the next run remembers
-      # what it already saw (GitHub Actions runners are wiped every run).
+      # Persist known_vins.json and videoed_vins.json back to the repo so
+      # the next run remembers what it already saw / already made a video
+      # for (GitHub Actions runners are wiped every run).
       - name: Save state
         run: |
           git config user.name "inventory-bot"
           git config user.email "inventory-bot@users.noreply.github.com"
           git add known_vins.json
-          git diff --staged --quiet || git commit -m "Update known VINs [skip ci]"
-          git push || true
+          if [ -f videoed_vins.json ]; then git add videoed_vins.json; fi
+          git status
+          git diff --staged --quiet || git commit -m "Update tracked VINs [skip ci]"
+          git push
+          echo "Push completed successfully"
