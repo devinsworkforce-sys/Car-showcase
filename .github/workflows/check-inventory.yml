@@ -5,6 +5,12 @@ on:
     - cron: '*/30 * * * *'   # every 30 minutes
   workflow_dispatch: {}       # lets you also trigger it manually from the Actions tab
 
+# Only one run at a time -- prevents two runs fighting over git push, which
+# was wiping the saved state and making every run look like a "first run".
+concurrency:
+  group: inventory-pipeline
+  cancel-in-progress: false
+
 jobs:
   run-pipeline:
     runs-on: ubuntu-latest
@@ -57,9 +63,10 @@ jobs:
         run: |
           git config user.name "inventory-bot"
           git config user.email "inventory-bot@users.noreply.github.com"
-          git add known_vins.json
+          echo "__pycache__/" > .gitignore
+          git add known_vins.json .gitignore
           if [ -f videoed_vins.json ]; then git add videoed_vins.json; fi
-          git status
           git diff --staged --quiet || git commit -m "Update tracked VINs [skip ci]"
-          git push
+          git pull --rebase --autostash origin main || true
+          git push origin main
           echo "Push completed successfully"
