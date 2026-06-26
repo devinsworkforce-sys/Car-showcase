@@ -36,28 +36,28 @@ def gather_photos(photos_dir):
     return out
 
 
-def send_email(video_path, caption_path, subject, photos_dir=None):
+def send_email(video_path, caption_path, subject, photo_links_path=None):
     host = os.environ["SMTP_HOST"]
     port = int(os.environ.get("SMTP_PORT", "587"))
     user = os.environ["SMTP_USER"]
     password = os.environ["SMTP_PASS"]
     to_addr = os.environ["NOTIFY_TO"]
-    run_url = os.environ.get("GITHUB_RUN_URL", "")
 
     caption = ""
     if caption_path and os.path.exists(caption_path):
         caption = open(caption_path).read()
 
-    # Count how many photos exist so we can mention it in the email
-    photos = gather_photos(photos_dir) if photos_dir else []
+    photo_links = []
+    if photo_links_path and os.path.exists(photo_links_path):
+        photo_links = [l.strip() for l in open(photo_links_path) if l.strip()]
 
-    download_section = ""
-    if run_url:
-        download_section = (
-            f"\n📥 DOWNLOAD ALL PHOTOS + VIDEO:\n"
-            f"{run_url}\n"
-            f"(Click the link → scroll down → click the 'ready-to-post' artifact to download a zip "
-            f"with the video + all {len(photos)} photos)\n"
+    links_section = ""
+    if photo_links:
+        numbered = "\n".join(f"  {i+1}. {u}" for i, u in enumerate(photo_links))
+        links_section = (
+            f"\n📸 ALL {len(photo_links)} PHOTOS (tap any to open, then press &"
+            f" hold to save to your phone):\n\n{numbered}\n\n"
+            "------------------------------------------------------------\n"
         )
 
     msg = EmailMessage()
@@ -65,9 +65,8 @@ def send_email(video_path, caption_path, subject, photos_dir=None):
     msg["From"] = user
     msg["To"] = to_addr
     msg.set_content(
-        f"Your showcase video is ready!\n"
-        f"{download_section}\n"
-        "------------------------------------------------------------\n"
+        "Your showcase video is ready! (attached)\n"
+        f"{links_section}\n"
         "POST THE VIDEO → TikTok / Reels / Stories\n"
         "POST THE PHOTOS → Facebook carousel / Marketplace\n"
         "------------------------------------------------------------\n\n"
@@ -75,7 +74,6 @@ def send_email(video_path, caption_path, subject, photos_dir=None):
         + caption
     )
 
-    # Attach just the video — no photos (they're in the artifact download link)
     if video_path and os.path.exists(video_path):
         with open(video_path, "rb") as f:
             data = f.read()
@@ -86,18 +84,18 @@ def send_email(video_path, caption_path, subject, photos_dir=None):
         server.starttls()
         server.login(user, password)
         server.send_message(msg)
-    return len(photos)
+    return len(photo_links)
 
 
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--video", required=True)
     ap.add_argument("--caption", default=None)
-    ap.add_argument("--photos-dir", default=None)
+    ap.add_argument("--photo-links", default=None)
     ap.add_argument("--subject", default="New showcase video ready")
     args = ap.parse_args()
-    n = send_email(args.video, args.caption, args.subject, photos_dir=args.photos_dir)
-    print(f"Emailed {args.video} (+{n} photos) to {os.environ.get('NOTIFY_TO')}")
+    n = send_email(args.video, args.caption, args.subject, photo_links_path=args.photo_links)
+    print(f"Emailed {args.video} (+{n} photo links) to {os.environ.get('NOTIFY_TO')}")
 
 
 if __name__ == "__main__":
