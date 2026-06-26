@@ -206,6 +206,20 @@ def main():
         with open(caption_path, "w") as f:
             f.write(caption)
 
+        # Copy all the real photos into the output folder too, so the
+        # downloadable zip (artifact + email link) includes the full photo
+        # set for posting to Facebook, not just the video.
+        import shutil as _shutil
+        photos_out = os.path.join(out_video_dir, "photos")
+        os.makedirs(photos_out, exist_ok=True)
+        _n = 0
+        for _d in (ext_dir, int_dir):
+            if os.path.isdir(_d):
+                for _f in sorted(os.listdir(_d)):
+                    _n += 1
+                    _shutil.copy(os.path.join(_d, _f),
+                                 os.path.join(photos_out, f"photo_{_n:02d}{os.path.splitext(_f)[1]}"))
+
         print(f"  done -> {video_path}")
 
         # Mark as videoed right away (and save immediately, not just at the
