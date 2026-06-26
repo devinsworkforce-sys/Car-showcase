@@ -141,6 +141,7 @@ def main():
         stage_dir = os.path.join(vin_photo_dir, "_stage")
         os.makedirs(stage_dir, exist_ok=True)
         real_photos = []
+        real_photo_urls = []
         for i, url in enumerate(photo_urls):
             ext = os.path.splitext(url)[1] or ".jpg"
             sp = os.path.join(stage_dir, f"{i:02d}{ext}")
@@ -153,6 +154,7 @@ def main():
                 os.remove(sp)
                 continue
             real_photos.append(sp)
+            real_photo_urls.append(url)
 
         if len(real_photos) < 2:
             print(f"  only manufacturer/studio stock photos found (no real lot "
@@ -206,19 +208,11 @@ def main():
         with open(caption_path, "w") as f:
             f.write(caption)
 
-        # Copy all the real photos into the output folder too, so the
-        # downloadable zip (artifact + email link) includes the full photo
-        # set for posting to Facebook, not just the video.
-        import shutil as _shutil
-        photos_out = os.path.join(out_video_dir, "photos")
-        os.makedirs(photos_out, exist_ok=True)
-        _n = 0
-        for _d in (ext_dir, int_dir):
-            if os.path.isdir(_d):
-                for _f in sorted(os.listdir(_d)):
-                    _n += 1
-                    _shutil.copy(os.path.join(_d, _f),
-                                 os.path.join(photos_out, f"photo_{_n:02d}{os.path.splitext(_f)[1]}"))
+        # Save the direct photo URLs so the email can link to them (the photos
+        # are already hosted publicly on the dealer's CDN -- no upload needed).
+        photo_links_path = os.path.join(out_video_dir, "photo_links.txt")
+        with open(photo_links_path, "w") as f:
+            f.write("\n".join(real_photo_urls))
 
         print(f"  done -> {video_path}")
 
@@ -233,7 +227,7 @@ def main():
             notify_result = subprocess.run(
                 [sys.executable, os.path.join(script_dir, "notify.py"),
                  "--video", video_path, "--caption", caption_path,
-                 "--photos-dir", vin_photo_dir, "--subject", subject],
+                 "--photo-links", photo_links_path, "--subject", subject],
                 capture_output=True, text=True,
             )
             if notify_result.returncode != 0:
