@@ -119,6 +119,45 @@ def download(url, path):
         f.write(resp.content)
 
 
+def looks_like_studio_photo(image_path, white_thresh=238, frac_needed=0.80):
+    """Return True if the image looks like a manufacturer studio/press photo
+    rather than a real photo taken on the lot.
+
+    Studio shots put the car on a pure white/very light seamless background,
+    so the border pixels are almost all near-white. Real lot photos have
+    asphalt, sky, buildings, etc. in the background, so their borders are not
+    predominantly white. We sample the image's outer edges only.
+    """
+    try:
+        from PIL import Image
+        img = Image.open(image_path).convert("RGB")
+    except Exception:
+        return False  # if we can't read it, don't wrongly flag it
+
+    W, H = img.size
+    if W < 50 or H < 50:
+        return False
+    px = img.load()
+    border = max(2, int(min(W, H) * 0.04))
+
+    white = 0
+    total = 0
+    for y in range(0, H, 2):
+        for x in range(0, W, 2):
+            on_edge = (x < border or x >= W - border or
+                       y < border or y >= H - border)
+            if not on_edge:
+                continue
+            r, g, b = px[x, y]
+            total += 1
+            if r >= white_thresh and g >= white_thresh and b >= white_thresh:
+                white += 1
+
+    if total == 0:
+        return False
+    return (white / total) >= frac_needed
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--vdp-url", required=True)
