@@ -71,8 +71,10 @@ def main():
 
     print("Step 1/3: checking inventory for new vehicles...")
     current = detector.collect_listings(args.base_url)
-    known = json.load(open(args.state_file)) if os.path.exists(args.state_file) else {}
-    videoed = set(json.load(open(args.videoed_state_file))) if os.path.exists(args.videoed_state_file) else set()
+
+    from safe_state import safe_load
+    known = safe_load(args.state_file, {})
+    videoed = set(safe_load(args.videoed_state_file, []))
     first_run = not known
     new_vins = [v for v in current if v not in known]
     json.dump(current, open(args.state_file, "w"), indent=2)
