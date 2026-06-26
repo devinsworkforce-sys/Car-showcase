@@ -42,62 +42,51 @@ def send_email(video_path, caption_path, subject, photos_dir=None):
     user = os.environ["SMTP_USER"]
     password = os.environ["SMTP_PASS"]
     to_addr = os.environ["NOTIFY_TO"]
+    run_url = os.environ.get("GITHUB_RUN_URL", "")
 
     caption = ""
     if caption_path and os.path.exists(caption_path):
         caption = open(caption_path).read()
+
+    # Count how many photos exist so we can mention it in the email
+    photos = gather_photos(photos_dir) if photos_dir else []
+
+    download_section = ""
+    if run_url:
+        download_section = (
+            f"\n📥 DOWNLOAD ALL PHOTOS + VIDEO:\n"
+            f"{run_url}\n"
+            f"(Click the link → scroll down → click the 'ready-to-post' artifact to download a zip "
+            f"with the video + all {len(photos)} photos)\n"
+        )
 
     msg = EmailMessage()
     msg["Subject"] = subject
     msg["From"] = user
     msg["To"] = to_addr
     msg.set_content(
-        "Your showcase video AND all the vehicle photos are attached.\n\n"
-        "- Post the VIDEO on TikTok / Reels / Stories\n"
-        "- Post the PHOTOS as a carousel on Facebook Marketplace / your page\n\n"
-        "Copy-paste caption + hashtags below:\n"
+        f"Your showcase video is ready!\n"
+        f"{download_section}\n"
+        "------------------------------------------------------------\n"
+        "POST THE VIDEO → TikTok / Reels / Stories\n"
+        "POST THE PHOTOS → Facebook carousel / Marketplace\n"
         "------------------------------------------------------------\n\n"
+        "Copy-paste captions below:\n\n"
         + caption
     )
 
-    total = 0
-    # Video first -- it's the priority attachment.
+    # Attach just the video — no photos (they're in the artifact download link)
     if video_path and os.path.exists(video_path):
         with open(video_path, "rb") as f:
             data = f.read()
         msg.add_attachment(data, maintype="video", subtype="mp4",
                            filename=os.path.basename(video_path))
-        total += len(data)
-
-    # Then as many photos as fit in the size budget.
-    photos = gather_photos(photos_dir)
-    attached, skipped = 0, 0
-    for i, p in enumerate(photos):
-        size = os.path.getsize(p)
-        if total + size > MAX_TOTAL_BYTES:
-            skipped += 1
-            continue
-        with open(p, "rb") as f:
-            data = f.read()
-        ext = os.path.splitext(p)[1].lstrip(".").lower() or "jpg"
-        subtype = "jpeg" if ext in ("jpg", "jpeg") else ext
-        msg.add_attachment(data, maintype="image", subtype=subtype,
-                           filename=f"photo_{i+1:02d}.{ext}")
-        total += size
-        attached += 1
-
-    if skipped:
-        # Let the reader know not all photos fit (rare; only very large sets).
-        body = msg.get_content()
-        body += (f"\n\n(Note: {attached} photos attached; {skipped} didn't fit "
-                 f"the email size limit. The video has them all.)")
-        msg.set_content(body)
 
     with smtplib.SMTP(host, port) as server:
         server.starttls()
         server.login(user, password)
         server.send_message(msg)
-    return attached
+    return len(photos)
 
 
 def main():
