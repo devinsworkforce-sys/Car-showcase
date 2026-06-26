@@ -134,14 +134,36 @@ def main():
         int_dir = os.path.join(vin_photo_dir, "interior")
         os.makedirs(ext_dir, exist_ok=True)
         os.makedirs(int_dir, exist_ok=True)
-        split_idx = max(1, int(len(photo_urls) * 0.6))
+
+        # Download to a staging folder first, drop any manufacturer studio /
+        # press photos (car on a pure-white background, not a real lot photo),
+        # then keep only the genuine lot photos.
+        stage_dir = os.path.join(vin_photo_dir, "_stage")
+        os.makedirs(stage_dir, exist_ok=True)
+        real_photos = []
         for i, url in enumerate(photo_urls):
-            target = ext_dir if i < split_idx else int_dir
             ext = os.path.splitext(url)[1] or ".jpg"
+            sp = os.path.join(stage_dir, f"{i:02d}{ext}")
             try:
-                photos_fetcher.download(url, os.path.join(target, f"{i:02d}{ext}"))
+                photos_fetcher.download(url, sp)
             except requests.RequestException as e:
                 print(f"  photo download failed ({url}): {e}")
+                continue
+            if photos_fetcher.looks_like_studio_photo(sp):
+                os.remove(sp)
+                continue
+            real_photos.append(sp)
+
+        if len(real_photos) < 2:
+            print(f"  only manufacturer/studio stock photos found (no real lot "
+                  f"photos yet) -- skipping. Will retry automatically once real "
+                  f"photos are added.")
+            continue
+
+        split_idx = max(1, int(len(real_photos) * 0.6))
+        for i, sp in enumerate(real_photos):
+            target = ext_dir if i < split_idx else int_dir
+            os.rename(sp, os.path.join(target, os.path.basename(sp)))
 
         price, mileage = scrape_details(vdp_html)
 
