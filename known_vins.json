@@ -31,14 +31,6 @@
     "model": "Kicks",
     "trim": "SR"
   },
-  "3N1CP5BV8NL524654": {
-    "vin": "3N1CP5BV8NL524654",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2022-Nissan-Kicks-S-3N1CP5BV8NL524654/",
-    "year": "2022",
-    "make": "Nissan",
-    "model": "Kicks",
-    "trim": "S"
-  },
   "JN1BJ1CV0LW271826": {
     "vin": "JN1BJ1CV0LW271826",
     "url": "https://www.metronissanmontclair.com/inventory/Used-2020-Nissan-Rogue_Sport-S-JN1BJ1CV0LW271826/",
@@ -158,14 +150,6 @@
     "make": "Honda",
     "model": "CR  V",
     "trim": "Touring"
-  },
-  "3N1AB8BV7RY307547": {
-    "vin": "3N1AB8BV7RY307547",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2024-Nissan-Sentra-S-3N1AB8BV7RY307547/",
-    "year": "2024",
-    "make": "Nissan",
-    "model": "Sentra",
-    "trim": "S"
   },
   "JN8BT3BA1PW014136": {
     "vin": "JN8BT3BA1PW014136",
@@ -287,6 +271,14 @@
     "model": "1500",
     "trim": "Big Horn"
   },
+  "JN8AY2BA5R9415603": {
+    "vin": "JN8AY2BA5R9415603",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2024-Nissan-Armada-SL-JN8AY2BA5R9415603/",
+    "year": "2024",
+    "make": "Nissan",
+    "model": "Armada",
+    "trim": "SL"
+  },
   "JM1NDAM78S0650768": {
     "vin": "JM1NDAM78S0650768",
     "url": "https://www.metronissanmontclair.com/inventory/Used-2025-Mazda-MX--5_Miata_RF-Grand_Touring-JM1NDAM78S0650768/",
@@ -302,14 +294,6 @@
     "make": "Maserati",
     "model": "Levante",
     "trim": "Modena"
-  },
-  "JN8AY2BA5R9415603": {
-    "vin": "JN8AY2BA5R9415603",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2024-Nissan-Armada-SL-JN8AY2BA5R9415603/",
-    "year": "2024",
-    "make": "Nissan",
-    "model": "Armada",
-    "trim": "SL"
   },
   "WBA23AT09RCP64715": {
     "vin": "WBA23AT09RCP64715",
