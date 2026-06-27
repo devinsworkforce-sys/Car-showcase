@@ -135,6 +135,14 @@
     "model": "Sentra",
     "trim": "SR"
   },
+  "JN8BT3BA1PW014136": {
+    "vin": "JN8BT3BA1PW014136",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2023-Nissan-Rogue-SV-JN8BT3BA1PW014136/",
+    "year": "2023",
+    "make": "Nissan",
+    "model": "Rogue",
+    "trim": "SV"
+  },
   "JTNKHMBX5L1073832": {
     "vin": "JTNKHMBX5L1073832",
     "url": "https://www.metronissanmontclair.com/inventory/Used-2020-Toyota-C--HR-LE-JTNKHMBX5L1073832/",
@@ -150,14 +158,6 @@
     "make": "Honda",
     "model": "CR  V",
     "trim": "Touring"
-  },
-  "JN8BT3BA1PW014136": {
-    "vin": "JN8BT3BA1PW014136",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2023-Nissan-Rogue-SV-JN8BT3BA1PW014136/",
-    "year": "2023",
-    "make": "Nissan",
-    "model": "Rogue",
-    "trim": "SV"
   },
   "3N1AB8BV4SY338115": {
     "vin": "3N1AB8BV4SY338115",
@@ -183,20 +183,20 @@
     "model": "Forte GT ",
     "trim": "Line"
   },
-  "JN8BT3BA8PW419149": {
-    "vin": "JN8BT3BA8PW419149",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2023-Nissan-Rogue-SV-JN8BT3BA8PW419149/",
-    "year": "2023",
-    "make": "Nissan",
-    "model": "Rogue",
-    "trim": "SV"
-  },
   "5N1DR3BA6NC227189": {
     "vin": "5N1DR3BA6NC227189",
     "url": "https://www.metronissanmontclair.com/inventory/Used-2022-Nissan-Pathfinder-SV-5N1DR3BA6NC227189/",
     "year": "2022",
     "make": "Nissan",
     "model": "Pathfinder",
+    "trim": "SV"
+  },
+  "JN8BT3BA8PW419149": {
+    "vin": "JN8BT3BA8PW419149",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2023-Nissan-Rogue-SV-JN8BT3BA8PW419149/",
+    "year": "2023",
+    "make": "Nissan",
+    "model": "Rogue",
     "trim": "SV"
   },
   "WBA73AK02R7N48253": {
@@ -271,14 +271,6 @@
     "model": "1500",
     "trim": "Big Horn"
   },
-  "JN8AY2BA5R9415603": {
-    "vin": "JN8AY2BA5R9415603",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2024-Nissan-Armada-SL-JN8AY2BA5R9415603/",
-    "year": "2024",
-    "make": "Nissan",
-    "model": "Armada",
-    "trim": "SL"
-  },
   "JM1NDAM78S0650768": {
     "vin": "JM1NDAM78S0650768",
     "url": "https://www.metronissanmontclair.com/inventory/Used-2025-Mazda-MX--5_Miata_RF-Grand_Touring-JM1NDAM78S0650768/",
@@ -294,6 +286,14 @@
     "make": "Maserati",
     "model": "Levante",
     "trim": "Modena"
+  },
+  "JN8AY2BA5R9415603": {
+    "vin": "JN8AY2BA5R9415603",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2024-Nissan-Armada-SL-JN8AY2BA5R9415603/",
+    "year": "2024",
+    "make": "Nissan",
+    "model": "Armada",
+    "trim": "SL"
   },
   "WBA23AT09RCP64715": {
     "vin": "WBA23AT09RCP64715",
