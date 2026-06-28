@@ -47,14 +47,6 @@
     "model": "Rogue Sport",
     "trim": "S"
   },
-  "JN8BT3BAXPW409142": {
-    "vin": "JN8BT3BAXPW409142",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2023-Nissan-Rogue-SV-JN8BT3BAXPW409142/",
-    "year": "2023",
-    "make": "Nissan",
-    "model": "Rogue",
-    "trim": "SV"
-  },
   "3N1CP5BV1PL498692": {
     "vin": "3N1CP5BV1PL498692",
     "url": "https://www.metronissanmontclair.com/inventory/Used-2023-Nissan-Kicks-S-3N1CP5BV1PL498692/",
@@ -87,14 +79,6 @@
     "model": "Kicks",
     "trim": "SV"
   },
-  "3N1AB8CV7NY225228": {
-    "vin": "3N1AB8CV7NY225228",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2022-Nissan-Sentra-SV-3N1AB8CV7NY225228/",
-    "year": "2022",
-    "make": "Nissan",
-    "model": "Sentra",
-    "trim": "SV"
-  },
   "2C3CDZAG5LH143368": {
     "vin": "2C3CDZAG5LH143368",
     "url": "https://www.metronissanmontclair.com/inventory/Used-2020-Dodge-Challenger-SXT-2C3CDZAG5LH143368/",
@@ -111,14 +95,6 @@
     "model": "Grand Cherokee",
     "trim": "Laredo E"
   },
-  "3N1CP5CV2RL577094": {
-    "vin": "3N1CP5CV2RL577094",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2024-Nissan-Kicks-SV-3N1CP5CV2RL577094/",
-    "year": "2024",
-    "make": "Nissan",
-    "model": "Kicks",
-    "trim": "SV"
-  },
   "3N1CP5DV4RL573496": {
     "vin": "3N1CP5DV4RL573496",
     "url": "https://www.metronissanmontclair.com/inventory/Used-2024-Nissan-Kicks-SR-3N1CP5DV4RL573496/",
@@ -126,6 +102,14 @@
     "make": "Nissan",
     "model": "Kicks",
     "trim": "SR"
+  },
+  "3N1CP5CV2RL577094": {
+    "vin": "3N1CP5CV2RL577094",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2024-Nissan-Kicks-SV-3N1CP5CV2RL577094/",
+    "year": "2024",
+    "make": "Nissan",
+    "model": "Kicks",
+    "trim": "SV"
   },
   "5N1BT3BA9PC850592": {
     "vin": "5N1BT3BA9PC850592",
@@ -143,6 +127,22 @@
     "model": "Sentra",
     "trim": "SR"
   },
+  "JN8BT3BA1PW014136": {
+    "vin": "JN8BT3BA1PW014136",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2023-Nissan-Rogue-SV-JN8BT3BA1PW014136/",
+    "year": "2023",
+    "make": "Nissan",
+    "model": "Rogue",
+    "trim": "SV"
+  },
+  "JTNKHMBX5L1073832": {
+    "vin": "JTNKHMBX5L1073832",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2020-Toyota-C--HR-LE-JTNKHMBX5L1073832/",
+    "year": "2020",
+    "make": "Toyota",
+    "model": "C  HR",
+    "trim": "LE"
+  },
   "2HKRW2H92JH677348": {
     "vin": "2HKRW2H92JH677348",
     "url": "https://www.metronissanmontclair.com/inventory/Used-2018-Honda-CR--V-Touring-2HKRW2H92JH677348/",
@@ -158,14 +158,6 @@
     "make": "Nissan",
     "model": "Sentra",
     "trim": "S"
-  },
-  "JTNKHMBX5L1073832": {
-    "vin": "JTNKHMBX5L1073832",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2020-Toyota-C--HR-LE-JTNKHMBX5L1073832/",
-    "year": "2020",
-    "make": "Toyota",
-    "model": "C  HR",
-    "trim": "LE"
   },
   "3N1AB8BV4SY338115": {
     "vin": "3N1AB8BV4SY338115",
@@ -191,20 +183,20 @@
     "model": "Forte GT ",
     "trim": "Line"
   },
-  "5N1DR3BA6NC227189": {
-    "vin": "5N1DR3BA6NC227189",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2022-Nissan-Pathfinder-SV-5N1DR3BA6NC227189/",
-    "year": "2022",
-    "make": "Nissan",
-    "model": "Pathfinder",
-    "trim": "SV"
-  },
   "JN8BT3BA8PW419149": {
     "vin": "JN8BT3BA8PW419149",
     "url": "https://www.metronissanmontclair.com/inventory/Used-2023-Nissan-Rogue-SV-JN8BT3BA8PW419149/",
     "year": "2023",
     "make": "Nissan",
     "model": "Rogue",
+    "trim": "SV"
+  },
+  "5N1DR3BA6NC227189": {
+    "vin": "5N1DR3BA6NC227189",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2022-Nissan-Pathfinder-SV-5N1DR3BA6NC227189/",
+    "year": "2022",
+    "make": "Nissan",
+    "model": "Pathfinder",
     "trim": "SV"
   },
   "WBA73AK02R7N48253": {
@@ -222,14 +214,6 @@
     "make": "Honda",
     "model": "Odyssey",
     "trim": "EX"
-  },
-  "ZN6PMDAA1R7449322": {
-    "vin": "ZN6PMDAA1R7449322",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2024-Maserati-Grecale-GT-ZN6PMDAA1R7449322/",
-    "year": "2024",
-    "make": "Maserati",
-    "model": "Grecale",
-    "trim": "GT"
   },
   "1C4RDHDG0RC190010": {
     "vin": "1C4RDHDG0RC190010",
