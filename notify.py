@@ -36,6 +36,7 @@ def send_email(video_path, caption_path, subject, photo_list_path=None):
     msg["To"] = to_addr
     msg.set_content(
         f"Your showcase video is ready! Video + {len(photo_paths)} photos attached.\n\n"
+        f"{subject}\n\n"
         "POST THE VIDEO → TikTok / Reels / Stories\n"
         "POST THE PHOTOS → Facebook carousel / Marketplace\n"
         "------------------------------------------------------------\n\n"
