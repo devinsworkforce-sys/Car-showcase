@@ -233,6 +233,10 @@ def main():
 
         if args.notify:
             subject = f"New: {info['year']} {info['make']} {info['model']} {info['trim']}".strip()
+            if price:
+                subject += f" — {price}"
+            if mileage:
+                subject += f" | {mileage}"
             notify_result = subprocess.run(
                 [sys.executable, os.path.join(script_dir, "notify.py"),
                  "--video", video_path, "--caption", caption_path,
