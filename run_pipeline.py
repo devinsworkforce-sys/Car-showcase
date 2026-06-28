@@ -208,25 +208,22 @@ def main():
         with open(caption_path, "w") as f:
             f.write(caption)
 
-        # Upload all real photos to Google Drive and get ONE shareable folder
-        # link (recipient can "Download all" in one click). Falls back to the
-        # direct photo URLs if Drive isn't configured.
-        import drive_upload
-        all_photo_files = []
-        for _d in (ext_dir, int_dir):
-            if os.path.isdir(_d):
-                for _f in sorted(os.listdir(_d)):
-                    all_photo_files.append(os.path.join(_d, _f))
-        drive_label = f"{info['year']} {info['make']} {info['model']} {info['trim']} {vin}".strip()
-        drive_link = drive_upload.upload_photos(drive_label, all_photo_files)
+        # Pick best 8 photos (4 exterior + 4 interior) for email attachment.
+        # At ~400KB each, 8 photos + video = ~8-10MB total, well under Gmail's
+        # 25MB limit and guaranteed to arrive.
+        best_photos = []
+        ext_files = sorted(os.listdir(ext_dir)) if os.path.isdir(ext_dir) else []
+        int_files = sorted(os.listdir(int_dir)) if os.path.isdir(int_dir) else []
+        for f in ext_files[:4]:
+            best_photos.append(os.path.join(ext_dir, f))
+        for f in int_files[:4]:
+            best_photos.append(os.path.join(int_dir, f))
 
-        photo_links_path = os.path.join(out_video_dir, "photo_links.txt")
-        with open(photo_links_path, "w") as f:
-            f.write("\n".join(real_photo_urls))
+        photo_list_path = os.path.join(out_video_dir, "photo_list.txt")
+        with open(photo_list_path, "w") as f:
+            f.write("\n".join(best_photos))
 
         print(f"  done -> {video_path}")
-        if drive_link:
-            print(f"  photos -> {drive_link}")
 
         # Mark as videoed right away (and save immediately, not just at the
         # end) so a later failure in this run can't cause a duplicate video
@@ -239,9 +236,7 @@ def main():
             notify_result = subprocess.run(
                 [sys.executable, os.path.join(script_dir, "notify.py"),
                  "--video", video_path, "--caption", caption_path,
-                 "--photo-links", photo_links_path,
-                 "--drive-link", drive_link or "",
-                 "--subject", subject],
+                 "--photo-list", photo_list_path, "--subject", subject],
                 capture_output=True, text=True,
             )
             if notify_result.returncode != 0:
