@@ -87,6 +87,14 @@
     "model": "Challenger",
     "trim": "SXT"
   },
+  "1C4RJEAG4KC805692": {
+    "vin": "1C4RJEAG4KC805692",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2019-Jeep-Grand_Cherokee-Laredo_E-1C4RJEAG4KC805692/",
+    "year": "2019",
+    "make": "Jeep",
+    "model": "Grand Cherokee",
+    "trim": "Laredo E"
+  },
   "3N1CP5DV4RL573496": {
     "vin": "3N1CP5DV4RL573496",
     "url": "https://www.metronissanmontclair.com/inventory/Used-2024-Nissan-Kicks-SR-3N1CP5DV4RL573496/",
@@ -102,14 +110,6 @@
     "make": "Nissan",
     "model": "Kicks",
     "trim": "SV"
-  },
-  "1C4RJEAG4KC805692": {
-    "vin": "1C4RJEAG4KC805692",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2019-Jeep-Grand_Cherokee-Laredo_E-1C4RJEAG4KC805692/",
-    "year": "2019",
-    "make": "Jeep",
-    "model": "Grand Cherokee",
-    "trim": "Laredo E"
   },
   "5N1BT3BA9PC850592": {
     "vin": "5N1BT3BA9PC850592",
@@ -183,20 +183,20 @@
     "model": "Forte GT ",
     "trim": "Line"
   },
-  "JN8BT3BA8PW419149": {
-    "vin": "JN8BT3BA8PW419149",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2023-Nissan-Rogue-SV-JN8BT3BA8PW419149/",
-    "year": "2023",
-    "make": "Nissan",
-    "model": "Rogue",
-    "trim": "SV"
-  },
   "5N1DR3BA6NC227189": {
     "vin": "5N1DR3BA6NC227189",
     "url": "https://www.metronissanmontclair.com/inventory/Used-2022-Nissan-Pathfinder-SV-5N1DR3BA6NC227189/",
     "year": "2022",
     "make": "Nissan",
     "model": "Pathfinder",
+    "trim": "SV"
+  },
+  "JN8BT3BA8PW419149": {
+    "vin": "JN8BT3BA8PW419149",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2023-Nissan-Rogue-SV-JN8BT3BA8PW419149/",
+    "year": "2023",
+    "make": "Nissan",
+    "model": "Rogue",
     "trim": "SV"
   },
   "WBA73AK02R7N48253": {
