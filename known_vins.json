@@ -15,14 +15,6 @@
     "model": "Versa Note",
     "trim": "SV"
   },
-  "3N1CN8DV5ML854870": {
-    "vin": "3N1CN8DV5ML854870",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2021-Nissan-Versa-S-3N1CN8DV5ML854870/",
-    "year": "2021",
-    "make": "Nissan",
-    "model": "Versa",
-    "trim": "S"
-  },
   "JN1BJ1CV0LW271826": {
     "vin": "JN1BJ1CV0LW271826",
     "url": "https://www.metronissanmontclair.com/inventory/Used-2020-Nissan-Rogue_Sport-S-JN1BJ1CV0LW271826/",
@@ -71,14 +63,6 @@
     "model": "Challenger",
     "trim": "SXT"
   },
-  "JF1ZNAA11G8706806": {
-    "vin": "JF1ZNAA11G8706806",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2016-Scion-FR--S-Release_Series-JF1ZNAA11G8706806/",
-    "year": "2016",
-    "make": "Scion",
-    "model": "FR  S",
-    "trim": "Release Series"
-  },
   "1C4RJEAG4KC805692": {
     "vin": "1C4RJEAG4KC805692",
     "url": "https://www.metronissanmontclair.com/inventory/Used-2019-Jeep-Grand_Cherokee-Laredo_E-1C4RJEAG4KC805692/",
@@ -102,6 +86,14 @@
     "make": "Nissan",
     "model": "Kicks",
     "trim": "SV"
+  },
+  "JF1ZNAA11G8706806": {
+    "vin": "JF1ZNAA11G8706806",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2016-Scion-FR--S-Release_Series-JF1ZNAA11G8706806/",
+    "year": "2016",
+    "make": "Scion",
+    "model": "FR  S",
+    "trim": "Release Series"
   },
   "5N1BT3BA9PC850592": {
     "vin": "5N1BT3BA9PC850592",
@@ -199,14 +191,6 @@
     "model": "2 Series",
     "trim": "228i xDrive"
   },
-  "2T3W1RFVXPC225841": {
-    "vin": "2T3W1RFVXPC225841",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2023-Toyota-RAV4-XLE-2T3W1RFVXPC225841/",
-    "year": "2023",
-    "make": "Toyota",
-    "model": "RAV4",
-    "trim": "XLE"
-  },
   "5FNRL6H57MB016334": {
     "vin": "5FNRL6H57MB016334",
     "url": "https://www.metronissanmontclair.com/inventory/Used-2021-Honda-Odyssey-EX-5FNRL6H57MB016334/",
@@ -214,6 +198,14 @@
     "make": "Honda",
     "model": "Odyssey",
     "trim": "EX"
+  },
+  "2T3W1RFVXPC225841": {
+    "vin": "2T3W1RFVXPC225841",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2023-Toyota-RAV4-XLE-2T3W1RFVXPC225841/",
+    "year": "2023",
+    "make": "Toyota",
+    "model": "RAV4",
+    "trim": "XLE"
   },
   "1C4RDHDG0RC190010": {
     "vin": "1C4RDHDG0RC190010",
