@@ -1,12 +1,4 @@
 {
-  "4T4BF1FK2DR336528": {
-    "vin": "4T4BF1FK2DR336528",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2013-Toyota-Camry-XLE-4T4BF1FK2DR336528/",
-    "year": "2013",
-    "make": "Toyota",
-    "model": "Camry",
-    "trim": "XLE"
-  },
   "3N1AB7AP2KY288800": {
     "vin": "3N1AB7AP2KY288800",
     "url": "https://www.metronissanmontclair.com/inventory/Used-2019-Nissan-Sentra-SV-3N1AB7AP2KY288800/",
@@ -30,14 +22,6 @@
     "make": "Nissan",
     "model": "Versa",
     "trim": "S"
-  },
-  "3N1CP5DV3LL486017": {
-    "vin": "3N1CP5DV3LL486017",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2020-Nissan-Kicks-SR-3N1CP5DV3LL486017/",
-    "year": "2020",
-    "make": "Nissan",
-    "model": "Kicks",
-    "trim": "SR"
   },
   "JN1BJ1CV0LW271826": {
     "vin": "JN1BJ1CV0LW271826",
@@ -95,6 +79,14 @@
     "model": "Grand Cherokee",
     "trim": "Laredo E"
   },
+  "3N1CP5CV2RL577094": {
+    "vin": "3N1CP5CV2RL577094",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2024-Nissan-Kicks-SV-3N1CP5CV2RL577094/",
+    "year": "2024",
+    "make": "Nissan",
+    "model": "Kicks",
+    "trim": "SV"
+  },
   "3N1CP5DV4RL573496": {
     "vin": "3N1CP5DV4RL573496",
     "url": "https://www.metronissanmontclair.com/inventory/Used-2024-Nissan-Kicks-SR-3N1CP5DV4RL573496/",
@@ -103,13 +95,13 @@
     "model": "Kicks",
     "trim": "SR"
   },
-  "3N1CP5CV2RL577094": {
-    "vin": "3N1CP5CV2RL577094",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2024-Nissan-Kicks-SV-3N1CP5CV2RL577094/",
-    "year": "2024",
-    "make": "Nissan",
-    "model": "Kicks",
-    "trim": "SV"
+  "JF1ZNAA11G8706806": {
+    "vin": "JF1ZNAA11G8706806",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2016-Scion-FR--S-Base-JF1ZNAA11G8706806/",
+    "year": "2016",
+    "make": "Scion",
+    "model": "FR  S",
+    "trim": "Base"
   },
   "5N1BT3BA9PC850592": {
     "vin": "5N1BT3BA9PC850592",
@@ -127,22 +119,6 @@
     "model": "Sentra",
     "trim": "SR"
   },
-  "JN8BT3BA1PW014136": {
-    "vin": "JN8BT3BA1PW014136",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2023-Nissan-Rogue-SV-JN8BT3BA1PW014136/",
-    "year": "2023",
-    "make": "Nissan",
-    "model": "Rogue",
-    "trim": "SV"
-  },
-  "JTNKHMBX5L1073832": {
-    "vin": "JTNKHMBX5L1073832",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2020-Toyota-C--HR-LE-JTNKHMBX5L1073832/",
-    "year": "2020",
-    "make": "Toyota",
-    "model": "C  HR",
-    "trim": "LE"
-  },
   "2HKRW2H92JH677348": {
     "vin": "2HKRW2H92JH677348",
     "url": "https://www.metronissanmontclair.com/inventory/Used-2018-Honda-CR--V-Touring-2HKRW2H92JH677348/",
@@ -158,6 +134,22 @@
     "make": "Nissan",
     "model": "Sentra",
     "trim": "S"
+  },
+  "JN8BT3BA1PW014136": {
+    "vin": "JN8BT3BA1PW014136",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2023-Nissan-Rogue-SV-JN8BT3BA1PW014136/",
+    "year": "2023",
+    "make": "Nissan",
+    "model": "Rogue",
+    "trim": "SV"
+  },
+  "JTNKHMBX5L1073832": {
+    "vin": "JTNKHMBX5L1073832",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2020-Toyota-C--HR-LE-JTNKHMBX5L1073832/",
+    "year": "2020",
+    "make": "Toyota",
+    "model": "C  HR",
+    "trim": "LE"
   },
   "3N1AB8BV4SY338115": {
     "vin": "3N1AB8BV4SY338115",
@@ -207,6 +199,14 @@
     "model": "2 Series",
     "trim": "228i xDrive"
   },
+  "2T3W1RFVXPC225841": {
+    "vin": "2T3W1RFVXPC225841",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2023-Toyota-RAV4-XLE-2T3W1RFVXPC225841/",
+    "year": "2023",
+    "make": "Toyota",
+    "model": "RAV4",
+    "trim": "XLE"
+  },
   "5FNRL6H57MB016334": {
     "vin": "5FNRL6H57MB016334",
     "url": "https://www.metronissanmontclair.com/inventory/Used-2021-Honda-Odyssey-EX-5FNRL6H57MB016334/",
@@ -230,14 +230,6 @@
     "make": "Nissan",
     "model": "Pathfinder",
     "trim": "SL"
-  },
-  "5FNRL6H64PB042743": {
-    "vin": "5FNRL6H64PB042743",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2023-Honda-Odyssey-EX--L-5FNRL6H64PB042743/",
-    "year": "2023",
-    "make": "Honda",
-    "model": "Odyssey EX ",
-    "trim": "L"
   },
   "1C4HJXEGXPW670595": {
     "vin": "1C4HJXEGXPW670595",
@@ -271,14 +263,6 @@
     "model": "MX  5 Miata RF",
     "trim": "Grand Touring"
   },
-  "ZN661YUM8PX414601": {
-    "vin": "ZN661YUM8PX414601",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2023-Maserati-Levante-Modena-ZN661YUM8PX414601/",
-    "year": "2023",
-    "make": "Maserati",
-    "model": "Levante",
-    "trim": "Modena"
-  },
   "JN8AY2BA5R9415603": {
     "vin": "JN8AY2BA5R9415603",
     "url": "https://www.metronissanmontclair.com/inventory/Used-2024-Nissan-Armada-SL-JN8AY2BA5R9415603/",
@@ -286,6 +270,14 @@
     "make": "Nissan",
     "model": "Armada",
     "trim": "SL"
+  },
+  "ZN661YUM8PX414601": {
+    "vin": "ZN661YUM8PX414601",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2023-Maserati-Levante-Modena-ZN661YUM8PX414601/",
+    "year": "2023",
+    "make": "Maserati",
+    "model": "Levante",
+    "trim": "Modena"
   },
   "WBA23AT09RCP64715": {
     "vin": "WBA23AT09RCP64715",
@@ -335,14 +327,6 @@
     "model": "Range Rover Velar",
     "trim": "Dynamic SE"
   },
-  "W1Y4KCHY1ST205962": {
-    "vin": "W1Y4KCHY1ST205962",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2025-Mercedes--Benz-Sprinter_Cargo_Van-Cargo_170_WB-W1Y4KCHY1ST205962/",
-    "year": "2025",
-    "make": "Mercedes",
-    "model": " Benz Sprinter Cargo Van",
-    "trim": "Cargo 170 WB"
-  },
   "1C6RJTEG4TL164471": {
     "vin": "1C6RJTEG4TL164471",
     "url": "https://www.metronissanmontclair.com/inventory/Used-2026-Jeep-Gladiator-Mojave-1C6RJTEG4TL164471/",
@@ -358,14 +342,6 @@
     "make": "BMW",
     "model": "X5",
     "trim": "xDrive50e"
-  },
-  "1GC3YTEY0RF179155": {
-    "vin": "1GC3YTEY0RF179155",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2024-Chevrolet-Silverado_3500HD-LT-1GC3YTEY0RF179155/",
-    "year": "2024",
-    "make": "Chevrolet",
-    "model": "Silverado 3500HD",
-    "trim": "LT"
   },
   "5UX23EM02P9N95980": {
     "vin": "5UX23EM02P9N95980",
