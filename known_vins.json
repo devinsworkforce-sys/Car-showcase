@@ -71,6 +71,14 @@
     "model": "Grand Cherokee",
     "trim": "Laredo E"
   },
+  "JF1ZNAA11G8706806": {
+    "vin": "JF1ZNAA11G8706806",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2016-Scion-FR--S-Release_Series-JF1ZNAA11G8706806/",
+    "year": "2016",
+    "make": "Scion",
+    "model": "FR  S",
+    "trim": "Release Series"
+  },
   "3N1CP5DV4RL573496": {
     "vin": "3N1CP5DV4RL573496",
     "url": "https://www.metronissanmontclair.com/inventory/Used-2024-Nissan-Kicks-SR-3N1CP5DV4RL573496/",
@@ -86,14 +94,6 @@
     "make": "Nissan",
     "model": "Kicks",
     "trim": "SV"
-  },
-  "JF1ZNAA11G8706806": {
-    "vin": "JF1ZNAA11G8706806",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2016-Scion-FR--S-Release_Series-JF1ZNAA11G8706806/",
-    "year": "2016",
-    "make": "Scion",
-    "model": "FR  S",
-    "trim": "Release Series"
   },
   "5N1BT3BA9PC850592": {
     "vin": "5N1BT3BA9PC850592",
@@ -111,14 +111,6 @@
     "model": "Sentra",
     "trim": "SR"
   },
-  "JN8BT3BA1PW014136": {
-    "vin": "JN8BT3BA1PW014136",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2023-Nissan-Rogue-SV-JN8BT3BA1PW014136/",
-    "year": "2023",
-    "make": "Nissan",
-    "model": "Rogue",
-    "trim": "SV"
-  },
   "JTNKHMBX5L1073832": {
     "vin": "JTNKHMBX5L1073832",
     "url": "https://www.metronissanmontclair.com/inventory/Used-2020-Toyota-C--HR-LE-JTNKHMBX5L1073832/",
@@ -126,6 +118,14 @@
     "make": "Toyota",
     "model": "C  HR",
     "trim": "LE"
+  },
+  "JN8BT3BA1PW014136": {
+    "vin": "JN8BT3BA1PW014136",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2023-Nissan-Rogue-SV-JN8BT3BA1PW014136/",
+    "year": "2023",
+    "make": "Nissan",
+    "model": "Rogue",
+    "trim": "SV"
   },
   "2HKRW2H92JH677348": {
     "vin": "2HKRW2H92JH677348",
@@ -191,14 +191,6 @@
     "model": "2 Series",
     "trim": "228i xDrive"
   },
-  "5FNRL6H57MB016334": {
-    "vin": "5FNRL6H57MB016334",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2021-Honda-Odyssey-EX-5FNRL6H57MB016334/",
-    "year": "2021",
-    "make": "Honda",
-    "model": "Odyssey",
-    "trim": "EX"
-  },
   "2T3W1RFVXPC225841": {
     "vin": "2T3W1RFVXPC225841",
     "url": "https://www.metronissanmontclair.com/inventory/Used-2023-Toyota-RAV4-XLE-2T3W1RFVXPC225841/",
@@ -206,6 +198,14 @@
     "make": "Toyota",
     "model": "RAV4",
     "trim": "XLE"
+  },
+  "5FNRL6H57MB016334": {
+    "vin": "5FNRL6H57MB016334",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2021-Honda-Odyssey-EX-5FNRL6H57MB016334/",
+    "year": "2021",
+    "make": "Honda",
+    "model": "Odyssey",
+    "trim": "EX"
   },
   "1C4RDHDG0RC190010": {
     "vin": "1C4RDHDG0RC190010",
