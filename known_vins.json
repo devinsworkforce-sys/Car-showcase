@@ -55,14 +55,6 @@
     "model": "Challenger",
     "trim": "SXT"
   },
-  "JF1ZNAA11G8706806": {
-    "vin": "JF1ZNAA11G8706806",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2016-Scion-FR--S-Release_Series-JF1ZNAA11G8706806/",
-    "year": "2016",
-    "make": "Scion",
-    "model": "FR  S",
-    "trim": "Release Series"
-  },
   "1C4RJEAG4KC805692": {
     "vin": "1C4RJEAG4KC805692",
     "url": "https://www.metronissanmontclair.com/inventory/Used-2019-Jeep-Grand_Cherokee-Laredo_E-1C4RJEAG4KC805692/",
@@ -70,6 +62,14 @@
     "make": "Jeep",
     "model": "Grand Cherokee",
     "trim": "Laredo E"
+  },
+  "JF1ZNAA11G8706806": {
+    "vin": "JF1ZNAA11G8706806",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2016-Scion-FR--S-Release_Series-JF1ZNAA11G8706806/",
+    "year": "2016",
+    "make": "Scion",
+    "model": "FR  S",
+    "trim": "Release Series"
   },
   "3N1CP5DV4RL573496": {
     "vin": "3N1CP5DV4RL573496",
@@ -103,6 +103,14 @@
     "model": "Sentra",
     "trim": "SR"
   },
+  "JN8BT3BA1PW014136": {
+    "vin": "JN8BT3BA1PW014136",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2023-Nissan-Rogue-SV-JN8BT3BA1PW014136/",
+    "year": "2023",
+    "make": "Nissan",
+    "model": "Rogue",
+    "trim": "SV"
+  },
   "JTNKHMBX5L1073832": {
     "vin": "JTNKHMBX5L1073832",
     "url": "https://www.metronissanmontclair.com/inventory/Used-2020-Toyota-C--HR-LE-JTNKHMBX5L1073832/",
@@ -126,14 +134,6 @@
     "make": "Nissan",
     "model": "Sentra",
     "trim": "S"
-  },
-  "JN8BT3BA1PW014136": {
-    "vin": "JN8BT3BA1PW014136",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2023-Nissan-Rogue-SV-JN8BT3BA1PW014136/",
-    "year": "2023",
-    "make": "Nissan",
-    "model": "Rogue",
-    "trim": "SV"
   },
   "3N1AB8BV4SY338115": {
     "vin": "3N1AB8BV4SY338115",
