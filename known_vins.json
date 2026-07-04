@@ -63,14 +63,6 @@
     "model": "Sentra",
     "trim": "SV"
   },
-  "JF1ZNAA11G8706806": {
-    "vin": "JF1ZNAA11G8706806",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2016-Scion-FR--S-Release_Series-JF1ZNAA11G8706806/",
-    "year": "2016",
-    "make": "Scion",
-    "model": "FR  S",
-    "trim": "Release Series"
-  },
   "3N1CP5DV4RL573496": {
     "vin": "3N1CP5DV4RL573496",
     "url": "https://www.metronissanmontclair.com/inventory/Used-2024-Nissan-Kicks-SR-3N1CP5DV4RL573496/",
@@ -86,6 +78,14 @@
     "make": "Nissan",
     "model": "Kicks",
     "trim": "SV"
+  },
+  "JF1ZNAA11G8706806": {
+    "vin": "JF1ZNAA11G8706806",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2016-Scion-FR--S-Release_Series-JF1ZNAA11G8706806/",
+    "year": "2016",
+    "make": "Scion",
+    "model": "FR  S",
+    "trim": "Release Series"
   },
   "1C4RJEAG4KC805692": {
     "vin": "1C4RJEAG4KC805692",
@@ -111,6 +111,22 @@
     "model": "Sentra",
     "trim": "SR"
   },
+  "3N1AB8BV7RY307547": {
+    "vin": "3N1AB8BV7RY307547",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2024-Nissan-Sentra-S-3N1AB8BV7RY307547/",
+    "year": "2024",
+    "make": "Nissan",
+    "model": "Sentra",
+    "trim": "S"
+  },
+  "JN8BT3BA1PW014136": {
+    "vin": "JN8BT3BA1PW014136",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2023-Nissan-Rogue-SV-JN8BT3BA1PW014136/",
+    "year": "2023",
+    "make": "Nissan",
+    "model": "Rogue",
+    "trim": "SV"
+  },
   "JTNKHMBX5L1073832": {
     "vin": "JTNKHMBX5L1073832",
     "url": "https://www.metronissanmontclair.com/inventory/Used-2020-Toyota-C--HR-LE-JTNKHMBX5L1073832/",
@@ -126,22 +142,6 @@
     "make": "Honda",
     "model": "CR  V",
     "trim": "Touring"
-  },
-  "JN8BT3BA1PW014136": {
-    "vin": "JN8BT3BA1PW014136",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2023-Nissan-Rogue-SV-JN8BT3BA1PW014136/",
-    "year": "2023",
-    "make": "Nissan",
-    "model": "Rogue",
-    "trim": "SV"
-  },
-  "3N1AB8BV7RY307547": {
-    "vin": "3N1AB8BV7RY307547",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2024-Nissan-Sentra-S-3N1AB8BV7RY307547/",
-    "year": "2024",
-    "make": "Nissan",
-    "model": "Sentra",
-    "trim": "S"
   },
   "3N1AB8BV4SY338115": {
     "vin": "3N1AB8BV4SY338115",
@@ -159,20 +159,20 @@
     "model": "Forte GT ",
     "trim": "Line"
   },
-  "JN8BT3BA8PW419149": {
-    "vin": "JN8BT3BA8PW419149",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2023-Nissan-Rogue-SV-JN8BT3BA8PW419149/",
-    "year": "2023",
-    "make": "Nissan",
-    "model": "Rogue",
-    "trim": "SV"
-  },
   "5N1DR3BA6NC227189": {
     "vin": "5N1DR3BA6NC227189",
     "url": "https://www.metronissanmontclair.com/inventory/Used-2022-Nissan-Pathfinder-SV-5N1DR3BA6NC227189/",
     "year": "2022",
     "make": "Nissan",
     "model": "Pathfinder",
+    "trim": "SV"
+  },
+  "JN8BT3BA8PW419149": {
+    "vin": "JN8BT3BA8PW419149",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2023-Nissan-Rogue-SV-JN8BT3BA8PW419149/",
+    "year": "2023",
+    "make": "Nissan",
+    "model": "Rogue",
     "trim": "SV"
   },
   "WBA73AK02R7N48253": {
@@ -183,14 +183,6 @@
     "model": "2 Series",
     "trim": "228i xDrive"
   },
-  "5FNRL6H57MB016334": {
-    "vin": "5FNRL6H57MB016334",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2021-Honda-Odyssey-EX-5FNRL6H57MB016334/",
-    "year": "2021",
-    "make": "Honda",
-    "model": "Odyssey",
-    "trim": "EX"
-  },
   "2T3W1RFVXPC225841": {
     "vin": "2T3W1RFVXPC225841",
     "url": "https://www.metronissanmontclair.com/inventory/Used-2023-Toyota-RAV4-XLE-2T3W1RFVXPC225841/",
@@ -198,6 +190,14 @@
     "make": "Toyota",
     "model": "RAV4",
     "trim": "XLE"
+  },
+  "5FNRL6H57MB016334": {
+    "vin": "5FNRL6H57MB016334",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2021-Honda-Odyssey-EX-5FNRL6H57MB016334/",
+    "year": "2021",
+    "make": "Honda",
+    "model": "Odyssey",
+    "trim": "EX"
   },
   "1C4RDHDG0RC190010": {
     "vin": "1C4RDHDG0RC190010",
@@ -239,13 +239,13 @@
     "model": "1500",
     "trim": "Big Horn"
   },
-  "JN8AY2BA5R9415603": {
-    "vin": "JN8AY2BA5R9415603",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2024-Nissan-Armada-SL-JN8AY2BA5R9415603/",
-    "year": "2024",
-    "make": "Nissan",
-    "model": "Armada",
-    "trim": "SL"
+  "JM1NDAM78S0650768": {
+    "vin": "JM1NDAM78S0650768",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2025-Mazda-MX--5_Miata_RF-Grand_Touring-JM1NDAM78S0650768/",
+    "year": "2025",
+    "make": "Mazda",
+    "model": "MX  5 Miata RF",
+    "trim": "Grand Touring"
   },
   "ZN661YUM8PX414601": {
     "vin": "ZN661YUM8PX414601",
@@ -255,13 +255,13 @@
     "model": "Levante",
     "trim": "Modena"
   },
-  "JM1NDAM78S0650768": {
-    "vin": "JM1NDAM78S0650768",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2025-Mazda-MX--5_Miata_RF-Grand_Touring-JM1NDAM78S0650768/",
-    "year": "2025",
-    "make": "Mazda",
-    "model": "MX  5 Miata RF",
-    "trim": "Grand Touring"
+  "JN8AY2BA5R9415603": {
+    "vin": "JN8AY2BA5R9415603",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2024-Nissan-Armada-SL-JN8AY2BA5R9415603/",
+    "year": "2024",
+    "make": "Nissan",
+    "model": "Armada",
+    "trim": "SL"
   },
   "WBA23AT09RCP64715": {
     "vin": "WBA23AT09RCP64715",
@@ -303,14 +303,6 @@
     "model": "Range Rover Velar",
     "trim": "Dynamic SE"
   },
-  "5UX43EU02S9Y03552": {
-    "vin": "5UX43EU02S9Y03552",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2025-BMW-X5-xDrive50e-5UX43EU02S9Y03552/",
-    "year": "2025",
-    "make": "BMW",
-    "model": "X5",
-    "trim": "xDrive50e"
-  },
   "1C6RJTEG4TL164471": {
     "vin": "1C6RJTEG4TL164471",
     "url": "https://www.metronissanmontclair.com/inventory/Used-2026-Jeep-Gladiator-Mojave-1C6RJTEG4TL164471/",
@@ -318,6 +310,14 @@
     "make": "Jeep",
     "model": "Gladiator",
     "trim": "Mojave"
+  },
+  "5UX43EU02S9Y03552": {
+    "vin": "5UX43EU02S9Y03552",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2025-BMW-X5-xDrive50e-5UX43EU02S9Y03552/",
+    "year": "2025",
+    "make": "BMW",
+    "model": "X5",
+    "trim": "xDrive50e"
   },
   "5UX23EM02P9N95980": {
     "vin": "5UX23EM02P9N95980",
