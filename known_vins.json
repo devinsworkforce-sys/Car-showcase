@@ -47,14 +47,6 @@
     "model": "Tucson",
     "trim": "SE"
   },
-  "3N1CP5CV2PL480605": {
-    "vin": "3N1CP5CV2PL480605",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2023-Nissan-Kicks-SV-3N1CP5CV2PL480605/",
-    "year": "2023",
-    "make": "Nissan",
-    "model": "Kicks",
-    "trim": "SV"
-  },
   "2C3CDZAG5LH143368": {
     "vin": "2C3CDZAG5LH143368",
     "url": "https://www.metronissanmontclair.com/inventory/Used-2020-Dodge-Challenger-SXT-2C3CDZAG5LH143368/",
@@ -103,22 +95,6 @@
     "model": "Sentra",
     "trim": "SR"
   },
-  "2HKRW2H92JH677348": {
-    "vin": "2HKRW2H92JH677348",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2018-Honda-CR--V-Touring-2HKRW2H92JH677348/",
-    "year": "2018",
-    "make": "Honda",
-    "model": "CR  V",
-    "trim": "Touring"
-  },
-  "3N1AB8BV7RY307547": {
-    "vin": "3N1AB8BV7RY307547",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2024-Nissan-Sentra-S-3N1AB8BV7RY307547/",
-    "year": "2024",
-    "make": "Nissan",
-    "model": "Sentra",
-    "trim": "S"
-  },
   "JN8BT3BA1PW014136": {
     "vin": "JN8BT3BA1PW014136",
     "url": "https://www.metronissanmontclair.com/inventory/Used-2023-Nissan-Rogue-SV-JN8BT3BA1PW014136/",
@@ -134,6 +110,22 @@
     "make": "Toyota",
     "model": "C  HR",
     "trim": "LE"
+  },
+  "2HKRW2H92JH677348": {
+    "vin": "2HKRW2H92JH677348",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2018-Honda-CR--V-Touring-2HKRW2H92JH677348/",
+    "year": "2018",
+    "make": "Honda",
+    "model": "CR  V",
+    "trim": "Touring"
+  },
+  "3N1AB8BV7RY307547": {
+    "vin": "3N1AB8BV7RY307547",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2024-Nissan-Sentra-S-3N1AB8BV7RY307547/",
+    "year": "2024",
+    "make": "Nissan",
+    "model": "Sentra",
+    "trim": "S"
   },
   "3N1AB8BV4SY338115": {
     "vin": "3N1AB8BV4SY338115",
