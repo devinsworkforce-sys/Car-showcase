@@ -15,6 +15,14 @@
     "model": "Versa Note",
     "trim": "SV"
   },
+  "2HKRM3H56EH544297": {
+    "vin": "2HKRM3H56EH544297",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2014-Honda-CR--V-EX-2HKRM3H56EH544297/",
+    "year": "2014",
+    "make": "Honda",
+    "model": "CR  V",
+    "trim": "EX"
+  },
   "JN1BJ1CV0LW271826": {
     "vin": "JN1BJ1CV0LW271826",
     "url": "https://www.metronissanmontclair.com/inventory/Used-2020-Nissan-Rogue_Sport-S-JN1BJ1CV0LW271826/",
@@ -167,14 +175,6 @@
     "model": "2 Series",
     "trim": "228i xDrive"
   },
-  "2T3W1RFVXPC225841": {
-    "vin": "2T3W1RFVXPC225841",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2023-Toyota-RAV4-XLE-2T3W1RFVXPC225841/",
-    "year": "2023",
-    "make": "Toyota",
-    "model": "RAV4",
-    "trim": "XLE"
-  },
   "5FNRL6H57MB016334": {
     "vin": "5FNRL6H57MB016334",
     "url": "https://www.metronissanmontclair.com/inventory/Used-2021-Honda-Odyssey-EX-5FNRL6H57MB016334/",
@@ -182,6 +182,14 @@
     "make": "Honda",
     "model": "Odyssey",
     "trim": "EX"
+  },
+  "2T3W1RFVXPC225841": {
+    "vin": "2T3W1RFVXPC225841",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2023-Toyota-RAV4-XLE-2T3W1RFVXPC225841/",
+    "year": "2023",
+    "make": "Toyota",
+    "model": "RAV4",
+    "trim": "XLE"
   },
   "1C4RDHDG0RC190010": {
     "vin": "1C4RDHDG0RC190010",
