@@ -95,6 +95,14 @@
     "model": "Sentra",
     "trim": "SR"
   },
+  "2HKRW2H92JH677348": {
+    "vin": "2HKRW2H92JH677348",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2018-Honda-CR--V-Touring-2HKRW2H92JH677348/",
+    "year": "2018",
+    "make": "Honda",
+    "model": "CR  V",
+    "trim": "Touring"
+  },
   "3N1AB8BV7RY307547": {
     "vin": "3N1AB8BV7RY307547",
     "url": "https://www.metronissanmontclair.com/inventory/Used-2024-Nissan-Sentra-S-3N1AB8BV7RY307547/",
@@ -118,14 +126,6 @@
     "make": "Toyota",
     "model": "C  HR",
     "trim": "LE"
-  },
-  "2HKRW2H92JH677348": {
-    "vin": "2HKRW2H92JH677348",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2018-Honda-CR--V-Touring-2HKRW2H92JH677348/",
-    "year": "2018",
-    "make": "Honda",
-    "model": "CR  V",
-    "trim": "Touring"
   },
   "3N1AB8BV4SY338115": {
     "vin": "3N1AB8BV4SY338115",
@@ -318,21 +318,5 @@
     "make": "INFINITI",
     "model": "QX80",
     "trim": "SENSORY"
-  },
-  "7PDSGABA9PN011858": {
-    "vin": "7PDSGABA9PN011858",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2023-Rivian-R1S-Adventure-7PDSGABA9PN011858/",
-    "year": "2023",
-    "make": "Rivian",
-    "model": "R1S",
-    "trim": "Adventure"
-  },
-  "7SAXCBE69NF359535": {
-    "vin": "7SAXCBE69NF359535",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2022-Tesla-Model_X-Plaid-7SAXCBE69NF359535/",
-    "year": "2022",
-    "make": "Tesla",
-    "model": "Model X",
-    "trim": "Plaid"
   }
 }
