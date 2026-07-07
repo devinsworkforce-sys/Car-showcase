@@ -15,6 +15,14 @@
     "model": "Versa Note",
     "trim": "SV"
   },
+  "5N1DR2MN3KC654318": {
+    "vin": "5N1DR2MN3KC654318",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2019-Nissan-Pathfinder-S-5N1DR2MN3KC654318/",
+    "year": "2019",
+    "make": "Nissan",
+    "model": "Pathfinder",
+    "trim": "S"
+  },
   "JN1BJ1CV0LW271826": {
     "vin": "JN1BJ1CV0LW271826",
     "url": "https://www.metronissanmontclair.com/inventory/Used-2020-Nissan-Rogue_Sport-S-JN1BJ1CV0LW271826/",
@@ -55,14 +63,6 @@
     "model": "Grand Cherokee",
     "trim": "Laredo E"
   },
-  "3N1CP5CV2RL577094": {
-    "vin": "3N1CP5CV2RL577094",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2024-Nissan-Kicks-SV-3N1CP5CV2RL577094/",
-    "year": "2024",
-    "make": "Nissan",
-    "model": "Kicks",
-    "trim": "SV"
-  },
   "3N1CP5DV4RL573496": {
     "vin": "3N1CP5DV4RL573496",
     "url": "https://www.metronissanmontclair.com/inventory/Used-2024-Nissan-Kicks-SR-3N1CP5DV4RL573496/",
@@ -70,6 +70,14 @@
     "make": "Nissan",
     "model": "Kicks",
     "trim": "SR"
+  },
+  "3N1CP5CV2RL577094": {
+    "vin": "3N1CP5CV2RL577094",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2024-Nissan-Kicks-SV-3N1CP5CV2RL577094/",
+    "year": "2024",
+    "make": "Nissan",
+    "model": "Kicks",
+    "trim": "SV"
   },
   "5N1BT3BA9PC850592": {
     "vin": "5N1BT3BA9PC850592",
@@ -86,6 +94,14 @@
     "make": "Nissan",
     "model": "Sentra",
     "trim": "SR"
+  },
+  "JTNKHMBX5L1073832": {
+    "vin": "JTNKHMBX5L1073832",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2020-Toyota-C--HR-LE-JTNKHMBX5L1073832/",
+    "year": "2020",
+    "make": "Toyota",
+    "model": "C  HR",
+    "trim": "LE"
   },
   "2HKRW2H92JH677348": {
     "vin": "2HKRW2H92JH677348",
@@ -110,14 +126,6 @@
     "make": "Nissan",
     "model": "Rogue",
     "trim": "SV"
-  },
-  "JTNKHMBX5L1073832": {
-    "vin": "JTNKHMBX5L1073832",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2020-Toyota-C--HR-LE-JTNKHMBX5L1073832/",
-    "year": "2020",
-    "make": "Toyota",
-    "model": "C  HR",
-    "trim": "LE"
   },
   "3N1AB8BV4SY338115": {
     "vin": "3N1AB8BV4SY338115",
@@ -158,6 +166,14 @@
     "make": "BMW",
     "model": "2 Series",
     "trim": "228i xDrive"
+  },
+  "3CZRZ1H5XRM705315": {
+    "vin": "3CZRZ1H5XRM705315",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2024-Honda-HR--V-Sport-3CZRZ1H5XRM705315/",
+    "year": "2024",
+    "make": "Honda",
+    "model": "HR  V",
+    "trim": "Sport"
   },
   "2T3W1RFVXPC225841": {
     "vin": "2T3W1RFVXPC225841",
