@@ -55,14 +55,6 @@
     "model": "Challenger",
     "trim": "SXT"
   },
-  "1C4RJEAG4KC805692": {
-    "vin": "1C4RJEAG4KC805692",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2019-Jeep-Grand_Cherokee-Laredo_E-1C4RJEAG4KC805692/",
-    "year": "2019",
-    "make": "Jeep",
-    "model": "Grand Cherokee",
-    "trim": "Laredo E"
-  },
   "3N1CP5DV4RL573496": {
     "vin": "3N1CP5DV4RL573496",
     "url": "https://www.metronissanmontclair.com/inventory/Used-2024-Nissan-Kicks-SR-3N1CP5DV4RL573496/",
@@ -78,6 +70,14 @@
     "make": "Nissan",
     "model": "Kicks",
     "trim": "SV"
+  },
+  "1C4RJEAG4KC805692": {
+    "vin": "1C4RJEAG4KC805692",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2019-Jeep-Grand_Cherokee-Laredo_E-1C4RJEAG4KC805692/",
+    "year": "2019",
+    "make": "Jeep",
+    "model": "Grand Cherokee",
+    "trim": "Laredo E"
   },
   "5N1BT3BA9PC850592": {
     "vin": "5N1BT3BA9PC850592",
@@ -95,22 +95,6 @@
     "model": "Sentra",
     "trim": "SR"
   },
-  "JTNKHMBX5L1073832": {
-    "vin": "JTNKHMBX5L1073832",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2020-Toyota-C--HR-LE-JTNKHMBX5L1073832/",
-    "year": "2020",
-    "make": "Toyota",
-    "model": "C  HR",
-    "trim": "LE"
-  },
-  "2HKRW2H92JH677348": {
-    "vin": "2HKRW2H92JH677348",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2018-Honda-CR--V-Touring-2HKRW2H92JH677348/",
-    "year": "2018",
-    "make": "Honda",
-    "model": "CR  V",
-    "trim": "Touring"
-  },
   "3N1AB8BV7RY307547": {
     "vin": "3N1AB8BV7RY307547",
     "url": "https://www.metronissanmontclair.com/inventory/Used-2024-Nissan-Sentra-S-3N1AB8BV7RY307547/",
@@ -126,6 +110,22 @@
     "make": "Nissan",
     "model": "Rogue",
     "trim": "SV"
+  },
+  "JTNKHMBX5L1073832": {
+    "vin": "JTNKHMBX5L1073832",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2020-Toyota-C--HR-LE-JTNKHMBX5L1073832/",
+    "year": "2020",
+    "make": "Toyota",
+    "model": "C  HR",
+    "trim": "LE"
+  },
+  "2HKRW2H92JH677348": {
+    "vin": "2HKRW2H92JH677348",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2018-Honda-CR--V-Touring-2HKRW2H92JH677348/",
+    "year": "2018",
+    "make": "Honda",
+    "model": "CR  V",
+    "trim": "Touring"
   },
   "3N1AB8BV4SY338115": {
     "vin": "3N1AB8BV4SY338115",
@@ -175,14 +175,6 @@
     "model": "HR  V",
     "trim": "Sport"
   },
-  "2T3W1RFVXPC225841": {
-    "vin": "2T3W1RFVXPC225841",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2023-Toyota-RAV4-XLE-2T3W1RFVXPC225841/",
-    "year": "2023",
-    "make": "Toyota",
-    "model": "RAV4",
-    "trim": "XLE"
-  },
   "5FNRL6H57MB016334": {
     "vin": "5FNRL6H57MB016334",
     "url": "https://www.metronissanmontclair.com/inventory/Used-2021-Honda-Odyssey-EX-5FNRL6H57MB016334/",
@@ -190,6 +182,14 @@
     "make": "Honda",
     "model": "Odyssey",
     "trim": "EX"
+  },
+  "2T3W1RFVXPC225841": {
+    "vin": "2T3W1RFVXPC225841",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2023-Toyota-RAV4-XLE-2T3W1RFVXPC225841/",
+    "year": "2023",
+    "make": "Toyota",
+    "model": "RAV4",
+    "trim": "XLE"
   },
   "1C4RDHDG0RC190010": {
     "vin": "1C4RDHDG0RC190010",
