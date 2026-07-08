@@ -15,13 +15,21 @@
     "model": "Versa Note",
     "trim": "SV"
   },
-  "5N1DR2MN3KC654318": {
-    "vin": "5N1DR2MN3KC654318",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2019-Nissan-Pathfinder-S-5N1DR2MN3KC654318/",
-    "year": "2019",
+  "KNMAT2MT3JP621379": {
+    "vin": "KNMAT2MT3JP621379",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2018-Nissan-Rogue-SV-KNMAT2MT3JP621379/",
+    "year": "2018",
     "make": "Nissan",
-    "model": "Pathfinder",
-    "trim": "S"
+    "model": "Rogue",
+    "trim": "SV"
+  },
+  "JTDKN3DU4F1981462": {
+    "vin": "JTDKN3DU4F1981462",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2015-Toyota-Prius-Two-JTDKN3DU4F1981462/",
+    "year": "2015",
+    "make": "Toyota",
+    "model": "Prius",
+    "trim": "Two"
   },
   "JN1BJ1CV0LW271826": {
     "vin": "JN1BJ1CV0LW271826",
@@ -47,6 +55,22 @@
     "model": "Tucson",
     "trim": "SE"
   },
+  "5N1AT3BA6MC791895": {
+    "vin": "5N1AT3BA6MC791895",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2021-Nissan-Rogue-SV-5N1AT3BA6MC791895/",
+    "year": "2021",
+    "make": "Nissan",
+    "model": "Rogue",
+    "trim": "SV"
+  },
+  "3N1AB8DV6LY222090": {
+    "vin": "3N1AB8DV6LY222090",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2020-Nissan-Sentra-SR-3N1AB8DV6LY222090/",
+    "year": "2020",
+    "make": "Nissan",
+    "model": "Sentra",
+    "trim": "SR"
+  },
   "2C3CDZAG5LH143368": {
     "vin": "2C3CDZAG5LH143368",
     "url": "https://www.metronissanmontclair.com/inventory/Used-2020-Dodge-Challenger-SXT-2C3CDZAG5LH143368/",
@@ -54,6 +78,14 @@
     "make": "Dodge",
     "model": "Challenger",
     "trim": "SXT"
+  },
+  "1C4RJEAG4KC805692": {
+    "vin": "1C4RJEAG4KC805692",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2019-Jeep-Grand_Cherokee-Laredo_E-1C4RJEAG4KC805692/",
+    "year": "2019",
+    "make": "Jeep",
+    "model": "Grand Cherokee",
+    "trim": "Laredo E"
   },
   "3N1CP5DV4RL573496": {
     "vin": "3N1CP5DV4RL573496",
@@ -71,14 +103,6 @@
     "model": "Kicks",
     "trim": "SV"
   },
-  "1C4RJEAG4KC805692": {
-    "vin": "1C4RJEAG4KC805692",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2019-Jeep-Grand_Cherokee-Laredo_E-1C4RJEAG4KC805692/",
-    "year": "2019",
-    "make": "Jeep",
-    "model": "Grand Cherokee",
-    "trim": "Laredo E"
-  },
   "5N1BT3BA9PC850592": {
     "vin": "5N1BT3BA9PC850592",
     "url": "https://www.metronissanmontclair.com/inventory/Used-2023-Nissan-Rogue-SV-5N1BT3BA9PC850592/",
@@ -94,14 +118,6 @@
     "make": "Nissan",
     "model": "Sentra",
     "trim": "SR"
-  },
-  "3N1AB8BV7RY307547": {
-    "vin": "3N1AB8BV7RY307547",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2024-Nissan-Sentra-S-3N1AB8BV7RY307547/",
-    "year": "2024",
-    "make": "Nissan",
-    "model": "Sentra",
-    "trim": "S"
   },
   "JN8BT3BA1PW014136": {
     "vin": "JN8BT3BA1PW014136",
@@ -126,6 +142,14 @@
     "make": "Honda",
     "model": "CR  V",
     "trim": "Touring"
+  },
+  "3N1AB8BV7RY307547": {
+    "vin": "3N1AB8BV7RY307547",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2024-Nissan-Sentra-S-3N1AB8BV7RY307547/",
+    "year": "2024",
+    "make": "Nissan",
+    "model": "Sentra",
+    "trim": "S"
   },
   "3N1AB8BV4SY338115": {
     "vin": "3N1AB8BV4SY338115",
@@ -167,14 +191,6 @@
     "model": "2 Series",
     "trim": "228i xDrive"
   },
-  "3CZRZ1H5XRM705315": {
-    "vin": "3CZRZ1H5XRM705315",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2024-Honda-HR--V-Sport-3CZRZ1H5XRM705315/",
-    "year": "2024",
-    "make": "Honda",
-    "model": "HR  V",
-    "trim": "Sport"
-  },
   "5FNRL6H57MB016334": {
     "vin": "5FNRL6H57MB016334",
     "url": "https://www.metronissanmontclair.com/inventory/Used-2021-Honda-Odyssey-EX-5FNRL6H57MB016334/",
@@ -183,14 +199,6 @@
     "model": "Odyssey",
     "trim": "EX"
   },
-  "2T3W1RFVXPC225841": {
-    "vin": "2T3W1RFVXPC225841",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2023-Toyota-RAV4-XLE-2T3W1RFVXPC225841/",
-    "year": "2023",
-    "make": "Toyota",
-    "model": "RAV4",
-    "trim": "XLE"
-  },
   "1C4RDHDG0RC190010": {
     "vin": "1C4RDHDG0RC190010",
     "url": "https://www.metronissanmontclair.com/inventory/Used-2024-Dodge-Durango-GT_Plus-1C4RDHDG0RC190010/",
@@ -198,6 +206,14 @@
     "make": "Dodge",
     "model": "Durango",
     "trim": "GT Plus"
+  },
+  "2T3W1RFVXPC225841": {
+    "vin": "2T3W1RFVXPC225841",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2023-Toyota-RAV4-XLE-2T3W1RFVXPC225841/",
+    "year": "2023",
+    "make": "Toyota",
+    "model": "RAV4",
+    "trim": "XLE"
   },
   "5N1DR3CC8PC225060": {
     "vin": "5N1DR3CC8PC225060",
@@ -223,14 +239,6 @@
     "model": "Explorer",
     "trim": "Limited"
   },
-  "1C6RREFT9PN534565": {
-    "vin": "1C6RREFT9PN534565",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2023-Ram-1500-Big_Horn-1C6RREFT9PN534565/",
-    "year": "2023",
-    "make": "Ram",
-    "model": "1500",
-    "trim": "Big Horn"
-  },
   "JM1NDAM78S0650768": {
     "vin": "JM1NDAM78S0650768",
     "url": "https://www.metronissanmontclair.com/inventory/Used-2025-Mazda-MX--5_Miata_RF-Grand_Touring-JM1NDAM78S0650768/",
@@ -238,6 +246,14 @@
     "make": "Mazda",
     "model": "MX  5 Miata RF",
     "trim": "Grand Touring"
+  },
+  "1C6RREFT9PN534565": {
+    "vin": "1C6RREFT9PN534565",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2023-Ram-1500-Big_Horn-1C6RREFT9PN534565/",
+    "year": "2023",
+    "make": "Ram",
+    "model": "1500",
+    "trim": "Big Horn"
   },
   "JN8AY2BA5R9415603": {
     "vin": "JN8AY2BA5R9415603",
@@ -263,14 +279,6 @@
     "model": "QX60",
     "trim": "AUTOGRAPH"
   },
-  "3GCUKDED7SG193082": {
-    "vin": "3GCUKDED7SG193082",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2025-Chevrolet-Silverado_1500-LT-3GCUKDED7SG193082/",
-    "year": "2025",
-    "make": "Chevrolet",
-    "model": "Silverado 1500",
-    "trim": "LT"
-  },
   "5TDAAAB5XRS007967": {
     "vin": "5TDAAAB5XRS007967",
     "url": "https://www.metronissanmontclair.com/inventory/Used-2024-Toyota-Grand_Highlander-XLE-5TDAAAB5XRS007967/",
@@ -278,6 +286,14 @@
     "make": "Toyota",
     "model": "Grand Highlander",
     "trim": "XLE"
+  },
+  "3GCUKDED7SG193082": {
+    "vin": "3GCUKDED7SG193082",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2025-Chevrolet-Silverado_1500-LT-3GCUKDED7SG193082/",
+    "year": "2025",
+    "make": "Chevrolet",
+    "model": "Silverado 1500",
+    "trim": "LT"
   },
   "SALYL2EX9SA810907": {
     "vin": "SALYL2EX9SA810907",
