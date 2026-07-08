@@ -7,20 +7,20 @@
     "model": "Sentra",
     "trim": "SV"
   },
-  "3N1CE2CP5GL387535": {
-    "vin": "3N1CE2CP5GL387535",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2016-Nissan-Versa_Note-SV-3N1CE2CP5GL387535/",
-    "year": "2016",
-    "make": "Nissan",
-    "model": "Versa Note",
-    "trim": "SV"
-  },
   "KNMAT2MT3JP621379": {
     "vin": "KNMAT2MT3JP621379",
     "url": "https://www.metronissanmontclair.com/inventory/Used-2018-Nissan-Rogue-SV-KNMAT2MT3JP621379/",
     "year": "2018",
     "make": "Nissan",
     "model": "Rogue",
+    "trim": "SV"
+  },
+  "3N1CE2CP5GL387535": {
+    "vin": "3N1CE2CP5GL387535",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2016-Nissan-Versa_Note-SV-3N1CE2CP5GL387535/",
+    "year": "2016",
+    "make": "Nissan",
+    "model": "Versa Note",
     "trim": "SV"
   },
   "JTDKN3DU4F1981462": {
@@ -47,14 +47,6 @@
     "model": "Kicks",
     "trim": "S"
   },
-  "KM8J23A48KU002913": {
-    "vin": "KM8J23A48KU002913",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2019-Hyundai-Tucson-SE-KM8J23A48KU002913/",
-    "year": "2019",
-    "make": "Hyundai",
-    "model": "Tucson",
-    "trim": "SE"
-  },
   "5N1AT3BA6MC791895": {
     "vin": "5N1AT3BA6MC791895",
     "url": "https://www.metronissanmontclair.com/inventory/Used-2021-Nissan-Rogue-SV-5N1AT3BA6MC791895/",
@@ -62,6 +54,14 @@
     "make": "Nissan",
     "model": "Rogue",
     "trim": "SV"
+  },
+  "KM8J23A48KU002913": {
+    "vin": "KM8J23A48KU002913",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2019-Hyundai-Tucson-SE-KM8J23A48KU002913/",
+    "year": "2019",
+    "make": "Hyundai",
+    "model": "Tucson",
+    "trim": "SE"
   },
   "3N1AB8DV6LY222090": {
     "vin": "3N1AB8DV6LY222090",
@@ -79,14 +79,6 @@
     "model": "Challenger",
     "trim": "SXT"
   },
-  "1C4RJEAG4KC805692": {
-    "vin": "1C4RJEAG4KC805692",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2019-Jeep-Grand_Cherokee-Laredo_E-1C4RJEAG4KC805692/",
-    "year": "2019",
-    "make": "Jeep",
-    "model": "Grand Cherokee",
-    "trim": "Laredo E"
-  },
   "3N1CP5DV4RL573496": {
     "vin": "3N1CP5DV4RL573496",
     "url": "https://www.metronissanmontclair.com/inventory/Used-2024-Nissan-Kicks-SR-3N1CP5DV4RL573496/",
@@ -103,6 +95,14 @@
     "model": "Kicks",
     "trim": "SV"
   },
+  "1C4RJEAG4KC805692": {
+    "vin": "1C4RJEAG4KC805692",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2019-Jeep-Grand_Cherokee-Laredo_E-1C4RJEAG4KC805692/",
+    "year": "2019",
+    "make": "Jeep",
+    "model": "Grand Cherokee",
+    "trim": "Laredo E"
+  },
   "5N1BT3BA9PC850592": {
     "vin": "5N1BT3BA9PC850592",
     "url": "https://www.metronissanmontclair.com/inventory/Used-2023-Nissan-Rogue-SV-5N1BT3BA9PC850592/",
@@ -118,6 +118,14 @@
     "make": "Nissan",
     "model": "Sentra",
     "trim": "SR"
+  },
+  "3N1AB8BV7RY307547": {
+    "vin": "3N1AB8BV7RY307547",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2024-Nissan-Sentra-S-3N1AB8BV7RY307547/",
+    "year": "2024",
+    "make": "Nissan",
+    "model": "Sentra",
+    "trim": "S"
   },
   "JN8BT3BA1PW014136": {
     "vin": "JN8BT3BA1PW014136",
@@ -143,14 +151,6 @@
     "model": "CR  V",
     "trim": "Touring"
   },
-  "3N1AB8BV7RY307547": {
-    "vin": "3N1AB8BV7RY307547",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2024-Nissan-Sentra-S-3N1AB8BV7RY307547/",
-    "year": "2024",
-    "make": "Nissan",
-    "model": "Sentra",
-    "trim": "S"
-  },
   "3N1AB8BV4SY338115": {
     "vin": "3N1AB8BV4SY338115",
     "url": "https://www.metronissanmontclair.com/inventory/Used-2025-Nissan-Sentra-S-3N1AB8BV4SY338115/",
@@ -167,20 +167,20 @@
     "model": "Forte GT ",
     "trim": "Line"
   },
-  "JN8BT3BA8PW419149": {
-    "vin": "JN8BT3BA8PW419149",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2023-Nissan-Rogue-SV-JN8BT3BA8PW419149/",
-    "year": "2023",
-    "make": "Nissan",
-    "model": "Rogue",
-    "trim": "SV"
-  },
   "5N1DR3BA6NC227189": {
     "vin": "5N1DR3BA6NC227189",
     "url": "https://www.metronissanmontclair.com/inventory/Used-2022-Nissan-Pathfinder-SV-5N1DR3BA6NC227189/",
     "year": "2022",
     "make": "Nissan",
     "model": "Pathfinder",
+    "trim": "SV"
+  },
+  "JN8BT3BA8PW419149": {
+    "vin": "JN8BT3BA8PW419149",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2023-Nissan-Rogue-SV-JN8BT3BA8PW419149/",
+    "year": "2023",
+    "make": "Nissan",
+    "model": "Rogue",
     "trim": "SV"
   },
   "WBA73AK02R7N48253": {
