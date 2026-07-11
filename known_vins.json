@@ -191,14 +191,6 @@
     "model": "2 Series",
     "trim": "228i xDrive"
   },
-  "1C4RDHDG0RC190010": {
-    "vin": "1C4RDHDG0RC190010",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2024-Dodge-Durango-GT_Plus-1C4RDHDG0RC190010/",
-    "year": "2024",
-    "make": "Dodge",
-    "model": "Durango",
-    "trim": "GT Plus"
-  },
   "2T3W1RFVXPC225841": {
     "vin": "2T3W1RFVXPC225841",
     "url": "https://www.metronissanmontclair.com/inventory/Used-2023-Toyota-RAV4-XLE-2T3W1RFVXPC225841/",
@@ -214,6 +206,14 @@
     "make": "Honda",
     "model": "Odyssey",
     "trim": "EX"
+  },
+  "1C4RDHDG0RC190010": {
+    "vin": "1C4RDHDG0RC190010",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2024-Dodge-Durango-GT_Plus-1C4RDHDG0RC190010/",
+    "year": "2024",
+    "make": "Dodge",
+    "model": "Durango",
+    "trim": "GT Plus"
   },
   "5N1DR3CC8PC225060": {
     "vin": "5N1DR3CC8PC225060",
@@ -231,14 +231,6 @@
     "model": "Wrangler",
     "trim": "Sahara"
   },
-  "JM1NDAM78S0650768": {
-    "vin": "JM1NDAM78S0650768",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2025-Mazda-MX--5_Miata_RF-Grand_Touring-JM1NDAM78S0650768/",
-    "year": "2025",
-    "make": "Mazda",
-    "model": "MX  5 Miata RF",
-    "trim": "Grand Touring"
-  },
   "1FMSK8FHXRGA30444": {
     "vin": "1FMSK8FHXRGA30444",
     "url": "https://www.metronissanmontclair.com/inventory/Used-2024-Ford-Explorer-Limited-1FMSK8FHXRGA30444/",
@@ -246,6 +238,14 @@
     "make": "Ford",
     "model": "Explorer",
     "trim": "Limited"
+  },
+  "JM1NDAM78S0650768": {
+    "vin": "JM1NDAM78S0650768",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2025-Mazda-MX--5_Miata_RF-Grand_Touring-JM1NDAM78S0650768/",
+    "year": "2025",
+    "make": "Mazda",
+    "model": "MX  5 Miata RF",
+    "trim": "Grand Touring"
   },
   "1C6RREFT9PN534565": {
     "vin": "1C6RREFT9PN534565",
