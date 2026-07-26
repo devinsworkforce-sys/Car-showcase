@@ -207,6 +207,22 @@
     "model": "Gladiator",
     "trim": "Mojave"
   },
+  "5UX43EU02S9Y03552": {
+    "vin": "5UX43EU02S9Y03552",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2025-BMW-X5-xDrive50e-5UX43EU02S9Y03552/",
+    "year": "2025",
+    "make": "BMW",
+    "model": "X5",
+    "trim": "xDrive50e"
+  },
+  "5UX23EM02P9N95980": {
+    "vin": "5UX23EM02P9N95980",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2023-BMW-X7-xDrive40i-5UX23EM02P9N95980/",
+    "year": "2023",
+    "make": "BMW",
+    "model": "X7",
+    "trim": "xDrive40i"
+  },
   "JN8AZ2BE4R9331224": {
     "vin": "JN8AZ2BE4R9331224",
     "url": "https://www.metronissanmontclair.com/inventory/Used-2024-INFINITI-QX80-SENSORY-JN8AZ2BE4R9331224/",
@@ -231,20 +247,20 @@
     "model": "R1S",
     "trim": "Adventure"
   },
-  "3N1AB8CV7RY285564": {
-    "vin": "3N1AB8CV7RY285564",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2024-Nissan-Sentra-SV-3N1AB8CV7RY285564/",
-    "year": "2024",
-    "make": "Nissan",
-    "model": "Sentra",
-    "trim": "SV"
-  },
   "5N1DR3BAXRC255163": {
     "vin": "5N1DR3BAXRC255163",
     "url": "https://www.metronissanmontclair.com/inventory/Used-2024-Nissan-Pathfinder-SV-5N1DR3BAXRC255163/",
     "year": "2024",
     "make": "Nissan",
     "model": "Pathfinder",
+    "trim": "SV"
+  },
+  "3N1AB8CV7RY285564": {
+    "vin": "3N1AB8CV7RY285564",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2024-Nissan-Sentra-SV-3N1AB8CV7RY285564/",
+    "year": "2024",
+    "make": "Nissan",
+    "model": "Sentra",
     "trim": "SV"
   }
 }
