@@ -135,14 +135,6 @@
     "model": "HR  V",
     "trim": "Sport"
   },
-  "3N1AB8DV7RY313300": {
-    "vin": "3N1AB8DV7RY313300",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2024-Nissan-Sentra-SR-3N1AB8DV7RY313300/",
-    "year": "2024",
-    "make": "Nissan",
-    "model": "Sentra",
-    "trim": "SR"
-  },
   "5FNRL6H57MB016334": {
     "vin": "5FNRL6H57MB016334",
     "url": "https://www.metronissanmontclair.com/inventory/Used-2021-Honda-Odyssey-EX-5FNRL6H57MB016334/",
@@ -158,6 +150,14 @@
     "make": "Jeep",
     "model": "Wrangler",
     "trim": "Sahara"
+  },
+  "W1N4M4HB6NW245692": {
+    "vin": "W1N4M4HB6NW245692",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2022-Mercedes--Benz-GLB-GLB_250-W1N4M4HB6NW245692/",
+    "year": "2022",
+    "make": "Mercedes",
+    "model": " Benz GLB",
+    "trim": "GLB 250"
   },
   "1FTER4EH2PLE03195": {
     "vin": "1FTER4EH2PLE03195",
@@ -222,6 +222,14 @@
     "make": "BMW",
     "model": "X7",
     "trim": "xDrive40i"
+  },
+  "JTHBZ1B27T5101058": {
+    "vin": "JTHBZ1B27T5101058",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2026-Lexus-IS-IS_350_F_SPORT_Design-JTHBZ1B27T5101058/",
+    "year": "2026",
+    "make": "Lexus",
+    "model": "IS",
+    "trim": "IS 350 F SPORT Design"
   },
   "JN8AZ2BE4R9331224": {
     "vin": "JN8AZ2BE4R9331224",
