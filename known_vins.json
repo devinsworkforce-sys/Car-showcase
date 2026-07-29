@@ -63,14 +63,6 @@
     "model": "Sentra",
     "trim": "SV"
   },
-  "3N1CN8EV6RL927301": {
-    "vin": "3N1CN8EV6RL927301",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2024-Nissan-Versa-SV-3N1CN8EV6RL927301/",
-    "year": "2024",
-    "make": "Nissan",
-    "model": "Versa",
-    "trim": "SV"
-  },
   "3N1AB8CV8RY377461": {
     "vin": "3N1AB8CV8RY377461",
     "url": "https://www.metronissanmontclair.com/inventory/Used-2024-Nissan-Sentra-SV-3N1AB8CV8RY377461/",
@@ -270,5 +262,13 @@
     "make": "Rivian",
     "model": "R1S",
     "trim": "Adventure"
+  },
+  "1J4GK48K84W282634": {
+    "vin": "1J4GK48K84W282634",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2004-Jeep-Liberty-Sport-1J4GK48K84W282634/",
+    "year": "2004",
+    "make": "Jeep",
+    "model": "Liberty",
+    "trim": "Sport"
   }
 }
