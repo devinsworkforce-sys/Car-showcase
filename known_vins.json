@@ -79,6 +79,14 @@
     "model": "Sentra",
     "trim": "SV"
   },
+  "3N1AB8CV7RY285564": {
+    "vin": "3N1AB8CV7RY285564",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2024-Nissan-Sentra-SV-3N1AB8CV7RY285564/",
+    "year": "2024",
+    "make": "Nissan",
+    "model": "Sentra",
+    "trim": "SV"
+  },
   "JTNKHMBX5L1073832": {
     "vin": "JTNKHMBX5L1073832",
     "url": "https://www.metronissanmontclair.com/inventory/Used-2020-Toyota-C--HR-LE-JTNKHMBX5L1073832/",
@@ -127,14 +135,6 @@
     "model": "Maxima",
     "trim": "Platinum"
   },
-  "JTMRFREV0JJ180848": {
-    "vin": "JTMRFREV0JJ180848",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2018-Toyota-RAV4-XLE-JTMRFREV0JJ180848/",
-    "year": "2018",
-    "make": "Toyota",
-    "model": "RAV4",
-    "trim": "XLE"
-  },
   "3CZRZ1H5XRM705315": {
     "vin": "3CZRZ1H5XRM705315",
     "url": "https://www.metronissanmontclair.com/inventory/Used-2024-Honda-HR--V-Sport-3CZRZ1H5XRM705315/",
@@ -143,6 +143,14 @@
     "model": "HR  V",
     "trim": "Sport"
   },
+  "JTMRFREV0JJ180848": {
+    "vin": "JTMRFREV0JJ180848",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2018-Toyota-RAV4-XLE-JTMRFREV0JJ180848/",
+    "year": "2018",
+    "make": "Toyota",
+    "model": "RAV4",
+    "trim": "XLE"
+  },
   "1C4HJXEGXPW670595": {
     "vin": "1C4HJXEGXPW670595",
     "url": "https://www.metronissanmontclair.com/inventory/Used-2023-Jeep-Wrangler-Sahara-1C4HJXEGXPW670595/",
@@ -150,6 +158,14 @@
     "make": "Jeep",
     "model": "Wrangler",
     "trim": "Sahara"
+  },
+  "5N1DR3BAXRC255163": {
+    "vin": "5N1DR3BAXRC255163",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2024-Nissan-Pathfinder-SV-5N1DR3BAXRC255163/",
+    "year": "2024",
+    "make": "Nissan",
+    "model": "Pathfinder",
+    "trim": "SV"
   },
   "W1N4M4HB6NW245692": {
     "vin": "W1N4M4HB6NW245692",
@@ -254,21 +270,5 @@
     "make": "Rivian",
     "model": "R1S",
     "trim": "Adventure"
-  },
-  "5N1DR3BAXRC255163": {
-    "vin": "5N1DR3BAXRC255163",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2024-Nissan-Pathfinder-SV-5N1DR3BAXRC255163/",
-    "year": "2024",
-    "make": "Nissan",
-    "model": "Pathfinder",
-    "trim": "SV"
-  },
-  "3N1AB8CV7RY285564": {
-    "vin": "3N1AB8CV7RY285564",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2024-Nissan-Sentra-SV-3N1AB8CV7RY285564/",
-    "year": "2024",
-    "make": "Nissan",
-    "model": "Sentra",
-    "trim": "SV"
   }
 }
