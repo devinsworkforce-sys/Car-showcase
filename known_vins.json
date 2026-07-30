@@ -15,6 +15,14 @@
     "model": "Elantra",
     "trim": "SEL"
   },
+  "2C3CDZAG5LH143368": {
+    "vin": "2C3CDZAG5LH143368",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2020-Dodge-Challenger-SXT-2C3CDZAG5LH143368/",
+    "year": "2020",
+    "make": "Dodge",
+    "model": "Challenger",
+    "trim": "SXT"
+  },
   "1C4RJEAG4KC805692": {
     "vin": "1C4RJEAG4KC805692",
     "url": "https://www.metronissanmontclair.com/inventory/Used-2019-Jeep-Grand_Cherokee-Laredo_E-1C4RJEAG4KC805692/",
@@ -38,14 +46,6 @@
     "make": "Nissan",
     "model": "Sentra",
     "trim": "SV"
-  },
-  "2C3CDZAG5LH143368": {
-    "vin": "2C3CDZAG5LH143368",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2020-Dodge-Challenger-SXT-2C3CDZAG5LH143368/",
-    "year": "2020",
-    "make": "Dodge",
-    "model": "Challenger",
-    "trim": "SXT"
   },
   "3KPF24ADXRE802346": {
     "vin": "3KPF24ADXRE802346",
@@ -111,14 +111,6 @@
     "model": "Kicks",
     "trim": "SR"
   },
-  "WBA73AK02R7N48253": {
-    "vin": "WBA73AK02R7N48253",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2024-BMW-2_Series-228i_xDrive-WBA73AK02R7N48253/",
-    "year": "2024",
-    "make": "BMW",
-    "model": "2 Series",
-    "trim": "228i xDrive"
-  },
   "1N4AA6FV7NC505438": {
     "vin": "1N4AA6FV7NC505438",
     "url": "https://www.metronissanmontclair.com/inventory/Used-2022-Nissan-Maxima-Platinum-1N4AA6FV7NC505438/",
@@ -126,6 +118,14 @@
     "make": "Nissan",
     "model": "Maxima",
     "trim": "Platinum"
+  },
+  "WBA73AK02R7N48253": {
+    "vin": "WBA73AK02R7N48253",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2024-BMW-2_Series-228i_xDrive-WBA73AK02R7N48253/",
+    "year": "2024",
+    "make": "BMW",
+    "model": "2 Series",
+    "trim": "228i xDrive"
   },
   "3CZRZ1H5XRM705315": {
     "vin": "3CZRZ1H5XRM705315",
@@ -262,13 +262,5 @@
     "make": "Rivian",
     "model": "R1S",
     "trim": "Adventure"
-  },
-  "1J4GK48K84W282634": {
-    "vin": "1J4GK48K84W282634",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2004-Jeep-Liberty-Sport-1J4GK48K84W282634/",
-    "year": "2004",
-    "make": "Jeep",
-    "model": "Liberty",
-    "trim": "Sport"
   }
 }
