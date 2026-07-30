@@ -23,14 +23,6 @@
     "model": "Challenger",
     "trim": "SXT"
   },
-  "1C4RJEAG4KC805692": {
-    "vin": "1C4RJEAG4KC805692",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2019-Jeep-Grand_Cherokee-Laredo_E-1C4RJEAG4KC805692/",
-    "year": "2019",
-    "make": "Jeep",
-    "model": "Grand Cherokee",
-    "trim": "Laredo E"
-  },
   "3N1AB8DV6LY222090": {
     "vin": "3N1AB8DV6LY222090",
     "url": "https://www.metronissanmontclair.com/inventory/Used-2020-Nissan-Sentra-SR-3N1AB8DV6LY222090/",
@@ -151,14 +143,6 @@
     "model": "Wrangler",
     "trim": "Sahara"
   },
-  "5N1DR3BAXRC255163": {
-    "vin": "5N1DR3BAXRC255163",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2024-Nissan-Pathfinder-SV-5N1DR3BAXRC255163/",
-    "year": "2024",
-    "make": "Nissan",
-    "model": "Pathfinder",
-    "trim": "SV"
-  },
   "W1N4M4HB6NW245692": {
     "vin": "W1N4M4HB6NW245692",
     "url": "https://www.metronissanmontclair.com/inventory/Used-2022-Mercedes--Benz-GLB-GLB_250-W1N4M4HB6NW245692/",
@@ -262,5 +246,13 @@
     "make": "Rivian",
     "model": "R1S",
     "trim": "Adventure"
+  },
+  "3N8AP6CE8TL301881": {
+    "vin": "3N8AP6CE8TL301881",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2026-Nissan-Kicks-SV-3N8AP6CE8TL301881/",
+    "year": "2026",
+    "make": "Nissan",
+    "model": "Kicks",
+    "trim": "SV"
   }
 }
