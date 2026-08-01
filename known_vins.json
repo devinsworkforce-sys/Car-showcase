@@ -143,6 +143,14 @@
     "model": "RAV4",
     "trim": "XLE"
   },
+  "3N8AP6CE8TL301881": {
+    "vin": "3N8AP6CE8TL301881",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2026-Nissan-Kicks-SV-3N8AP6CE8TL301881/",
+    "year": "2026",
+    "make": "Nissan",
+    "model": "Kicks",
+    "trim": "SV"
+  },
   "1C4HJXEGXPW670595": {
     "vin": "1C4HJXEGXPW670595",
     "url": "https://www.metronissanmontclair.com/inventory/Used-2023-Jeep-Wrangler-Sahara-1C4HJXEGXPW670595/",
@@ -230,13 +238,5 @@
     "make": "Land Rover",
     "model": "Defender",
     "trim": "S"
-  },
-  "3N8AP6CE8TL301881": {
-    "vin": "3N8AP6CE8TL301881",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2026-Nissan-Kicks-SV-3N8AP6CE8TL301881/",
-    "year": "2026",
-    "make": "Nissan",
-    "model": "Kicks",
-    "trim": "SV"
   }
 }
