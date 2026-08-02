@@ -39,14 +39,6 @@
     "model": "Sentra",
     "trim": "SR"
   },
-  "3N1AB8CV4RY321713": {
-    "vin": "3N1AB8CV4RY321713",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2024-Nissan-Sentra-SV-3N1AB8CV4RY321713/",
-    "year": "2024",
-    "make": "Nissan",
-    "model": "Sentra",
-    "trim": "SV"
-  },
   "3KPF24ADXRE802346": {
     "vin": "3KPF24ADXRE802346",
     "url": "https://www.metronissanmontclair.com/inventory/Used-2024-Kia-Forte-LXS-3KPF24ADXRE802346/",
@@ -59,14 +51,6 @@
     "vin": "3N1AB8CV0PY233447",
     "url": "https://www.metronissanmontclair.com/inventory/Used-2023-Nissan-Sentra-SV-3N1AB8CV0PY233447/",
     "year": "2023",
-    "make": "Nissan",
-    "model": "Sentra",
-    "trim": "SV"
-  },
-  "3N1AB8CV8RY377461": {
-    "vin": "3N1AB8CV8RY377461",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2024-Nissan-Sentra-SV-3N1AB8CV8RY377461/",
-    "year": "2024",
     "make": "Nissan",
     "model": "Sentra",
     "trim": "SV"
@@ -118,14 +102,6 @@
     "make": "Nissan",
     "model": "Maxima",
     "trim": "Platinum"
-  },
-  "WBA73AK02R7N48253": {
-    "vin": "WBA73AK02R7N48253",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2024-BMW-2_Series-228i_xDrive-WBA73AK02R7N48253/",
-    "year": "2024",
-    "make": "BMW",
-    "model": "2 Series",
-    "trim": "228i xDrive"
   },
   "3CZRZ1H5XRM705315": {
     "vin": "3CZRZ1H5XRM705315",
@@ -207,22 +183,6 @@
     "model": "Gladiator",
     "trim": "Mojave"
   },
-  "5UX43EU02S9Y03552": {
-    "vin": "5UX43EU02S9Y03552",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2025-BMW-X5-xDrive50e-5UX43EU02S9Y03552/",
-    "year": "2025",
-    "make": "BMW",
-    "model": "X5",
-    "trim": "xDrive50e"
-  },
-  "5UX23EM02P9N95980": {
-    "vin": "5UX23EM02P9N95980",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2023-BMW-X7-xDrive40i-5UX23EM02P9N95980/",
-    "year": "2023",
-    "make": "BMW",
-    "model": "X7",
-    "trim": "xDrive40i"
-  },
   "JTHBZ1B27T5101058": {
     "vin": "JTHBZ1B27T5101058",
     "url": "https://www.metronissanmontclair.com/inventory/Used-2026-Lexus-IS-IS_350_F_SPORT_Design-JTHBZ1B27T5101058/",
@@ -231,12 +191,20 @@
     "model": "IS",
     "trim": "IS 350 F SPORT Design"
   },
-  "SALEJ7EX9S2392963": {
-    "vin": "SALEJ7EX9S2392963",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2025-Land_Rover-Defender-S-SALEJ7EX9S2392963/",
-    "year": "2025",
-    "make": "Land Rover",
-    "model": "Defender",
-    "trim": "S"
+  "1N4BL4CV1LC124804": {
+    "vin": "1N4BL4CV1LC124804",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2020-Nissan-Altima-2.5_SR-1N4BL4CV1LC124804/",
+    "year": "2020",
+    "make": "Nissan",
+    "model": "Altima",
+    "trim": "2.5 SR"
+  },
+  "3N1AB8CVXPY273728": {
+    "vin": "3N1AB8CVXPY273728",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2023-Nissan-Sentra-SV-3N1AB8CVXPY273728/",
+    "year": "2023",
+    "make": "Nissan",
+    "model": "Sentra",
+    "trim": "SV"
   }
 }
