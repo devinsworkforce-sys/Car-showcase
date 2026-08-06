@@ -79,14 +79,6 @@
     "model": "Sentra",
     "trim": "SV"
   },
-  "3N1AB8CV9SY218177": {
-    "vin": "3N1AB8CV9SY218177",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2025-Nissan-Sentra-SV-3N1AB8CV9SY218177/",
-    "year": "2025",
-    "make": "Nissan",
-    "model": "Sentra",
-    "trim": "SV"
-  },
   "1N4AA6FV7NC505438": {
     "vin": "1N4AA6FV7NC505438",
     "url": "https://www.metronissanmontclair.com/inventory/Used-2022-Nissan-Maxima-Platinum-1N4AA6FV7NC505438/",
@@ -158,5 +150,13 @@
     "make": "Lexus",
     "model": "IS",
     "trim": "IS 350 F SPORT Design"
+  },
+  "KMHRC8A3XRU279982": {
+    "vin": "KMHRC8A3XRU279982",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2024-Hyundai-Venue-SEL-KMHRC8A3XRU279982/",
+    "year": "2024",
+    "make": "Hyundai",
+    "model": "Venue",
+    "trim": "SEL"
   }
 }
