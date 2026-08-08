@@ -1,12 +1,4 @@
 {
-  "3N1AB7AP2KY288800": {
-    "vin": "3N1AB7AP2KY288800",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2019-Nissan-Sentra-SV-3N1AB7AP2KY288800/",
-    "year": "2019",
-    "make": "Nissan",
-    "model": "Sentra",
-    "trim": "SV"
-  },
   "5NPD84LF4JH321366": {
     "vin": "5NPD84LF4JH321366",
     "url": "https://www.metronissanmontclair.com/inventory/Used-2018-Hyundai-Elantra-SEL-5NPD84LF4JH321366/",
@@ -71,21 +63,29 @@
     "model": "Venue",
     "trim": "SEL"
   },
-  "1N4AA6FV7NC505438": {
-    "vin": "1N4AA6FV7NC505438",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2022-Nissan-Maxima-Platinum-1N4AA6FV7NC505438/",
+  "1FMCU9H95NUB11745": {
+    "vin": "1FMCU9H95NUB11745",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2022-Ford-Escape-SEL-1FMCU9H95NUB11745/",
     "year": "2022",
-    "make": "Nissan",
-    "model": "Maxima",
-    "trim": "Platinum"
+    "make": "Ford",
+    "model": "Escape",
+    "trim": "SEL"
   },
-  "JTMRFREV0JJ180848": {
-    "vin": "JTMRFREV0JJ180848",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2018-Toyota-RAV4-XLE-JTMRFREV0JJ180848/",
-    "year": "2018",
-    "make": "Toyota",
-    "model": "RAV4",
-    "trim": "XLE"
+  "1G1ZG5ST6RF175511": {
+    "vin": "1G1ZG5ST6RF175511",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2024-Chevrolet-Malibu-RS-1G1ZG5ST6RF175511/",
+    "year": "2024",
+    "make": "Chevrolet",
+    "model": "Malibu",
+    "trim": "RS"
+  },
+  "2T2ZZMCA0GC011116": {
+    "vin": "2T2ZZMCA0GC011116",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2016-Lexus-RX_350-350-2T2ZZMCA0GC011116/",
+    "year": "2016",
+    "make": "Lexus",
+    "model": "RX 350",
+    "trim": "350"
   },
   "3N8AP6CE8TL301881": {
     "vin": "3N8AP6CE8TL301881",
@@ -94,6 +94,14 @@
     "make": "Nissan",
     "model": "Kicks",
     "trim": "SV"
+  },
+  "JTMRFREV0JJ180848": {
+    "vin": "JTMRFREV0JJ180848",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2018-Toyota-RAV4-XLE-JTMRFREV0JJ180848/",
+    "year": "2018",
+    "make": "Toyota",
+    "model": "RAV4",
+    "trim": "XLE"
   },
   "1C4HJXEGXPW670595": {
     "vin": "1C4HJXEGXPW670595",
@@ -119,13 +127,21 @@
     "model": "K5",
     "trim": "GT"
   },
-  "SALYL2EX9SA810907": {
-    "vin": "SALYL2EX9SA810907",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2025-Land_Rover-Range_Rover_Velar-Dynamic_SE-SALYL2EX9SA810907/",
+  "5TFSZ5AN8GX025364": {
+    "vin": "5TFSZ5AN8GX025364",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2016-Toyota-Tacoma-TRD_Sport-5TFSZ5AN8GX025364/",
+    "year": "2016",
+    "make": "Toyota",
+    "model": "Tacoma",
+    "trim": "TRD Sport"
+  },
+  "JF1VBAH64S9805101": {
+    "vin": "JF1VBAH64S9805101",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2025-Subaru-WRX-Premium-JF1VBAH64S9805101/",
     "year": "2025",
-    "make": "Land Rover",
-    "model": "Range Rover Velar",
-    "trim": "Dynamic SE"
+    "make": "Subaru",
+    "model": "WRX",
+    "trim": "Premium"
   },
   "1C6RJTEG4TL164471": {
     "vin": "1C6RJTEG4TL164471",
