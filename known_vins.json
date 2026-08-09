@@ -23,14 +23,6 @@
     "model": "Versa",
     "trim": "S"
   },
-  "2C3CDZAG5LH143368": {
-    "vin": "2C3CDZAG5LH143368",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2020-Dodge-Challenger-SXT-2C3CDZAG5LH143368/",
-    "year": "2020",
-    "make": "Dodge",
-    "model": "Challenger",
-    "trim": "SXT"
-  },
   "3N1AB8DV6LY222090": {
     "vin": "3N1AB8DV6LY222090",
     "url": "https://www.metronissanmontclair.com/inventory/Used-2020-Nissan-Sentra-SR-3N1AB8DV6LY222090/",
@@ -46,14 +38,6 @@
     "make": "Nissan",
     "model": "Sentra",
     "trim": "SV"
-  },
-  "JTNKHMBX5L1073832": {
-    "vin": "JTNKHMBX5L1073832",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2020-Toyota-C--HR-LE-JTNKHMBX5L1073832/",
-    "year": "2020",
-    "make": "Toyota",
-    "model": "C  HR",
-    "trim": "LE"
   },
   "KMHRC8A3XRU279982": {
     "vin": "KMHRC8A3XRU279982",
@@ -71,14 +55,6 @@
     "model": "Escape",
     "trim": "SEL"
   },
-  "1G1ZG5ST6RF175511": {
-    "vin": "1G1ZG5ST6RF175511",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2024-Chevrolet-Malibu-RS-1G1ZG5ST6RF175511/",
-    "year": "2024",
-    "make": "Chevrolet",
-    "model": "Malibu",
-    "trim": "RS"
-  },
   "2T2ZZMCA0GC011116": {
     "vin": "2T2ZZMCA0GC011116",
     "url": "https://www.metronissanmontclair.com/inventory/Used-2016-Lexus-RX_350-350-2T2ZZMCA0GC011116/",
@@ -87,22 +63,6 @@
     "model": "RX 350",
     "trim": "350"
   },
-  "3N8AP6CE8TL301881": {
-    "vin": "3N8AP6CE8TL301881",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2026-Nissan-Kicks-SV-3N8AP6CE8TL301881/",
-    "year": "2026",
-    "make": "Nissan",
-    "model": "Kicks",
-    "trim": "SV"
-  },
-  "JTMRFREV0JJ180848": {
-    "vin": "JTMRFREV0JJ180848",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2018-Toyota-RAV4-XLE-JTMRFREV0JJ180848/",
-    "year": "2018",
-    "make": "Toyota",
-    "model": "RAV4",
-    "trim": "XLE"
-  },
   "1C4HJXEGXPW670595": {
     "vin": "1C4HJXEGXPW670595",
     "url": "https://www.metronissanmontclair.com/inventory/Used-2023-Jeep-Wrangler-Sahara-1C4HJXEGXPW670595/",
@@ -110,14 +70,6 @@
     "make": "Jeep",
     "model": "Wrangler",
     "trim": "Sahara"
-  },
-  "1FTER4EH2PLE03195": {
-    "vin": "1FTER4EH2PLE03195",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2023-Ford-Ranger-XLT-1FTER4EH2PLE03195/",
-    "year": "2023",
-    "make": "Ford",
-    "model": "Ranger",
-    "trim": "XLT"
   },
   "5XXG44J82RG255517": {
     "vin": "5XXG44J82RG255517",
@@ -158,5 +110,21 @@
     "make": "Lexus",
     "model": "IS",
     "trim": "IS 350 F SPORT Design"
+  },
+  "7MUEAAAG7SV125197": {
+    "vin": "7MUEAAAG7SV125197",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2025-Toyota-Corolla_Cross-XLE-7MUEAAAG7SV125197/",
+    "year": "2025",
+    "make": "Toyota",
+    "model": "Corolla Cross",
+    "trim": "XLE"
+  },
+  "5N1BT3CAXPC752878": {
+    "vin": "5N1BT3CAXPC752878",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2023-Nissan-Rogue-SL-5N1BT3CAXPC752878/",
+    "year": "2023",
+    "make": "Nissan",
+    "model": "Rogue",
+    "trim": "SL"
   }
 }
