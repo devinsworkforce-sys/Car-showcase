@@ -87,14 +87,6 @@
     "model": "RX 350",
     "trim": "350"
   },
-  "JTMRFREV0JJ180848": {
-    "vin": "JTMRFREV0JJ180848",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2018-Toyota-RAV4-XLE-JTMRFREV0JJ180848/",
-    "year": "2018",
-    "make": "Toyota",
-    "model": "RAV4",
-    "trim": "XLE"
-  },
   "3N8AP6CE8TL301881": {
     "vin": "3N8AP6CE8TL301881",
     "url": "https://www.metronissanmontclair.com/inventory/Used-2026-Nissan-Kicks-SV-3N8AP6CE8TL301881/",
@@ -102,6 +94,14 @@
     "make": "Nissan",
     "model": "Kicks",
     "trim": "SV"
+  },
+  "JTMRFREV0JJ180848": {
+    "vin": "JTMRFREV0JJ180848",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2018-Toyota-RAV4-XLE-JTMRFREV0JJ180848/",
+    "year": "2018",
+    "make": "Toyota",
+    "model": "RAV4",
+    "trim": "XLE"
   },
   "1C4HJXEGXPW670595": {
     "vin": "1C4HJXEGXPW670595",
