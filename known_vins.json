@@ -23,13 +23,13 @@
     "model": "Versa",
     "trim": "S"
   },
-  "3N1AB8DV6LY222090": {
-    "vin": "3N1AB8DV6LY222090",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2020-Nissan-Sentra-SR-3N1AB8DV6LY222090/",
-    "year": "2020",
-    "make": "Nissan",
-    "model": "Sentra",
-    "trim": "SR"
+  "JA4J24A50JZ054941": {
+    "vin": "JA4J24A50JZ054941",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2018-Mitsubishi-Outlander_PHEV-SEL-JA4J24A50JZ054941/",
+    "year": "2018",
+    "make": "Mitsubishi",
+    "model": "Outlander PHEV",
+    "trim": "SEL"
   },
   "3N1AB8CV7RY285564": {
     "vin": "3N1AB8CV7RY285564",
@@ -79,6 +79,22 @@
     "model": "RX 350",
     "trim": "350"
   },
+  "5N1BT3CAXPC752878": {
+    "vin": "5N1BT3CAXPC752878",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2023-Nissan-Rogue-SL-5N1BT3CAXPC752878/",
+    "year": "2023",
+    "make": "Nissan",
+    "model": "Rogue",
+    "trim": "SL"
+  },
+  "WMW53DK07P2U11943": {
+    "vin": "WMW53DK07P2U11943",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2023-MINI-Hardtop_4_Door-Cooper_S_Classic-WMW53DK07P2U11943/",
+    "year": "2023",
+    "make": "MINI",
+    "model": "Hardtop 4 Door",
+    "trim": "Cooper S Classic"
+  },
   "1C4HJXEGXPW670595": {
     "vin": "1C4HJXEGXPW670595",
     "url": "https://www.metronissanmontclair.com/inventory/Used-2023-Jeep-Wrangler-Sahara-1C4HJXEGXPW670595/",
@@ -126,13 +142,5 @@
     "make": "Lexus",
     "model": "IS",
     "trim": "IS 350 F SPORT Design"
-  },
-  "5N1BT3CAXPC752878": {
-    "vin": "5N1BT3CAXPC752878",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2023-Nissan-Rogue-SL-5N1BT3CAXPC752878/",
-    "year": "2023",
-    "make": "Nissan",
-    "model": "Rogue",
-    "trim": "SL"
   }
 }
