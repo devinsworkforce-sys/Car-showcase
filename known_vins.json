@@ -1,34 +1,10 @@
 {
-  "3N1CN7AP1JL882970": {
-    "vin": "3N1CN7AP1JL882970",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2018-Nissan-Versa_Sedan-SV-3N1CN7AP1JL882970/",
-    "year": "2018",
-    "make": "Nissan",
-    "model": "Versa Sedan",
-    "trim": "SV"
-  },
   "5N1DR2MN3KC654318": {
     "vin": "5N1DR2MN3KC654318",
     "url": "https://www.metronissanmontclair.com/inventory/Used-2019-Nissan-Pathfinder-S-5N1DR2MN3KC654318/",
     "year": "2019",
     "make": "Nissan",
     "model": "Pathfinder",
-    "trim": "S"
-  },
-  "5NPD84LF4JH321366": {
-    "vin": "5NPD84LF4JH321366",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2018-Hyundai-Elantra-SEL-5NPD84LF4JH321366/",
-    "year": "2018",
-    "make": "Hyundai",
-    "model": "Elantra",
-    "trim": "SEL"
-  },
-  "3N1CN8DV1RL893303": {
-    "vin": "3N1CN8DV1RL893303",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2024-Nissan-Versa-S-3N1CN8DV1RL893303/",
-    "year": "2024",
-    "make": "Nissan",
-    "model": "Versa",
     "trim": "S"
   },
   "JA4J24A50JZ054941": {
@@ -78,14 +54,6 @@
     "make": "Nissan",
     "model": "Sentra",
     "trim": "SR"
-  },
-  "3N8AP6CA9SL317874": {
-    "vin": "3N8AP6CA9SL317874",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2025-Nissan-Kicks-SV-3N8AP6CA9SL317874/",
-    "year": "2025",
-    "make": "Nissan",
-    "model": "Kicks",
-    "trim": "SV"
   },
   "2T2ZZMCA0GC011116": {
     "vin": "2T2ZZMCA0GC011116",
@@ -158,5 +126,13 @@
     "make": "Lexus",
     "model": "IS",
     "trim": "IS 350 F SPORT Design"
+  },
+  "JTNKHMBX9K1028911": {
+    "vin": "JTNKHMBX9K1028911",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2019-Toyota-C--HR-LE-JTNKHMBX9K1028911/",
+    "year": "2019",
+    "make": "Toyota",
+    "model": "C  HR",
+    "trim": "LE"
   }
 }
