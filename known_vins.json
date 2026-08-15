@@ -23,13 +23,13 @@
     "model": "Sentra",
     "trim": "SV"
   },
-  "3N1AB8CV9PY304371": {
-    "vin": "3N1AB8CV9PY304371",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2023-Nissan-Sentra-SV-3N1AB8CV9PY304371/",
-    "year": "2023",
-    "make": "Nissan",
-    "model": "Sentra",
-    "trim": "SV"
+  "JTNKHMBX9K1028911": {
+    "vin": "JTNKHMBX9K1028911",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2019-Toyota-C--HR-LE-JTNKHMBX9K1028911/",
+    "year": "2019",
+    "make": "Toyota",
+    "model": "C  HR",
+    "trim": "LE"
   },
   "KMHRC8A3XRU279982": {
     "vin": "KMHRC8A3XRU279982",
@@ -119,20 +119,12 @@
     "model": "Gladiator",
     "trim": "Mojave"
   },
-  "JTHBZ1B27T5101058": {
-    "vin": "JTHBZ1B27T5101058",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2026-Lexus-IS-IS_350_F_SPORT_Design-JTHBZ1B27T5101058/",
-    "year": "2026",
-    "make": "Lexus",
-    "model": "IS",
-    "trim": "IS 350 F SPORT Design"
-  },
-  "JTNKHMBX9K1028911": {
-    "vin": "JTNKHMBX9K1028911",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2019-Toyota-C--HR-LE-JTNKHMBX9K1028911/",
-    "year": "2019",
-    "make": "Toyota",
-    "model": "C  HR",
-    "trim": "LE"
+  "3N1CP5CV4ML466555": {
+    "vin": "3N1CP5CV4ML466555",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2021-Nissan-Kicks-SV-3N1CP5CV4ML466555/",
+    "year": "2021",
+    "make": "Nissan",
+    "model": "Kicks",
+    "trim": "SV"
   }
 }
