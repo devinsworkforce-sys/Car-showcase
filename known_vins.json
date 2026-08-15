@@ -15,14 +15,6 @@
     "model": "Outlander PHEV",
     "trim": "SEL"
   },
-  "3N1AB8CV7RY285564": {
-    "vin": "3N1AB8CV7RY285564",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2024-Nissan-Sentra-SV-3N1AB8CV7RY285564/",
-    "year": "2024",
-    "make": "Nissan",
-    "model": "Sentra",
-    "trim": "SV"
-  },
   "JTNKHMBX9K1028911": {
     "vin": "JTNKHMBX9K1028911",
     "url": "https://www.metronissanmontclair.com/inventory/Used-2019-Toyota-C--HR-LE-JTNKHMBX9K1028911/",
@@ -118,6 +110,14 @@
     "make": "Jeep",
     "model": "Gladiator",
     "trim": "Mojave"
+  },
+  "3N1CP5CV3NL514709": {
+    "vin": "3N1CP5CV3NL514709",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2022-Nissan-Kicks-SV-3N1CP5CV3NL514709/",
+    "year": "2022",
+    "make": "Nissan",
+    "model": "Kicks",
+    "trim": "SV"
   },
   "3N1CP5CV4ML466555": {
     "vin": "3N1CP5CV4ML466555",
