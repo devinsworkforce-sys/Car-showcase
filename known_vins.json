@@ -7,14 +7,6 @@
     "model": "Pathfinder",
     "trim": "S"
   },
-  "JA4J24A50JZ054941": {
-    "vin": "JA4J24A50JZ054941",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2018-Mitsubishi-Outlander_PHEV-SEL-JA4J24A50JZ054941/",
-    "year": "2018",
-    "make": "Mitsubishi",
-    "model": "Outlander PHEV",
-    "trim": "SEL"
-  },
   "JTNKHMBX9K1028911": {
     "vin": "JTNKHMBX9K1028911",
     "url": "https://www.metronissanmontclair.com/inventory/Used-2019-Toyota-C--HR-LE-JTNKHMBX9K1028911/",
@@ -29,14 +21,6 @@
     "year": "2024",
     "make": "Hyundai",
     "model": "Venue",
-    "trim": "SEL"
-  },
-  "1FMCU9H95NUB11745": {
-    "vin": "1FMCU9H95NUB11745",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2022-Ford-Escape-SEL-1FMCU9H95NUB11745/",
-    "year": "2022",
-    "make": "Ford",
-    "model": "Escape",
     "trim": "SEL"
   },
   "3N1AB8DV8SY224275": {
@@ -54,14 +38,6 @@
     "make": "Lexus",
     "model": "RX 350",
     "trim": "350"
-  },
-  "5N1BT3CAXPC752878": {
-    "vin": "5N1BT3CAXPC752878",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2023-Nissan-Rogue-SL-5N1BT3CAXPC752878/",
-    "year": "2023",
-    "make": "Nissan",
-    "model": "Rogue",
-    "trim": "SL"
   },
   "WMW53DK07P2U11943": {
     "vin": "WMW53DK07P2U11943",
@@ -87,14 +63,6 @@
     "model": "K5",
     "trim": "GT"
   },
-  "5TFSZ5AN8GX025364": {
-    "vin": "5TFSZ5AN8GX025364",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2016-Toyota-Tacoma-TRD_Sport-5TFSZ5AN8GX025364/",
-    "year": "2016",
-    "make": "Toyota",
-    "model": "Tacoma",
-    "trim": "TRD Sport"
-  },
   "JF1VBAH64S9805101": {
     "vin": "JF1VBAH64S9805101",
     "url": "https://www.metronissanmontclair.com/inventory/Used-2025-Subaru-WRX-Premium-JF1VBAH64S9805101/",
@@ -110,6 +78,46 @@
     "make": "Jeep",
     "model": "Gladiator",
     "trim": "Mojave"
+  },
+  "2T3C1RFV2SW382550": {
+    "vin": "2T3C1RFV2SW382550",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2025-Toyota-RAV4-XLE_Premium-2T3C1RFV2SW382550/",
+    "year": "2025",
+    "make": "Toyota",
+    "model": "RAV4",
+    "trim": "XLE Premium"
+  },
+  "3GCUYEEL1NG112223": {
+    "vin": "3GCUYEEL1NG112223",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2022-Chevrolet-Silverado_1500_LTD-RST-3GCUYEEL1NG112223/",
+    "year": "2022",
+    "make": "Chevrolet",
+    "model": "Silverado 1500 LTD",
+    "trim": "RST"
+  },
+  "3N1AB7AP5KY304892": {
+    "vin": "3N1AB7AP5KY304892",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2019-Nissan-Sentra-S-3N1AB7AP5KY304892/",
+    "year": "2019",
+    "make": "Nissan",
+    "model": "Sentra",
+    "trim": "S"
+  },
+  "3N1AB8BV5RY240740": {
+    "vin": "3N1AB8BV5RY240740",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2024-Nissan-Sentra-S-3N1AB8BV5RY240740/",
+    "year": "2024",
+    "make": "Nissan",
+    "model": "Sentra",
+    "trim": "S"
+  },
+  "5XYRH4LF7PG165748": {
+    "vin": "5XYRH4LF7PG165748",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2023-Kia-Sorento-EX-5XYRH4LF7PG165748/",
+    "year": "2023",
+    "make": "Kia",
+    "model": "Sorento",
+    "trim": "EX"
   },
   "3N1CP5CV3NL514709": {
     "vin": "3N1CP5CV3NL514709",
