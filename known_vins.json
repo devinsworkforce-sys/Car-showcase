@@ -79,13 +79,13 @@
     "model": "Gladiator",
     "trim": "Mojave"
   },
-  "5XYRH4LF7PG165748": {
-    "vin": "5XYRH4LF7PG165748",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2023-Kia-Sorento-EX-5XYRH4LF7PG165748/",
-    "year": "2023",
-    "make": "Kia",
-    "model": "Sorento",
-    "trim": "EX"
+  "3N1CP5CV4ML466555": {
+    "vin": "3N1CP5CV4ML466555",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2021-Nissan-Kicks-SV-3N1CP5CV4ML466555/",
+    "year": "2021",
+    "make": "Nissan",
+    "model": "Kicks",
+    "trim": "SV"
   },
   "3N1AB8BV5RY240740": {
     "vin": "3N1AB8BV5RY240740",
@@ -103,13 +103,13 @@
     "model": "Sentra",
     "trim": "S"
   },
-  "3GCUYEEL1NG112223": {
-    "vin": "3GCUYEEL1NG112223",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2022-Chevrolet-Silverado_1500_LTD-RST-3GCUYEEL1NG112223/",
+  "3N1CP5CV3NL514709": {
+    "vin": "3N1CP5CV3NL514709",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2022-Nissan-Kicks-SV-3N1CP5CV3NL514709/",
     "year": "2022",
-    "make": "Chevrolet",
-    "model": "Silverado 1500 LTD",
-    "trim": "RST"
+    "make": "Nissan",
+    "model": "Kicks",
+    "trim": "SV"
   },
   "2T3C1RFV2SW382550": {
     "vin": "2T3C1RFV2SW382550",
@@ -119,20 +119,20 @@
     "model": "RAV4",
     "trim": "XLE Premium"
   },
-  "3N1CP5CV3NL514709": {
-    "vin": "3N1CP5CV3NL514709",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2022-Nissan-Kicks-SV-3N1CP5CV3NL514709/",
+  "3GCUYEEL1NG112223": {
+    "vin": "3GCUYEEL1NG112223",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2022-Chevrolet-Silverado_1500_LTD-RST-3GCUYEEL1NG112223/",
     "year": "2022",
-    "make": "Nissan",
-    "model": "Kicks",
-    "trim": "SV"
+    "make": "Chevrolet",
+    "model": "Silverado 1500 LTD",
+    "trim": "RST"
   },
-  "3N1CP5CV4ML466555": {
-    "vin": "3N1CP5CV4ML466555",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2021-Nissan-Kicks-SV-3N1CP5CV4ML466555/",
-    "year": "2021",
-    "make": "Nissan",
-    "model": "Kicks",
-    "trim": "SV"
+  "5XYRH4LF7PG165748": {
+    "vin": "5XYRH4LF7PG165748",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2023-Kia-Sorento-EX-5XYRH4LF7PG165748/",
+    "year": "2023",
+    "make": "Kia",
+    "model": "Sorento",
+    "trim": "EX"
   }
 }
