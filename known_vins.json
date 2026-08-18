@@ -87,6 +87,14 @@
     "model": "Wrangler",
     "trim": "Sahara"
   },
+  "5XYRH4LF7PG165748": {
+    "vin": "5XYRH4LF7PG165748",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2023-Kia-Sorento-EX-5XYRH4LF7PG165748/",
+    "year": "2023",
+    "make": "Kia",
+    "model": "Sorento",
+    "trim": "EX"
+  },
   "5XXG44J82RG255517": {
     "vin": "5XXG44J82RG255517",
     "url": "https://www.metronissanmontclair.com/inventory/Used-2024-Kia-K5-GT-5XXG44J82RG255517/",
@@ -103,6 +111,14 @@
     "model": "WRX",
     "trim": "Premium"
   },
+  "2T3C1RFV2SW382550": {
+    "vin": "2T3C1RFV2SW382550",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2025-Toyota-RAV4-XLE_Premium-2T3C1RFV2SW382550/",
+    "year": "2025",
+    "make": "Toyota",
+    "model": "RAV4",
+    "trim": "XLE Premium"
+  },
   "3GCUYEEL1NG112223": {
     "vin": "3GCUYEEL1NG112223",
     "url": "https://www.metronissanmontclair.com/inventory/Used-2022-Chevrolet-Silverado_1500_LTD-RST-3GCUYEEL1NG112223/",
@@ -118,21 +134,5 @@
     "make": "Jeep",
     "model": "Gladiator",
     "trim": "Mojave"
-  },
-  "2T3C1RFV2SW382550": {
-    "vin": "2T3C1RFV2SW382550",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2025-Toyota-RAV4-XLE_Premium-2T3C1RFV2SW382550/",
-    "year": "2025",
-    "make": "Toyota",
-    "model": "RAV4",
-    "trim": "XLE Premium"
-  },
-  "5XYRH4LF7PG165748": {
-    "vin": "5XYRH4LF7PG165748",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2023-Kia-Sorento-EX-5XYRH4LF7PG165748/",
-    "year": "2023",
-    "make": "Kia",
-    "model": "Sorento",
-    "trim": "EX"
   }
 }
