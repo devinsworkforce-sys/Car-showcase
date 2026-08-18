@@ -119,14 +119,6 @@
     "model": "Gladiator",
     "trim": "Mojave"
   },
-  "5XYRH4LF7PG165748": {
-    "vin": "5XYRH4LF7PG165748",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2023-Kia-Sorento-EX-5XYRH4LF7PG165748/",
-    "year": "2023",
-    "make": "Kia",
-    "model": "Sorento",
-    "trim": "EX"
-  },
   "2T3C1RFV2SW382550": {
     "vin": "2T3C1RFV2SW382550",
     "url": "https://www.metronissanmontclair.com/inventory/Used-2025-Toyota-RAV4-XLE_Premium-2T3C1RFV2SW382550/",
@@ -134,5 +126,13 @@
     "make": "Toyota",
     "model": "RAV4",
     "trim": "XLE Premium"
+  },
+  "5XYRH4LF7PG165748": {
+    "vin": "5XYRH4LF7PG165748",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2023-Kia-Sorento-EX-5XYRH4LF7PG165748/",
+    "year": "2023",
+    "make": "Kia",
+    "model": "Sorento",
+    "trim": "EX"
   }
 }
