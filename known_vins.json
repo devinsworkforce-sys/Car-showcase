@@ -1,12 +1,4 @@
 {
-  "3N1AB7AP5KY304892": {
-    "vin": "3N1AB7AP5KY304892",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2019-Nissan-Sentra-S-3N1AB7AP5KY304892/",
-    "year": "2019",
-    "make": "Nissan",
-    "model": "Sentra",
-    "trim": "S"
-  },
   "5N1DR2MN3KC654318": {
     "vin": "5N1DR2MN3KC654318",
     "url": "https://www.metronissanmontclair.com/inventory/Used-2019-Nissan-Pathfinder-S-5N1DR2MN3KC654318/",
@@ -53,6 +45,14 @@
     "year": "2024",
     "make": "Hyundai",
     "model": "Venue",
+    "trim": "SEL"
+  },
+  "1FMCU9H95NUB11745": {
+    "vin": "1FMCU9H95NUB11745",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2022-Ford-Escape-SEL-1FMCU9H95NUB11745/",
+    "year": "2022",
+    "make": "Ford",
+    "model": "Escape",
     "trim": "SEL"
   },
   "3N1AB8DV8SY224275": {
