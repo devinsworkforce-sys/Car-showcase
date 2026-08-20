@@ -15,14 +15,6 @@
     "model": "Kicks",
     "trim": "SV"
   },
-  "3N1CP5CV3NL514709": {
-    "vin": "3N1CP5CV3NL514709",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2022-Nissan-Kicks-SV-3N1CP5CV3NL514709/",
-    "year": "2022",
-    "make": "Nissan",
-    "model": "Kicks",
-    "trim": "SV"
-  },
   "3N1AB8BV5RY240740": {
     "vin": "3N1AB8BV5RY240740",
     "url": "https://www.metronissanmontclair.com/inventory/Used-2024-Nissan-Sentra-S-3N1AB8BV5RY240740/",
@@ -30,6 +22,14 @@
     "make": "Nissan",
     "model": "Sentra",
     "trim": "S"
+  },
+  "3N1CP5CV3NL514709": {
+    "vin": "3N1CP5CV3NL514709",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2022-Nissan-Kicks-SV-3N1CP5CV3NL514709/",
+    "year": "2022",
+    "make": "Nissan",
+    "model": "Kicks",
+    "trim": "SV"
   },
   "JTNKHMBX9K1028911": {
     "vin": "JTNKHMBX9K1028911",
@@ -45,14 +45,6 @@
     "year": "2024",
     "make": "Hyundai",
     "model": "Venue",
-    "trim": "SEL"
-  },
-  "1FMCU9H95NUB11745": {
-    "vin": "1FMCU9H95NUB11745",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2022-Ford-Escape-SEL-1FMCU9H95NUB11745/",
-    "year": "2022",
-    "make": "Ford",
-    "model": "Escape",
     "trim": "SEL"
   },
   "3N1AB8DV8SY224275": {
