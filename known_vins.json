@@ -118,29 +118,5 @@
     "make": "Jeep",
     "model": "Gladiator",
     "trim": "Mojave"
-  },
-  "3N1CP5CV4ML466555": {
-    "vin": "3N1CP5CV4ML466555",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2021-Nissan-Kicks-SV-3N1CP5CV4ML466555/",
-    "year": "2021",
-    "make": "Nissan",
-    "model": "Kicks",
-    "trim": "SV"
-  },
-  "3N1AB8DV8SY224275": {
-    "vin": "3N1AB8DV8SY224275",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2025-Nissan-Sentra-SR-3N1AB8DV8SY224275/",
-    "year": "2025",
-    "make": "Nissan",
-    "model": "Sentra",
-    "trim": "SR"
-  },
-  "5XYRH4LF7PG165748": {
-    "vin": "5XYRH4LF7PG165748",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2023-Kia-Sorento-EX-5XYRH4LF7PG165748/",
-    "year": "2023",
-    "make": "Kia",
-    "model": "Sorento",
-    "trim": "EX"
   }
 }
