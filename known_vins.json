@@ -7,10 +7,10 @@
     "model": "Pathfinder",
     "trim": "S"
   },
-  "3N1CP5CV4ML466555": {
-    "vin": "3N1CP5CV4ML466555",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2021-Nissan-Kicks-SV-3N1CP5CV4ML466555/",
-    "year": "2021",
+  "3N1CP5CV3NL514709": {
+    "vin": "3N1CP5CV3NL514709",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2022-Nissan-Kicks-SV-3N1CP5CV3NL514709/",
+    "year": "2022",
     "make": "Nissan",
     "model": "Kicks",
     "trim": "SV"
@@ -22,14 +22,6 @@
     "make": "Nissan",
     "model": "Sentra",
     "trim": "S"
-  },
-  "3N1CP5CV3NL514709": {
-    "vin": "3N1CP5CV3NL514709",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2022-Nissan-Kicks-SV-3N1CP5CV3NL514709/",
-    "year": "2022",
-    "make": "Nissan",
-    "model": "Kicks",
-    "trim": "SV"
   },
   "3N1AB8CV9RY223602": {
     "vin": "3N1AB8CV9RY223602",
@@ -54,14 +46,6 @@
     "make": "Hyundai",
     "model": "Venue",
     "trim": "SEL"
-  },
-  "3N1AB8DV8SY224275": {
-    "vin": "3N1AB8DV8SY224275",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2025-Nissan-Sentra-SR-3N1AB8DV8SY224275/",
-    "year": "2025",
-    "make": "Nissan",
-    "model": "Sentra",
-    "trim": "SR"
   },
   "2T2ZZMCA0GC011116": {
     "vin": "2T2ZZMCA0GC011116",
@@ -94,14 +78,6 @@
     "make": "Jeep",
     "model": "Wrangler",
     "trim": "Sahara"
-  },
-  "5XYRH4LF7PG165748": {
-    "vin": "5XYRH4LF7PG165748",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2023-Kia-Sorento-EX-5XYRH4LF7PG165748/",
-    "year": "2023",
-    "make": "Kia",
-    "model": "Sorento",
-    "trim": "EX"
   },
   "1N6ED1EJ9RN653487": {
     "vin": "1N6ED1EJ9RN653487",
@@ -142,5 +118,29 @@
     "make": "Jeep",
     "model": "Gladiator",
     "trim": "Mojave"
+  },
+  "3N1CP5CV4ML466555": {
+    "vin": "3N1CP5CV4ML466555",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2021-Nissan-Kicks-SV-3N1CP5CV4ML466555/",
+    "year": "2021",
+    "make": "Nissan",
+    "model": "Kicks",
+    "trim": "SV"
+  },
+  "3N1AB8DV8SY224275": {
+    "vin": "3N1AB8DV8SY224275",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2025-Nissan-Sentra-SR-3N1AB8DV8SY224275/",
+    "year": "2025",
+    "make": "Nissan",
+    "model": "Sentra",
+    "trim": "SR"
+  },
+  "5XYRH4LF7PG165748": {
+    "vin": "5XYRH4LF7PG165748",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2023-Kia-Sorento-EX-5XYRH4LF7PG165748/",
+    "year": "2023",
+    "make": "Kia",
+    "model": "Sorento",
+    "trim": "EX"
   }
 }
