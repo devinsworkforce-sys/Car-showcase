@@ -1,20 +1,4 @@
 {
-  "5N1DR2MN3KC654318": {
-    "vin": "5N1DR2MN3KC654318",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2019-Nissan-Pathfinder-S-5N1DR2MN3KC654318/",
-    "year": "2019",
-    "make": "Nissan",
-    "model": "Pathfinder",
-    "trim": "S"
-  },
-  "3N1CP5CV3NL514709": {
-    "vin": "3N1CP5CV3NL514709",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2022-Nissan-Kicks-SV-3N1CP5CV3NL514709/",
-    "year": "2022",
-    "make": "Nissan",
-    "model": "Kicks",
-    "trim": "SV"
-  },
   "3N1AB8BV5RY240740": {
     "vin": "3N1AB8BV5RY240740",
     "url": "https://www.metronissanmontclair.com/inventory/Used-2024-Nissan-Sentra-S-3N1AB8BV5RY240740/",
@@ -55,14 +39,6 @@
     "model": "RX 350",
     "trim": "350"
   },
-  "5YFS4MCE5NP138089": {
-    "vin": "5YFS4MCE5NP138089",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2022-Toyota-Corolla-APEX_SE-5YFS4MCE5NP138089/",
-    "year": "2022",
-    "make": "Toyota",
-    "model": "Corolla",
-    "trim": "APEX SE"
-  },
   "WMW53DK07P2U11943": {
     "vin": "WMW53DK07P2U11943",
     "url": "https://www.metronissanmontclair.com/inventory/Used-2023-MINI-Hardtop_4_Door-Cooper_S_Classic-WMW53DK07P2U11943/",
@@ -71,13 +47,13 @@
     "model": "Hardtop 4 Door",
     "trim": "Cooper S Classic"
   },
-  "1C6RREMT0LN171196": {
-    "vin": "1C6RREMT0LN171196",
-    "url": "https://www.metronissanmontclair.com/inventory/Used-2020-Ram-1500-Big_Horn-1C6RREMT0LN171196/",
-    "year": "2020",
-    "make": "Ram",
-    "model": "1500",
-    "trim": "Big Horn"
+  "4T1K61AK5MU587822": {
+    "vin": "4T1K61AK5MU587822",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2021-Toyota-Camry-XSE-4T1K61AK5MU587822/",
+    "year": "2021",
+    "make": "Toyota",
+    "model": "Camry",
+    "trim": "XSE"
   },
   "1C4HJXEGXPW670595": {
     "vin": "1C4HJXEGXPW670595",
@@ -95,6 +71,14 @@
     "model": "Frontier",
     "trim": "SV"
   },
+  "KNDPVCDG2S7236703": {
+    "vin": "KNDPVCDG2S7236703",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2025-Kia-Sportage_Hybrid-EX-KNDPVCDG2S7236703/",
+    "year": "2025",
+    "make": "Kia",
+    "model": "Sportage Hybrid",
+    "trim": "EX"
+  },
   "JF1VBAH64S9805101": {
     "vin": "JF1VBAH64S9805101",
     "url": "https://www.metronissanmontclair.com/inventory/Used-2025-Subaru-WRX-Premium-JF1VBAH64S9805101/",
@@ -102,6 +86,14 @@
     "make": "Subaru",
     "model": "WRX",
     "trim": "Premium"
+  },
+  "SHHFK8G76KU201068": {
+    "vin": "SHHFK8G76KU201068",
+    "url": "https://www.metronissanmontclair.com/inventory/Used-2019-Honda-Civic_Type_R-Touring-SHHFK8G76KU201068/",
+    "year": "2019",
+    "make": "Honda",
+    "model": "Civic Type R",
+    "trim": "Touring"
   },
   "2T3C1RFV2SW382550": {
     "vin": "2T3C1RFV2SW382550",
