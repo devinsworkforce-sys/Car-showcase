@@ -2,44 +2,52 @@
 """
 run_pipeline.py
 
-The "main" entry point. Run this on a schedule (every 30-60+ minutes) and it
-will:
+The "main" entry point. Run this on a schedule and it will:
   1. Check the dealer's public used-inventory pages for VINs not seen before
-  2. For each new vehicle: pull its photos, sort exterior/interior
+  2. For each new/retry vehicle: pull its photos, filter out studio/stock
+     shots, sort exterior/interior
   3. Scrape price/mileage off the vehicle detail page
   4. Generate a branded showcase video
-  5. Generate a suggested social caption (plain text, ready to paste)
+  5. Generate TikTok + Facebook captions
+  6. Email the video + best photos + captions
 
-Everything lands in ready_to_post/<VIN>/ -- video.mp4 + caption.txt.
-
-Usage:
-    python3 run_pipeline.py --base-url https://www.metronissanmontclair.com/inventory/used/ \\
-        --dealer-name "Metro Nissan of Montclair" --dealer-phone "(909) 403-1121"
+Supports two dealer website platforms via --platform:
+  foxdealer      -- e.g. Metro Nissan of Montclair (plain HTML inventory)
+  dealerinspire  -- e.g. Mark Christopher Auto Center (JS-rendered inventory,
+                    uses a headless browser via scrape_dealerinspire.py)
 
 First run note: the first time you run this, every car currently listed will
-look "new" (there's no prior history to compare against), so it will quietly
-save a baseline and generate nothing. From the second run onward, only
-genuinely new listings get videos made.
+look "new" (no prior history to compare against), so it saves a baseline and
+generates nothing. From the second run onward, only genuinely new listings
+(or ones still pending a video) get processed.
 """
 
 import argparse
 import json
 import os
 import re
-import shutil
 import subprocess
 import sys
 
 import requests
 
-import detect_new_vehicles as detector
 import fetch_vehicle_photos as photos_fetcher
+from safe_state import safe_load
 
 HEADERS = photos_fetcher.HEADERS
 
 PRICE_RE = re.compile(r'Sale Price[^$]{0,60}?\$\s*([\d,]+)')
 RETAIL_PRICE_RE = re.compile(r'Retail Price[^$]{0,60}?\$\s*([\d,]+)')
 MILEAGE_RE = re.compile(r'([\d]{1,3}(?:,\d{3})*)\s*Miles')
+
+
+def get_detector(platform):
+    if platform == "dealerinspire":
+        import scrape_dealerinspire as d
+        return d
+    else:
+        import detect_new_vehicles as d
+        return d
 
 
 def scrape_details(vdp_html):
@@ -53,6 +61,9 @@ def scrape_details(vdp_html):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--base-url", required=True)
+    ap.add_argument("--platform", default="foxdealer",
+                     choices=["foxdealer", "dealerinspire"],
+                     help="Which dealer website platform this inventory page uses")
     ap.add_argument("--dealer-name", required=True)
     ap.add_argument("--dealer-phone", default="")
     ap.add_argument("--salesperson", default="")
@@ -63,16 +74,16 @@ def main():
     ap.add_argument("--out-dir", default="ready_to_post")
     ap.add_argument("--orientation", default="vertical", choices=["vertical", "square", "horizontal"])
     ap.add_argument("--notify", action="store_true",
-                     help="Email the finished video automatically (requires SMTP_* env vars, see README)")
+                     help="Email the finished video automatically (requires SMTP_* env vars)")
     args = ap.parse_args()
 
     os.makedirs(args.work_dir, exist_ok=True)
     os.makedirs(args.out_dir, exist_ok=True)
 
-    print("Step 1/3: checking inventory for new vehicles...")
-    current = detector.collect_listings(args.base_url)
+    detector = get_detector(args.platform)
 
-    from safe_state import safe_load
+    print(f"Step 1/3: checking inventory for new vehicles (platform: {args.platform})...")
+    current = detector.collect_listings(args.base_url)
     known = safe_load(args.state_file, {})
     videoed = set(safe_load(args.videoed_state_file, []))
     first_run = not known
@@ -84,13 +95,8 @@ def main():
               f"Nothing to generate yet -- next run will catch real new arrivals.")
         return
 
-    # Candidates = brand-new VINs we've never seen, PLUS any VIN that's still
-    # listed but never got a video made (e.g. it had too few photos last
-    # time -- this is what lets a car get picked up automatically once the
-    # dealer adds more photos a day or two later, instead of being skipped
-    # forever).
     retry_vins = [v for v in current if v in known and v not in videoed]
-    candidates = list(dict.fromkeys(new_vins + retry_vins))  # de-duped, order preserved
+    candidates = list(dict.fromkeys(new_vins + retry_vins))
 
     if not candidates:
         print("No new vehicles, and nothing pending a retry.")
@@ -99,9 +105,9 @@ def main():
     print(f"Found {len(new_vins)} brand-new vehicle(s) and {len(retry_vins)} "
           f"pending retry: {', '.join(candidates)}")
 
-    # Pre-scan to detect stock/placeholder images reused across vehicles, so
-    # cars that haven't been photographed yet get skipped (and retried later)
-    # instead of producing a video full of generic stock graphics.
+    # Pre-fetch VDP pages and detect stock/placeholder images reused across
+    # multiple candidate vehicles (a real photo is unique to one car; a
+    # reused/placeholder image is the giveaway).
     cand_html = {}
     cand_urls = {}
     for vin in candidates:
@@ -125,8 +131,7 @@ def main():
             vdp_html, extra_placeholder_hashes=placeholder_hashes)
         if len(photo_urls) < 2:
             print(f"  no real photos yet (only stock/placeholder images) -- skipping. "
-                  f"This VIN will be checked again automatically on future runs "
-                  f"and picked up as soon as real photos are added.")
+                  f"Will be checked again automatically on future runs.")
             continue
 
         vin_photo_dir = os.path.join(args.work_dir, "photos", vin)
@@ -135,13 +140,11 @@ def main():
         os.makedirs(ext_dir, exist_ok=True)
         os.makedirs(int_dir, exist_ok=True)
 
-        # Download to a staging folder first, drop any manufacturer studio /
-        # press photos (car on a pure-white background, not a real lot photo),
-        # then keep only the genuine lot photos.
+        # Download to staging, drop manufacturer studio/press photos (car on
+        # a near-pure-white background, not a real lot photo), keep the rest.
         stage_dir = os.path.join(vin_photo_dir, "_stage")
         os.makedirs(stage_dir, exist_ok=True)
         real_photos = []
-        real_photo_urls = []
         for i, url in enumerate(photo_urls):
             ext = os.path.splitext(url)[1] or ".jpg"
             sp = os.path.join(stage_dir, f"{i:02d}{ext}")
@@ -154,12 +157,10 @@ def main():
                 os.remove(sp)
                 continue
             real_photos.append(sp)
-            real_photo_urls.append(url)
 
         if len(real_photos) < 2:
-            print(f"  only manufacturer/studio stock photos found (no real lot "
-                  f"photos yet) -- skipping. Will retry automatically once real "
-                  f"photos are added.")
+            print(f"  only manufacturer/studio stock photos found -- skipping. "
+                  f"Will retry automatically once real photos are added.")
             continue
 
         split_idx = max(1, int(len(real_photos) * 0.6))
@@ -174,21 +175,12 @@ def main():
         video_path = os.path.join(out_video_dir, "video.mp4")
 
         cfg = {
-            "year": info["year"],
-            "make": info["make"],
-            "model": info["model"],
-            "trim": info["trim"],
-            "price": price,
-            "mileage": mileage,
-            "stock": vin,
-            "dealer_name": args.dealer_name,
-            "dealer_phone": args.dealer_phone,
-            "salesperson": args.salesperson,
-            "cta": args.cta,
-            "exterior_dir": ext_dir,
-            "interior_dir": int_dir,
-            "output": video_path,
-            "orientation": args.orientation,
+            "year": info["year"], "make": info["make"], "model": info["model"],
+            "trim": info["trim"], "price": price, "mileage": mileage, "stock": vin,
+            "dealer_name": args.dealer_name, "dealer_phone": args.dealer_phone,
+            "salesperson": args.salesperson, "cta": args.cta,
+            "exterior_dir": ext_dir, "interior_dir": int_dir,
+            "output": video_path, "orientation": args.orientation,
         }
         cfg_path = os.path.join(args.work_dir, f"{vin}_config.json")
         json.dump(cfg, open(cfg_path, "w"), indent=2)
@@ -203,31 +195,22 @@ def main():
             print(f"  video generation failed:\n{result.stderr}")
             continue
 
-        caption = build_caption(info, price, mileage, args.dealer_name, info["url"])
+        caption = build_caption(info, price, mileage, args.dealer_name, info["url"], args.dealer_phone)
         caption_path = os.path.join(out_video_dir, "caption.txt")
         with open(caption_path, "w") as f:
             f.write(caption)
 
-        # Pick best 8 photos (4 exterior + 4 interior) for email attachment.
-        # At ~400KB each, 8 photos + video = ~8-10MB total, well under Gmail's
-        # 25MB limit and guaranteed to arrive.
-        best_photos = []
+        # Pick best 8 photos (4 ext + 4 int) to attach directly to the email.
         ext_files = sorted(os.listdir(ext_dir)) if os.path.isdir(ext_dir) else []
         int_files = sorted(os.listdir(int_dir)) if os.path.isdir(int_dir) else []
-        for f in ext_files[:4]:
-            best_photos.append(os.path.join(ext_dir, f))
-        for f in int_files[:4]:
-            best_photos.append(os.path.join(int_dir, f))
-
+        best_photos = [os.path.join(ext_dir, f) for f in ext_files[:4]] + \
+                      [os.path.join(int_dir, f) for f in int_files[:4]]
         photo_list_path = os.path.join(out_video_dir, "photo_list.txt")
         with open(photo_list_path, "w") as f:
             f.write("\n".join(best_photos))
 
         print(f"  done -> {video_path}")
 
-        # Mark as videoed right away (and save immediately, not just at the
-        # end) so a later failure in this run can't cause a duplicate video
-        # next time.
         videoed.add(vin)
         json.dump(sorted(videoed), open(args.videoed_state_file, "w"), indent=2)
 
@@ -251,12 +234,11 @@ def main():
     print(f"\nAll set. Check {args.out_dir}/ for finished videos + captions.")
 
 
-def build_caption(info, price, mileage, dealer_name, vdp_url):
+def build_caption(info, price, mileage, dealer_name, vdp_url, phone):
     name = f"{info['year']} {info['make']} {info['model']} {info['trim']}".strip()
     make = info["make"]
     model = info["model"]
 
-    # ---- TikTok / Reels (short, punchy) ----
     tiktok_hook = (f"POV: you just found a {info['year']} {make} {model} for {price} \U0001F440"
                    if price else f"POV: you just found this {name} \U0001F440")
     tiktok = [tiktok_hook, ""]
@@ -268,14 +250,13 @@ def build_caption(info, price, mileage, dealer_name, vdp_url):
     if specs:
         tiktok.append("  ".join(specs))
     tiktok.append("\U0001F525 DM \"INFO\" before it's gone")
-    tiktok.append("\U0001F4F2 Text me: 818-450-6500")
+    tiktok.append(f"\U0001F4F2 Text me: {phone}")
     tiktok.append("")
     tiktok.append(
         "#usedcars #carsforsale #cardeals #fyp #carsoftiktok #dealalert "
         f"#{make.replace(' ', '')} #{model.replace(' ', '')}"
     )
 
-    # ---- Facebook (longer, detail-rich, conversational) ----
     fb = []
     fb.append(f"\U0001F697 {name} — Now Available at {dealer_name}!")
     fb.append("")
@@ -286,20 +267,20 @@ def build_caption(info, price, mileage, dealer_name, vdp_url):
         line.append(f"only {mileage}")
     if line:
         fb.append("\u2705 " + ", ".join(line) + ".")
-    fb.append(f"\u2705 Clean, inspected, and ready to drive home today.")
-    fb.append(f"\u2705 Easy financing available — all credit situations welcome.")
+    fb.append("\u2705 Clean, inspected, and ready to drive home today.")
+    fb.append("\u2705 Easy financing available — all credit situations welcome.")
     fb.append("")
     fb.append(f"This one won't last long. Message me, Devin, directly or call/text "
-              f"818-450-6500 to set up a test drive. I'll take care of you from start to finish.")
+              f"{phone} to set up a test drive. I'll take care of you from start to finish.")
     fb.append("")
-    fb.append(f"\U0001F4F2 Tap to text me now: sms:+18184506500")
+    fb.append(f"\U0001F4F2 Tap to text me now: sms:+1{phone.replace('-', '').replace(' ', '')}")
     if vdp_url:
         fb.append("")
         fb.append(f"\U0001F517 See full details & photos: {vdp_url}")
     fb.append("")
     fb.append(
         f"#{make.replace(' ', '')} #{model.replace(' ', '')} #usedcars #carsforsale "
-        f"#cardealership #InlandEmpire #Montclair #SoCalCars #carfinancing "
+        f"#cardealership #InlandEmpire #SoCalCars #carfinancing "
         f"#goodcredit #badcredit #firstcar #cardeals #testdrive #drivehometoday"
     )
 
