@@ -3,24 +3,22 @@
 make_batch.py
 
 Make videos for vehicles CURRENTLY listed on the lot (not just future
-arrivals). Useful for catching up your existing inventory. Processes up to
---limit vehicles, newest-listed first, skips any VIN that already has a
-video (tracked in videoed_vins.json, shared with the automation so the two
-never duplicate each other's work), and emails each one as it finishes if
---email is passed.
+arrivals) -- useful right after switching dealerships, when you want
+content today instead of waiting for a new arrival to trigger the
+automation. Processes up to --limit vehicles, skips any VIN that already
+has a video (tracked in videoed_vins.json, shared with the automation so
+the two never duplicate each other's work), and emails each one as it
+finishes if --email is passed.
 
 Usage:
     python3 make_batch.py \
-        --base-url https://www.metronissanmontclair.com/inventory/used/ \
-        --dealer-name "Metro Nissan of Montclair" \
+        --base-url https://www.markchristopher.com/used-vehicles/ \
+        --platform dealerinspire \
+        --dealer-name "Mark Christopher Auto Center" \
         --dealer-phone "818-450-6500" \
         --salesperson "Devin Rangel" \
         --limit 10 \
         --email
-
-For --email to work from your own computer, the SMTP_* environment variables
-must be set in the same terminal session first (see README "make --email
-work on your Mac"). The automation on GitHub already has them as secrets.
 """
 
 import argparse
@@ -31,7 +29,6 @@ import sys
 
 import requests
 
-import detect_new_vehicles as detector
 import fetch_vehicle_photos as photos_fetcher
 import run_pipeline as pipeline
 
@@ -41,32 +38,30 @@ HEADERS = photos_fetcher.HEADERS
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--base-url", required=True)
+    ap.add_argument("--platform", default="foxdealer", choices=["foxdealer", "dealerinspire"])
     ap.add_argument("--dealer-name", required=True)
     ap.add_argument("--dealer-phone", default="")
     ap.add_argument("--salesperson", default="")
     ap.add_argument("--cta", default="DM \"INFO\" BEFORE IT'S GONE")
-    ap.add_argument("--limit", type=int, default=10,
-                     help="Max number of vehicles to make videos for this run")
+    ap.add_argument("--limit", type=int, default=10)
     ap.add_argument("--videoed-state-file", default="videoed_vins.json")
     ap.add_argument("--orientation", default="vertical", choices=["vertical", "square", "horizontal"])
     ap.add_argument("--out-dir", default="ready_to_post")
     ap.add_argument("--work-dir", default="work")
-    ap.add_argument("--email", action="store_true",
-                     help="Email each finished video (requires SMTP_* env vars set)")
+    ap.add_argument("--email", action="store_true")
     args = ap.parse_args()
 
     os.makedirs(args.work_dir, exist_ok=True)
     os.makedirs(args.out_dir, exist_ok=True)
     script_dir = os.path.dirname(os.path.abspath(__file__))
 
+    detector = pipeline.get_detector(args.platform)
+
     print("Reading current inventory...")
     current = detector.collect_listings(args.base_url)
     videoed = set(json.load(open(args.videoed_state_file))) if os.path.exists(args.videoed_state_file) else set()
 
-    # Newest-listed first: collect_listings preserves page order (top of
-    # page 1 = newest), so just respect that order and drop already-done VINs.
     todo = [vin for vin in current if vin not in videoed][:args.limit]
-
     if not todo:
         print("Nothing to do -- every current vehicle already has a video.")
         return
@@ -74,14 +69,8 @@ def main():
     print(f"Will make videos for {len(todo)} vehicle(s) (limit {args.limit}). "
           f"{len(videoed)} already done and skipped.\n")
 
-    # Pre-scan pass: fetch each candidate's photo URLs once, then detect which
-    # image hashes are reused across multiple different cars. Those reused
-    # images are stock/placeholder graphics (a real photo is unique to one
-    # car), so any vehicle whose photos are ALL placeholders gets skipped --
-    # it just hasn't been photographed yet.
     print("Scanning photos to detect stock/placeholder images...")
-    vin_html = {}
-    vin_urls = {}
+    vin_html, vin_urls = {}, {}
     for vin in todo:
         try:
             html = photos_fetcher.fetch_html(current[vin]["url"])
@@ -91,8 +80,7 @@ def main():
         vin_urls[vin] = photos_fetcher.extract_photo_urls(html)
     placeholder_hashes = photos_fetcher.find_placeholder_hashes(vin_urls)
     if placeholder_hashes:
-        print(f"  detected {len(placeholder_hashes)} reused stock/placeholder image(s) "
-              f"-- cars using only these will be skipped until real photos are added.\n")
+        print(f"  detected {len(placeholder_hashes)} reused stock/placeholder image(s)\n")
 
     made = 0
     for idx, vin in enumerate(todo, 1):
@@ -105,11 +93,9 @@ def main():
             print("  couldn't load page earlier, skipping.")
             continue
 
-        photo_urls = photos_fetcher.extract_photo_urls(
-            html, extra_placeholder_hashes=placeholder_hashes)
+        photo_urls = photos_fetcher.extract_photo_urls(html, extra_placeholder_hashes=placeholder_hashes)
         if len(photo_urls) < 2:
-            print(f"  no real photos yet (only stock/placeholder images) -- skipping. "
-                  f"This car will be picked up automatically once real photos are added.")
+            print("  no real photos yet -- skipping.")
             continue
 
         vin_photo_dir = os.path.join(args.work_dir, "photos", vin)
@@ -117,14 +103,31 @@ def main():
         int_dir = os.path.join(vin_photo_dir, "interior")
         os.makedirs(ext_dir, exist_ok=True)
         os.makedirs(int_dir, exist_ok=True)
-        split_idx = max(1, int(len(photo_urls) * 0.6))
+
+        stage_dir = os.path.join(vin_photo_dir, "_stage")
+        os.makedirs(stage_dir, exist_ok=True)
+        real_photos = []
         for i, url in enumerate(photo_urls):
-            target = ext_dir if i < split_idx else int_dir
             ext = os.path.splitext(url)[1] or ".jpg"
+            sp = os.path.join(stage_dir, f"{i:02d}{ext}")
             try:
-                photos_fetcher.download(url, os.path.join(target, f"{i:02d}{ext}"))
+                photos_fetcher.download(url, sp)
             except requests.RequestException as e:
                 print(f"  photo download failed: {e}")
+                continue
+            if photos_fetcher.looks_like_studio_photo(sp):
+                os.remove(sp)
+                continue
+            real_photos.append(sp)
+
+        if len(real_photos) < 2:
+            print("  only manufacturer/studio stock photos found -- skipping.")
+            continue
+
+        split_idx = max(1, int(len(real_photos) * 0.6))
+        for i, sp in enumerate(real_photos):
+            target = ext_dir if i < split_idx else int_dir
+            os.rename(sp, os.path.join(target, os.path.basename(sp)))
 
         price, mileage = pipeline.scrape_details(html)
 
@@ -152,10 +155,18 @@ def main():
             print(f"  render failed:\n{result.stderr}")
             continue
 
-        caption = pipeline.build_caption(info, price, mileage, args.dealer_name, info["url"])
+        caption = pipeline.build_caption(info, price, mileage, args.dealer_name, info["url"], args.dealer_phone)
         caption_path = os.path.join(out_video_dir, "caption.txt")
         with open(caption_path, "w") as f:
             f.write(caption)
+
+        ext_files = sorted(os.listdir(ext_dir)) if os.path.isdir(ext_dir) else []
+        int_files = sorted(os.listdir(int_dir)) if os.path.isdir(int_dir) else []
+        best_photos = [os.path.join(ext_dir, f) for f in ext_files[:4]] + \
+                      [os.path.join(int_dir, f) for f in int_files[:4]]
+        photo_list_path = os.path.join(out_video_dir, "photo_list.txt")
+        with open(photo_list_path, "w") as f:
+            f.write("\n".join(best_photos))
 
         videoed.add(vin)
         json.dump(sorted(videoed), open(args.videoed_state_file, "w"), indent=2)
@@ -163,14 +174,17 @@ def main():
         print(f"  done -> {video_path}")
 
         if args.email:
+            subject = f"{label}"
+            if price:
+                subject += f" — {price}"
             email_result = subprocess.run(
                 [sys.executable, os.path.join(script_dir, "notify.py"),
                  "--video", video_path, "--caption", caption_path,
-                 "--photos-dir", vin_photo_dir, "--subject", label],
+                 "--photo-list", photo_list_path, "--subject", subject],
                 capture_output=True, text=True,
             )
             if email_result.returncode != 0:
-                print(f"  email failed (video still saved): check SMTP_* env vars")
+                print("  email failed (video still saved): check SMTP_* env vars")
             else:
                 print(f"  emailed to {os.environ.get('NOTIFY_TO', '(NOTIFY_TO not set)')}")
 
