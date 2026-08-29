@@ -4,7 +4,12 @@ on:
   schedule:
     - cron: '*/30 * * * *'   # every 30 minutes — check for new cars
     - cron: '0 15 * * 1'     # every Monday 8am PT — send weekly script
-  workflow_dispatch: {}       # lets you also trigger it manually from the Actions tab
+  workflow_dispatch:
+    inputs:
+      batch_limit:
+        description: 'Batch mode: how many current cars to make videos for right now (leave 0 for normal check)'
+        required: false
+        default: '0'
 
 concurrency:
   group: inventory-pipeline
@@ -13,6 +18,7 @@ concurrency:
 jobs:
   run-pipeline:
     runs-on: ubuntu-latest
+    if: github.event_name != 'workflow_dispatch' || github.event.inputs.batch_limit == '0'
     permissions:
       contents: write
     steps:
@@ -65,6 +71,65 @@ jobs:
           git add known_vins.json .gitignore
           if [ -f videoed_vins.json ]; then git add videoed_vins.json; fi
           git diff --staged --quiet || git commit -m "Update tracked VINs [skip ci]"
+          git pull --rebase --autostash origin main || true
+          git push origin main
+          echo "Push completed successfully"
+
+  batch-run:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'workflow_dispatch' && github.event.inputs.batch_limit != '0'
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install ffmpeg
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg
+
+      - name: Install Python deps
+        run: pip install -r requirements.txt
+
+      - name: Install Playwright browser
+        run: python -m playwright install --with-deps chromium
+
+      - name: Run batch
+        env:
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          NOTIFY_TO: ${{ secrets.NOTIFY_TO }}
+        run: |
+          python make_batch.py \
+            --base-url https://www.markchristopher.com/used-vehicles/ \
+            --platform dealerinspire \
+            --dealer-name "Mark Christopher Auto Center" \
+            --dealer-phone "818-450-6500" \
+            --salesperson "Devin Rangel" \
+            --limit ${{ github.event.inputs.batch_limit }} \
+            --email
+
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: batch-ready-to-post-${{ github.run_number }}
+          path: ready_to_post/
+          if-no-files-found: ignore
+
+      - name: Save batch state
+        run: |
+          git config user.name "inventory-bot"
+          git config user.email "inventory-bot@users.noreply.github.com"
+          echo "__pycache__/" > .gitignore
+          if [ -f videoed_vins.json ]; then git add videoed_vins.json; fi
+          git add .gitignore
+          git diff --staged --quiet || git commit -m "Update videoed VINs from batch run [skip ci]"
           git pull --rebase --autostash origin main || true
           git push origin main
           echo "Push completed successfully"
