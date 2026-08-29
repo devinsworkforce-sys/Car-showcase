@@ -2,24 +2,14 @@
 """
 run_pipeline.py
 
-The "main" entry point. Run this on a schedule and it will:
-  1. Check the dealer's public used-inventory pages for VINs not seen before
-  2. For each new/retry vehicle: pull its photos, filter out studio/stock
-     shots, sort exterior/interior
-  3. Scrape price/mileage off the vehicle detail page
-  4. Generate a branded showcase video
-  5. Generate TikTok + Facebook captions
-  6. Email the video + best photos + captions
+Main entry point. Checks the dealer used-inventory page for new vehicles,
+downloads and filters photos, generates a showcase video, writes captions,
+and emails everything. Supports two dealer website platforms via --platform:
+foxdealer (plain HTML, e.g. Metro Nissan) or dealerinspire (JS-rendered,
+e.g. Mark Christopher -- uses a headless browser via scrape_dealerinspire.py).
 
-Supports two dealer website platforms via --platform:
-  foxdealer      -- e.g. Metro Nissan of Montclair (plain HTML inventory)
-  dealerinspire  -- e.g. Mark Christopher Auto Center (JS-rendered inventory,
-                    uses a headless browser via scrape_dealerinspire.py)
-
-First run note: the first time you run this, every car currently listed will
-look "new" (no prior history to compare against), so it saves a baseline and
-generates nothing. From the second run onward, only genuinely new listings
-(or ones still pending a video) get processed.
+First run just saves a baseline of current inventory and generates nothing;
+from the second run onward, only new or retry-pending vehicles get processed.
 """
 
 import argparse
@@ -110,12 +100,24 @@ def main():
     # reused/placeholder image is the giveaway).
     cand_html = {}
     cand_urls = {}
-    for vin in candidates:
-        try:
-            cand_html[vin] = photos_fetcher.fetch_html(current[vin]["url"])
-            cand_urls[vin] = photos_fetcher.extract_photo_urls(cand_html[vin])
-        except requests.RequestException:
-            continue
+    if args.platform == "dealerinspire":
+        import scrape_dealerinspire
+        urls_to_fetch = [current[vin]["url"] for vin in candidates]
+        print(f"  loading {len(urls_to_fetch)} detail page(s) in one browser session...")
+        fetched = scrape_dealerinspire.fetch_pages(urls_to_fetch)
+        for vin in candidates:
+            html = fetched.get(current[vin]["url"])
+            if html is None:
+                continue
+            cand_html[vin] = html
+            cand_urls[vin] = photos_fetcher.extract_photo_urls(html)
+    else:
+        for vin in candidates:
+            try:
+                cand_html[vin] = photos_fetcher.fetch_html(current[vin]["url"])
+                cand_urls[vin] = photos_fetcher.extract_photo_urls(cand_html[vin])
+            except requests.RequestException:
+                continue
     placeholder_hashes = photos_fetcher.find_placeholder_hashes(cand_urls)
 
     for vin in candidates:
