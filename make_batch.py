@@ -71,13 +71,26 @@ def main():
 
     print("Scanning photos to detect stock/placeholder images...")
     vin_html, vin_urls = {}, {}
-    for vin in todo:
-        try:
-            html = photos_fetcher.fetch_html(current[vin]["url"])
-        except requests.RequestException:
-            continue
-        vin_html[vin] = html
-        vin_urls[vin] = photos_fetcher.extract_photo_urls(html)
+
+    if args.platform == "dealerinspire":
+        import scrape_dealerinspire
+        urls_to_fetch = [current[vin]["url"] for vin in todo]
+        print(f"  loading {len(urls_to_fetch)} detail page(s) in one browser session...")
+        fetched = scrape_dealerinspire.fetch_pages(urls_to_fetch)
+        for vin in todo:
+            html = fetched.get(current[vin]["url"])
+            if html is None:
+                continue
+            vin_html[vin] = html
+            vin_urls[vin] = photos_fetcher.extract_photo_urls(html)
+    else:
+        for vin in todo:
+            try:
+                html = photos_fetcher.fetch_html(current[vin]["url"])
+            except requests.RequestException:
+                continue
+            vin_html[vin] = html
+            vin_urls[vin] = photos_fetcher.extract_photo_urls(html)
     placeholder_hashes = photos_fetcher.find_placeholder_hashes(vin_urls)
     if placeholder_hashes:
         print(f"  detected {len(placeholder_hashes)} reused stock/placeholder image(s)\n")
