@@ -2,33 +2,22 @@
 """
 fetch_vehicle_photos.py
 
-Given a vehicle detail page (VDP) URL, downloads whatever photos the listing
-has and sorts them into exterior/ and interior/ subfolders for use with
-make_showcase_video.py.
+Downloads and filters vehicle photos from a dealer's vehicle detail page
+(VDP). Supports two photo-hosting patterns seen so far:
+  - content.homenetiol.com  (FoxDealer sites, e.g. Metro Nissan of Montclair)
+  - vehicle-images.carscommerce.inc  (Dealer Inspire sites, e.g. Mark
+    Christopher Auto Center -- URLs here embed the VIN directly:
+    https://vehicle-images.carscommerce.inc/<dealer-id>/<VIN>/<hash>.jpg)
 
-Usage:
-    python3 fetch_vehicle_photos.py --vdp-url "https://www.metronissanmontclair.com/inventory/Used-2024-Nissan-Kicks-SV-VIN/" --vin VIN --out-dir photos
-
-Honesty about limitations:
-- These are still-photo galleries, not real 360-degree spins. Quality and
-  photo count vary a lot by listing -- some have ~15-19 angles, some
-  (freshly-added "In Transit" cars in particular) only have a single
-  generic placeholder image. The script skips obvious placeholder images
-  automatically where it can detect them by filename hash, but you should
-  glance at what gets downloaded before generating a video for a brand-new
-  listing -- if there's only 1-2 real photos, a "showcase" video isn't
-  going to look great no matter how it's assembled, and it's worth waiting
-  until the dealer uploads more photos (often happens within a day or two).
-- There's no true semantic "this photo is the dashboard" tag in the public
-  feed, so exterior/interior sorting is a position-based heuristic (first
-  ~60% of photos = exterior, rest = interior). It's right most of the time
-  for standard dealer photo sets but not guaranteed -- spot check it.
+Filters out two kinds of non-real photos before a video gets built from them:
+  1. Known/reused placeholder graphics (a real photo is unique to one car;
+     a placeholder graphic gets reused across many cars)
+  2. Manufacturer studio/press photos (car on a near-pure-white background,
+     not an actual lot photo)
 """
 
-import argparse
 import os
 import re
-import sys
 
 import requests
 
@@ -36,17 +25,15 @@ HEADERS = {
     "User-Agent": "Mozilla/5.0 (compatible; InventoryWatcher/1.0; +personal social-media tool)"
 }
 
+# Matches photo URLs from either known hosting pattern.
 IMG_URL_RE = re.compile(
-    r'https://content\.homenetiol\.com/[^\s"\'<>]+?\.(?:jpg|jpeg|png|webp)',
+    r'https://content\.homenetiol\.com/[^\s"\'<>]+?\.(?:jpg|jpeg|png|webp)'
+    r'|https://vehicle-images\.carscommerce\.inc/[^\s"\'<>]+?\.(?:jpg|jpeg|png|webp)',
     re.IGNORECASE,
 )
 
-# This dealer's photo CDN serves the same photo at multiple sizes via a
-# /WIDTHxHEIGHT/ path segment (e.g. /640x480/hash.jpg vs /1600x1200/hash.jpg
-# for the identical photo). Whatever size happens to be linked in the page
-# is often a small thumbnail -- rewriting to the larger size noticeably
-# improves video quality since it's no longer being stretched up from a
-# tiny source image.
+# homenetiol.com serves the same photo at multiple sizes via a
+# /WIDTHxHEIGHT/ path segment -- rewrite to the larger size for quality.
 _SIZE_SEGMENT_RE = re.compile(r"/\d{2,4}x\d{2,4}/")
 PREFERRED_SIZE = "/1600x1200/"
 
@@ -56,18 +43,15 @@ def upsize_photo_url(url):
         return _SIZE_SEGMENT_RE.sub(PREFERRED_SIZE, url, count=1)
     return url
 
-# Filename hash that showed up repeatedly as a generic "no photo available"
-# placeholder on this dealer's site as of June 2026. New placeholder hashes
-# may appear over time. We ALSO auto-detect placeholders dynamically (see
-# find_placeholder_hashes) by spotting any image reused across multiple
-# different vehicles -- a real photo is unique to one car, a stock/placeholder
-# image gets reused, so reuse is the giveaway.
+
+# Known generic "no photo available" placeholder image hashes seen on
+# FoxDealer sites. New placeholder hashes may appear over time -- reused
+# images are ALSO auto-detected dynamically via find_placeholder_hashes(),
+# so this list is a backstop, not the only line of defense.
 KNOWN_PLACEHOLDER_HASHES = {
     "d2c4dae1f55142c885cc8aab98d7cea7",
 }
 
-# Pull the CDN image hash (the filename without size/extension) out of a URL,
-# e.g. https://content.homenetiol.com/1600x1200/<hash>.jpg -> <hash>
 _HASH_RE = re.compile(r"/([0-9a-f]{16,40})\.(?:jpg|jpeg|png|webp)", re.IGNORECASE)
 
 
@@ -77,9 +61,9 @@ def image_hash(url):
 
 
 def find_placeholder_hashes(vin_to_urls, reuse_threshold=2):
-    """Given {vin: [photo_urls]}, return the set of image hashes that appear
-    across `reuse_threshold` or more DIFFERENT vehicles. Those are almost
-    certainly stock/placeholder images (real photos are unique per car)."""
+    """Given {vin: [photo_urls]}, return image hashes that appear across
+    reuse_threshold or more DIFFERENT vehicles -- almost certainly stock/
+    placeholder images, since a real photo is unique to one car."""
     hash_vins = {}
     for vin, urls in vin_to_urls.items():
         for h in {image_hash(u) for u in urls}:
@@ -95,15 +79,17 @@ def fetch_html(url):
 
 def extract_photo_urls(html, extra_placeholder_hashes=None):
     urls = IMG_URL_RE.findall(html)
+    # findall with an alternation containing no groups returns whole matches
+    # as strings directly (no groups used above), so urls is already a
+    # flat list of full URL strings.
     urls = [upsize_photo_url(u) for u in urls]
-    # de-dupe while preserving order (two thumbnail sizes of the same photo
-    # become identical URLs after upsizing, so this also removes those dupes)
+
     seen, ordered = set(), []
     for u in urls:
         if u not in seen:
             seen.add(u)
             ordered.append(u)
-    # drop known + dynamically-detected placeholders (by image hash)
+
     block = set(KNOWN_PLACEHOLDER_HASHES)
     if extra_placeholder_hashes:
         block |= set(extra_placeholder_hashes)
@@ -121,18 +107,13 @@ def download(url, path):
 
 def looks_like_studio_photo(image_path, white_thresh=238, frac_needed=0.80):
     """Return True if the image looks like a manufacturer studio/press photo
-    rather than a real photo taken on the lot.
-
-    Studio shots put the car on a pure white/very light seamless background,
-    so the border pixels are almost all near-white. Real lot photos have
-    asphalt, sky, buildings, etc. in the background, so their borders are not
-    predominantly white. We sample the image's outer edges only.
-    """
+    (car on a near-pure-white seamless background) rather than a real photo
+    taken on the lot (asphalt, sky, buildings in the background)."""
     try:
         from PIL import Image
         img = Image.open(image_path).convert("RGB")
     except Exception:
-        return False  # if we can't read it, don't wrongly flag it
+        return False
 
     W, H = img.size
     if W < 50 or H < 50:
@@ -156,48 +137,3 @@ def looks_like_studio_photo(image_path, white_thresh=238, frac_needed=0.80):
     if total == 0:
         return False
     return (white / total) >= frac_needed
-
-
-def main():
-    ap = argparse.ArgumentParser()
-    ap.add_argument("--vdp-url", required=True)
-    ap.add_argument("--vin", required=True)
-    ap.add_argument("--out-dir", default="photos")
-    ap.add_argument("--exterior-ratio", type=float, default=0.6,
-                     help="Fraction of photos (in listing order) treated as exterior")
-    args = ap.parse_args()
-
-    print(f"Fetching {args.vdp_url}")
-    html = fetch_html(args.vdp_url)
-    photo_urls = extract_photo_urls(html)
-
-    if not photo_urls:
-        print("No real photos found (only placeholder, or page format changed).")
-        sys.exit(1)
-
-    print(f"Found {len(photo_urls)} usable photos.")
-
-    vin_dir = os.path.join(args.out_dir, args.vin)
-    ext_dir = os.path.join(vin_dir, "exterior")
-    int_dir = os.path.join(vin_dir, "interior")
-    os.makedirs(ext_dir, exist_ok=True)
-    os.makedirs(int_dir, exist_ok=True)
-
-    split_idx = max(1, int(len(photo_urls) * args.exterior_ratio))
-
-    for i, url in enumerate(photo_urls):
-        target_dir = ext_dir if i < split_idx else int_dir
-        ext = os.path.splitext(url)[1] or ".jpg"
-        out_path = os.path.join(target_dir, f"{i:02d}{ext}")
-        try:
-            download(url, out_path)
-        except requests.RequestException as e:
-            print(f"  failed on {url}: {e}")
-
-    print(f"Saved {split_idx} exterior + {len(photo_urls) - split_idx} interior photos to {vin_dir}")
-    print("Spot-check the split before generating the video -- move any "
-          "miscategorized photos between the two folders if needed.")
-
-
-if __name__ == "__main__":
-    main()
