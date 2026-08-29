@@ -28,6 +28,32 @@ import time
 VIN_RE = re.compile(r'\b([A-HJ-NPR-Z0-9]{17})\b')
 
 
+def fetch_pages(urls, delay_seconds=0.5):
+    """Fetch multiple detail pages using ONE shared headless browser session
+    (much faster than launching a new browser per page). Returns {url: html}.
+    Used for Dealer Inspire vehicle detail pages, which -- like the
+    inventory listing page -- render via JavaScript and return an empty/
+    unusable shell to a plain HTTP request."""
+    from playwright.sync_api import sync_playwright
+
+    results = {}
+    with sync_playwright() as p:
+        browser = p.chromium.launch(headless=True)
+        page = browser.new_page(
+            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+                       "(KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        )
+        for url in urls:
+            try:
+                page.goto(url, wait_until="networkidle", timeout=30000)
+                page.wait_for_timeout(int(delay_seconds * 1000))
+                results[url] = page.content()
+            except Exception as e:
+                print(f"    (failed to load {url}: {e})")
+        browser.close()
+    return results
+
+
 def collect_listings(base_url, max_pages=10, delay_seconds=1.5):
     """Load the inventory pages with a real headless browser using direct
     page-number navigation (confirmed pattern: ?_p=2, ?_p=3, ...), extract
