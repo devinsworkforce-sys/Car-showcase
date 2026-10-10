@@ -1,11 +1,27 @@
 {
-  "3GNAXHEG9TL199486": {
-    "vin": "3GNAXHEG9TL199486",
-    "url": "https://www.markchristopher.com/inventory/used-2026-chevrolet-equinox-lt-front-wheel-drive-suv-3gnaxheg9tl199486/",
+  "1GCPTDEKXT1125061": {
+    "vin": "1GCPTDEKXT1125061",
+    "url": "https://www.markchristopher.com/inventory/used-2026-chevrolet-colorado-z71-four-wheel-drive-crew-cab-1gcptdekxt1125061/",
     "year": "2026",
     "make": "Chevrolet",
-    "model": "Equinox Lt Front Wheel Drive Suv",
-    "trim": "3GNAXHEG9TL199486"
+    "model": "Colorado Z71 Four Wheel Drive Crew Cab",
+    "trim": "1GCPTDEKXT1125061"
+  },
+  "1GKENKKS1RJ207641": {
+    "vin": "1GKENKKS1RJ207641",
+    "url": "https://www.markchristopher.com/inventory/used-2024-gmc-acadia-elevation-front-wheel-drive-suv-1gkenkks1rj207641/",
+    "year": "2024",
+    "make": "Gmc",
+    "model": "Acadia Elevation Front Wheel Drive Suv",
+    "trim": "1GKENKKS1RJ207641"
+  },
+  "1G1ZD5ST6SF118448": {
+    "vin": "1G1ZD5ST6SF118448",
+    "url": "https://www.markchristopher.com/inventory/used-2025-chevrolet-malibu-1lt-front-wheel-drive-sedan-1g1zd5st6sf118448/",
+    "year": "2025",
+    "make": "Chevrolet",
+    "model": "Malibu 1lt Front Wheel Drive Sedan",
+    "trim": "1G1ZD5ST6SF118448"
   },
   "1GYAZAR46RF115955": {
     "vin": "1GYAZAR46RF115955",
@@ -23,21 +39,13 @@
     "model": "Colorado Wt Rear Wheel Drive Crew Cab",
     "trim": "1GCPSBEK5R1197950"
   },
-  "1GYS4BKL6MR430496": {
-    "vin": "1GYS4BKL6MR430496",
-    "url": "https://www.markchristopher.com/inventory/used-2021-cadillac-escalade-premium-luxury-four-wheel-drive-suv-1gys4bkl6mr430496/",
-    "year": "2021",
-    "make": "Cadillac",
-    "model": "Escalade Premium Luxury Four Wheel Drive Suv",
-    "trim": "1GYS4BKL6MR430496"
-  },
-  "1GNS5SRD1SR264961": {
-    "vin": "1GNS5SRD1SR264961",
-    "url": "https://www.markchristopher.com/inventory/used-2025-chevrolet-tahoe-premier-rear-wheel-drive-suv-1gns5srd1sr264961/",
+  "1GTPHDED4SZ235249": {
+    "vin": "1GTPHDED4SZ235249",
+    "url": "https://www.markchristopher.com/inventory/used-2025-gmc-sierra-1500-slt-rear-wheel-drive-crew-cab-1gtphded4sz235249/",
     "year": "2025",
-    "make": "Chevrolet",
-    "model": "Tahoe Premier Rear Wheel Drive Suv",
-    "trim": "1GNS5SRD1SR264961"
+    "make": "Gmc",
+    "model": "Sierra 1500 Slt Rear Wheel Drive Crew Cab",
+    "trim": "1GTPHDED4SZ235249"
   },
   "2GC1KNEY7T1125581": {
     "vin": "2GC1KNEY7T1125581",
@@ -47,61 +55,13 @@
     "model": "Silverado 2500 Hd Lt Four Wheel Drive Crew Cab",
     "trim": "2GC1KNEY7T1125581"
   },
-  "1G1ZD5ST6SF118448": {
-    "vin": "1G1ZD5ST6SF118448",
-    "url": "https://www.markchristopher.com/inventory/used-2025-chevrolet-malibu-1lt-front-wheel-drive-sedan-1g1zd5st6sf118448/",
-    "year": "2025",
-    "make": "Chevrolet",
-    "model": "Malibu 1lt Front Wheel Drive Sedan",
-    "trim": "1G1ZD5ST6SF118448"
-  },
-  "1GCPADED1TZ131680": {
-    "vin": "1GCPADED1TZ131680",
-    "url": "https://www.markchristopher.com/inventory/used-2026-chevrolet-silverado-1500-rst-rear-wheel-drive-crew-cab-1gcpaded1tz131680/",
+  "3GYK3EM41TS109388": {
+    "vin": "3GYK3EM41TS109388",
+    "url": "https://www.markchristopher.com/inventory/used-2026-cadillac-optiq-sport-all-wheel-drive-suv-3gyk3em41ts109388/",
     "year": "2026",
-    "make": "Chevrolet",
-    "model": "Silverado 1500 Rst Rear Wheel Drive Crew Cab",
-    "trim": "1GCPADED1TZ131680"
-  },
-  "1C6RRFCG1SN617641": {
-    "vin": "1C6RRFCG1SN617641",
-    "url": "https://www.markchristopher.com/inventory/used-2025-ram-1500-tradesman-quad-cab-4x4-64-box-4-wheel-drive-quad-cab-1c6rrfcg1sn617641/",
-    "year": "2025",
-    "make": "Ram",
-    "model": "1500 Tradesman Quad Cab 4x4 64 Box 4 Wheel Drive Quad Cab",
-    "trim": "1C6RRFCG1SN617641"
-  },
-  "1GKS1FKD1MR434264": {
-    "vin": "1GKS1FKD1MR434264",
-    "url": "https://www.markchristopher.com/inventory/used-2021-gmc-yukon-xl-sle-rear-wheel-drive-suv-1gks1fkd1mr434264/",
-    "year": "2021",
-    "make": "Gmc",
-    "model": "Yukon Xl Sle Rear Wheel Drive Suv",
-    "trim": "1GKS1FKD1MR434264"
-  },
-  "1GTPHDED4SZ235249": {
-    "vin": "1GTPHDED4SZ235249",
-    "url": "https://www.markchristopher.com/inventory/used-2025-gmc-sierra-1500-slt-rear-wheel-drive-crew-cab-1gtphded4sz235249/",
-    "year": "2025",
-    "make": "Gmc",
-    "model": "Sierra 1500 Slt Rear Wheel Drive Crew Cab",
-    "trim": "1GTPHDED4SZ235249"
-  },
-  "1GNSCGKC6LR275959": {
-    "vin": "1GNSCGKC6LR275959",
-    "url": "https://www.markchristopher.com/inventory/used-2020-chevrolet-suburban-ls-rear-wheel-drive-suv-1gnscgkc6lr275959/",
-    "year": "2020",
-    "make": "Chevrolet",
-    "model": "Suburban Ls Rear Wheel Drive Suv",
-    "trim": "1GNSCGKC6LR275959"
-  },
-  "JTDACACU1S3040234": {
-    "vin": "JTDACACU1S3040234",
-    "url": "https://www.markchristopher.com/inventory/used-2025-toyota-prius-plug-in-hybrid-xse-front-wheel-drive-hatchback-jtdacacu1s3040234/",
-    "year": "2025",
-    "make": "Toyota",
-    "model": "Prius Plug In Hybrid Xse Front Wheel Drive Hatchback",
-    "trim": "JTDACACU1S3040234"
+    "make": "Cadillac",
+    "model": "Optiq Sport All Wheel Drive Suv",
+    "trim": "3GYK3EM41TS109388"
   },
   "3GN7DNRP7TS154533": {
     "vin": "3GN7DNRP7TS154533",
@@ -111,29 +71,13 @@
     "model": "Equinox Ev Lt Front Wheel Drive Suv",
     "trim": "3GN7DNRP7TS154533"
   },
-  "WDCGG8JB4FG353229": {
-    "vin": "WDCGG8JB4FG353229",
-    "url": "https://www.markchristopher.com/inventory/used-2015-mercedes-benz-glk-350-4matic%c2%ae-all-wheel-drive-4matic-sport-utility-wdcgg8jb4fg353229/",
-    "year": "2015",
-    "make": "Mercedes",
-    "model": "Benz Glk 350 4matic%c2%ae All Wheel Drive 4matic Sport Utility",
-    "trim": "WDCGG8JB4FG353229"
-  },
-  "1GKENKKS1RJ207641": {
-    "vin": "1GKENKKS1RJ207641",
-    "url": "https://www.markchristopher.com/inventory/used-2024-gmc-acadia-elevation-front-wheel-drive-suv-1gkenkks1rj207641/",
-    "year": "2024",
+  "1GKS2DRL0SR269125": {
+    "vin": "1GKS2DRL0SR269125",
+    "url": "https://www.markchristopher.com/inventory/used-2025-gmc-yukon-denali-four-wheel-drive-suv-1gks2drl0sr269125/",
+    "year": "2025",
     "make": "Gmc",
-    "model": "Acadia Elevation Front Wheel Drive Suv",
-    "trim": "1GKENKKS1RJ207641"
-  },
-  "3GNKDBRJ3RS289490": {
-    "vin": "3GNKDBRJ3RS289490",
-    "url": "https://www.markchristopher.com/inventory/used-2024-chevrolet-blazer-ev-lt-all-wheel-drive-suv-3gnkdbrj3rs289490/",
-    "year": "2024",
-    "make": "Chevrolet",
-    "model": "Blazer Ev Lt All Wheel Drive Suv",
-    "trim": "3GNKDBRJ3RS289490"
+    "model": "Yukon Denali Four Wheel Drive Suv",
+    "trim": "1GKS2DRL0SR269125"
   },
   "1GYKNAR49SZ151403": {
     "vin": "1GYKNAR49SZ151403",
@@ -143,13 +87,53 @@
     "model": "Xt5 Luxury Front Wheel Drive Suv",
     "trim": "1GYKNAR49SZ151403"
   },
-  "1GKENKRS3SJ302665": {
-    "vin": "1GKENKRS3SJ302665",
-    "url": "https://www.markchristopher.com/inventory/used-2025-gmc-acadia-elevation-front-wheel-drive-suv-1gkenkrs3sj302665/",
-    "year": "2025",
+  "1GKENNKS4TJ239234": {
+    "vin": "1GKENNKS4TJ239234",
+    "url": "https://www.markchristopher.com/inventory/used-2026-gmc-acadia-elevation-all-wheel-drive-suv-1gkennks4tj239234/",
+    "year": "2026",
     "make": "Gmc",
-    "model": "Acadia Elevation Front Wheel Drive Suv",
-    "trim": "1GKENKRS3SJ302665"
+    "model": "Acadia Elevation All Wheel Drive Suv",
+    "trim": "1GKENNKS4TJ239234"
+  },
+  "1C6RRFCG1SN617641": {
+    "vin": "1C6RRFCG1SN617641",
+    "url": "https://www.markchristopher.com/inventory/used-2025-ram-1500-tradesman-quad-cab-4x4-64-box-4-wheel-drive-quad-cab-1c6rrfcg1sn617641/",
+    "year": "2025",
+    "make": "Ram",
+    "model": "1500 Tradesman Quad Cab 4x4 64 Box 4 Wheel Drive Quad Cab",
+    "trim": "1C6RRFCG1SN617641"
+  },
+  "1GYS4BKL6MR430496": {
+    "vin": "1GYS4BKL6MR430496",
+    "url": "https://www.markchristopher.com/inventory/used-2021-cadillac-escalade-premium-luxury-four-wheel-drive-suv-1gys4bkl6mr430496/",
+    "year": "2021",
+    "make": "Cadillac",
+    "model": "Escalade Premium Luxury Four Wheel Drive Suv",
+    "trim": "1GYS4BKL6MR430496"
+  },
+  "3GNAXHEG9TL199486": {
+    "vin": "3GNAXHEG9TL199486",
+    "url": "https://www.markchristopher.com/inventory/used-2026-chevrolet-equinox-lt-front-wheel-drive-suv-3gnaxheg9tl199486/",
+    "year": "2026",
+    "make": "Chevrolet",
+    "model": "Equinox Lt Front Wheel Drive Suv",
+    "trim": "3GNAXHEG9TL199486"
+  },
+  "1GNS5SRD1SR264961": {
+    "vin": "1GNS5SRD1SR264961",
+    "url": "https://www.markchristopher.com/inventory/used-2025-chevrolet-tahoe-premier-rear-wheel-drive-suv-1gns5srd1sr264961/",
+    "year": "2025",
+    "make": "Chevrolet",
+    "model": "Tahoe Premier Rear Wheel Drive Suv",
+    "trim": "1GNS5SRD1SR264961"
+  },
+  "1GKS1FKD1MR434264": {
+    "vin": "1GKS1FKD1MR434264",
+    "url": "https://www.markchristopher.com/inventory/used-2021-gmc-yukon-xl-sle-rear-wheel-drive-suv-1gks1fkd1mr434264/",
+    "year": "2021",
+    "make": "Gmc",
+    "model": "Yukon Xl Sle Rear Wheel Drive Suv",
+    "trim": "1GKS1FKD1MR434264"
   },
   "1C4SDJGJ1TC293587": {
     "vin": "1C4SDJGJ1TC293587",
@@ -159,101 +143,29 @@
     "model": "Durango Rt 392 Awd All Wheel Drive Sport Utility",
     "trim": "1C4SDJGJ1TC293587"
   },
-  "3GCUKFEL7TG320367": {
-    "vin": "3GCUKFEL7TG320367",
-    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-lt-trail-boss-four-wheel-drive-crew-cab-3gcukfel7tg320367/",
+  "WDCGG8JB4FG353229": {
+    "vin": "WDCGG8JB4FG353229",
+    "url": "https://www.markchristopher.com/inventory/used-2015-mercedes-benz-glk-350-4matic%c2%ae-all-wheel-drive-4matic-sport-utility-wdcgg8jb4fg353229/",
+    "year": "2015",
+    "make": "Mercedes",
+    "model": "Benz Glk 350 4matic%c2%ae All Wheel Drive 4matic Sport Utility",
+    "trim": "WDCGG8JB4FG353229"
+  },
+  "1GKTENDE8TU603314": {
+    "vin": "1GKTENDE8TU603314",
+    "url": "https://www.markchristopher.com/inventory/used-2026-gmc-hummer-ev-suv-2x-four-wheel-drive-suv-1gktende8tu603314/",
+    "year": "2026",
+    "make": "Gmc",
+    "model": "Hummer Ev Suv 2x Four Wheel Drive Suv",
+    "trim": "1GKTENDE8TU603314"
+  },
+  "3GCUKFE80TG408253": {
+    "vin": "3GCUKFE80TG408253",
+    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-lt-trail-boss-four-wheel-drive-crew-cab-3gcukfe80tg408253/",
     "year": "2026",
     "make": "Chevrolet",
     "model": "Silverado 1500 Lt Trail Boss Four Wheel Drive Crew Cab",
-    "trim": "3GCUKFEL7TG320367"
-  },
-  "3GCUKFEL7TG396686": {
-    "vin": "3GCUKFEL7TG396686",
-    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-lt-trail-boss-four-wheel-drive-crew-cab-3gcukfel7tg396686/",
-    "year": "2026",
-    "make": "Chevrolet",
-    "model": "Silverado 1500 Lt Trail Boss Four Wheel Drive Crew Cab",
-    "trim": "3GCUKFEL7TG396686"
-  },
-  "3GCUKFE83TG399337": {
-    "vin": "3GCUKFE83TG399337",
-    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-lt-trail-boss-four-wheel-drive-crew-cab-3gcukfe83tg399337/",
-    "year": "2026",
-    "make": "Chevrolet",
-    "model": "Silverado 1500 Lt Trail Boss Four Wheel Drive Crew Cab",
-    "trim": "3GCUKFE83TG399337"
-  },
-  "3GCUKFEL1TG372657": {
-    "vin": "3GCUKFEL1TG372657",
-    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-lt-trail-boss-four-wheel-drive-crew-cab-3gcukfel1tg372657/",
-    "year": "2026",
-    "make": "Chevrolet",
-    "model": "Silverado 1500 Lt Trail Boss Four Wheel Drive Crew Cab",
-    "trim": "3GCUKFEL1TG372657"
-  },
-  "3GCUKFE87TG408248": {
-    "vin": "3GCUKFE87TG408248",
-    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-lt-trail-boss-four-wheel-drive-crew-cab-3gcukfe87tg408248/",
-    "year": "2026",
-    "make": "Chevrolet",
-    "model": "Silverado 1500 Lt Trail Boss Four Wheel Drive Crew Cab",
-    "trim": "3GCUKFE87TG408248"
-  },
-  "3GCUKFEL7TG396509": {
-    "vin": "3GCUKFEL7TG396509",
-    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-lt-trail-boss-four-wheel-drive-crew-cab-3gcukfel7tg396509/",
-    "year": "2026",
-    "make": "Chevrolet",
-    "model": "Silverado 1500 Lt Trail Boss Four Wheel Drive Crew Cab",
-    "trim": "3GCUKFEL7TG396509"
-  },
-  "3GCUKFE87TG408542": {
-    "vin": "3GCUKFE87TG408542",
-    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-lt-trail-boss-four-wheel-drive-crew-cab-3gcukfe87tg408542/",
-    "year": "2026",
-    "make": "Chevrolet",
-    "model": "Silverado 1500 Lt Trail Boss Four Wheel Drive Crew Cab",
-    "trim": "3GCUKFE87TG408542"
-  },
-  "3GCUKFE86TG387666": {
-    "vin": "3GCUKFE86TG387666",
-    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-lt-trail-boss-four-wheel-drive-crew-cab-3gcukfe86tg387666/",
-    "year": "2026",
-    "make": "Chevrolet",
-    "model": "Silverado 1500 Lt Trail Boss Four Wheel Drive Crew Cab",
-    "trim": "3GCUKFE86TG387666"
-  },
-  "3GCUKFE8XTG408244": {
-    "vin": "3GCUKFE8XTG408244",
-    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-lt-trail-boss-four-wheel-drive-crew-cab-3gcukfe8xtg408244/",
-    "year": "2026",
-    "make": "Chevrolet",
-    "model": "Silverado 1500 Lt Trail Boss Four Wheel Drive Crew Cab",
-    "trim": "3GCUKFE8XTG408244"
-  },
-  "3GCUKFE82TG404463": {
-    "vin": "3GCUKFE82TG404463",
-    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-lt-trail-boss-four-wheel-drive-crew-cab-3gcukfe82tg404463/",
-    "year": "2026",
-    "make": "Chevrolet",
-    "model": "Silverado 1500 Lt Trail Boss Four Wheel Drive Crew Cab",
-    "trim": "3GCUKFE82TG404463"
-  },
-  "1GCUKEEL1TZ454558": {
-    "vin": "1GCUKEEL1TZ454558",
-    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-rst-four-wheel-drive-crew-cab-1gcukeel1tz454558/",
-    "year": "2026",
-    "make": "Chevrolet",
-    "model": "Silverado 1500 Rst Four Wheel Drive Crew Cab",
-    "trim": "1GCUKEEL1TZ454558"
-  },
-  "3GCUKFE8XTG408535": {
-    "vin": "3GCUKFE8XTG408535",
-    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-lt-trail-boss-four-wheel-drive-crew-cab-3gcukfe8xtg408535/",
-    "year": "2026",
-    "make": "Chevrolet",
-    "model": "Silverado 1500 Lt Trail Boss Four Wheel Drive Crew Cab",
-    "trim": "3GCUKFE8XTG408535"
+    "trim": "3GCUKFE80TG408253"
   },
   "3GCUKFE8XTG408096": {
     "vin": "3GCUKFE8XTG408096",
@@ -263,53 +175,45 @@
     "model": "Silverado 1500 Lt Trail Boss Four Wheel Drive Crew Cab",
     "trim": "3GCUKFE8XTG408096"
   },
-  "3GCUKFE82TG404091": {
-    "vin": "3GCUKFE82TG404091",
-    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-lt-trail-boss-four-wheel-drive-crew-cab-3gcukfe82tg404091/",
+  "3GCUKFE87TG408248": {
+    "vin": "3GCUKFE87TG408248",
+    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-lt-trail-boss-four-wheel-drive-crew-cab-3gcukfe87tg408248/",
     "year": "2026",
     "make": "Chevrolet",
     "model": "Silverado 1500 Lt Trail Boss Four Wheel Drive Crew Cab",
-    "trim": "3GCUKFE82TG404091"
+    "trim": "3GCUKFE87TG408248"
   },
-  "3GCUKFEL8TG372283": {
-    "vin": "3GCUKFEL8TG372283",
-    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-lt-trail-boss-four-wheel-drive-crew-cab-3gcukfel8tg372283/",
-    "year": "2026",
-    "make": "Chevrolet",
-    "model": "Silverado 1500 Lt Trail Boss Four Wheel Drive Crew Cab",
-    "trim": "3GCUKFEL8TG372283"
-  },
-  "3GCUKFE8XTG403741": {
-    "vin": "3GCUKFE8XTG403741",
-    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-lt-trail-boss-four-wheel-drive-crew-cab-3gcukfe8xtg403741/",
-    "year": "2026",
-    "make": "Chevrolet",
-    "model": "Silverado 1500 Lt Trail Boss Four Wheel Drive Crew Cab",
-    "trim": "3GCUKFE8XTG403741"
-  },
-  "1GT4UREY1TF273927": {
-    "vin": "1GT4UREY1TF273927",
-    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-2500-hd-denali-four-wheel-drive-crew-cab-1gt4urey1tf273927/",
+  "1GT4UREY1TF279677": {
+    "vin": "1GT4UREY1TF279677",
+    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-2500-hd-denali-four-wheel-drive-crew-cab-1gt4urey1tf279677/",
     "year": "2026",
     "make": "Gmc",
     "model": "Sierra 2500 Hd Denali Four Wheel Drive Crew Cab",
-    "trim": "1GT4UREY1TF273927"
+    "trim": "1GT4UREY1TF279677"
   },
-  "3GCUKFE83TG387270": {
-    "vin": "3GCUKFE83TG387270",
-    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-lt-trail-boss-four-wheel-drive-crew-cab-3gcukfe83tg387270/",
+  "3GCUKFE8XTG408244": {
+    "vin": "3GCUKFE8XTG408244",
+    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-lt-trail-boss-four-wheel-drive-crew-cab-3gcukfe8xtg408244/",
     "year": "2026",
     "make": "Chevrolet",
     "model": "Silverado 1500 Lt Trail Boss Four Wheel Drive Crew Cab",
-    "trim": "3GCUKFE83TG387270"
+    "trim": "3GCUKFE8XTG408244"
   },
-  "3GCUKFE80TG399473": {
-    "vin": "3GCUKFE80TG399473",
-    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-lt-trail-boss-four-wheel-drive-crew-cab-3gcukfe80tg399473/",
+  "3GCUKFEL7TG320367": {
+    "vin": "3GCUKFEL7TG320367",
+    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-lt-trail-boss-four-wheel-drive-crew-cab-3gcukfel7tg320367/",
     "year": "2026",
     "make": "Chevrolet",
     "model": "Silverado 1500 Lt Trail Boss Four Wheel Drive Crew Cab",
-    "trim": "3GCUKFE80TG399473"
+    "trim": "3GCUKFEL7TG320367"
+  },
+  "3GCUKFE82TG404463": {
+    "vin": "3GCUKFE82TG404463",
+    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-lt-trail-boss-four-wheel-drive-crew-cab-3gcukfe82tg404463/",
+    "year": "2026",
+    "make": "Chevrolet",
+    "model": "Silverado 1500 Lt Trail Boss Four Wheel Drive Crew Cab",
+    "trim": "3GCUKFE82TG404463"
   },
   "3GCUKFE85TG407910": {
     "vin": "3GCUKFE85TG407910",
@@ -319,37 +223,37 @@
     "model": "Silverado 1500 Lt Trail Boss Four Wheel Drive Crew Cab",
     "trim": "3GCUKFE85TG407910"
   },
-  "3GCUKCED6TG507638": {
-    "vin": "3GCUKCED6TG507638",
-    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-custom-trail-boss-four-wheel-drive-crew-cab-3gcukced6tg507638/",
-    "year": "2026",
-    "make": "Chevrolet",
-    "model": "Silverado 1500 Custom Trail Boss Four Wheel Drive Crew Cab",
-    "trim": "3GCUKCED6TG507638"
-  },
-  "3GCUKCED5TG504603": {
-    "vin": "3GCUKCED5TG504603",
-    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-custom-trail-boss-four-wheel-drive-crew-cab-3gcukced5tg504603/",
-    "year": "2026",
-    "make": "Chevrolet",
-    "model": "Silverado 1500 Custom Trail Boss Four Wheel Drive Crew Cab",
-    "trim": "3GCUKCED5TG504603"
-  },
-  "3GCUKFE88TG407724": {
-    "vin": "3GCUKFE88TG407724",
-    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-lt-trail-boss-four-wheel-drive-crew-cab-3gcukfe88tg407724/",
+  "3GCUKFE80TG399473": {
+    "vin": "3GCUKFE80TG399473",
+    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-lt-trail-boss-four-wheel-drive-crew-cab-3gcukfe80tg399473/",
     "year": "2026",
     "make": "Chevrolet",
     "model": "Silverado 1500 Lt Trail Boss Four Wheel Drive Crew Cab",
-    "trim": "3GCUKFE88TG407724"
+    "trim": "3GCUKFE80TG399473"
   },
-  "3GCUKCED2TG509435": {
-    "vin": "3GCUKCED2TG509435",
-    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-custom-trail-boss-four-wheel-drive-crew-cab-3gcukced2tg509435/",
+  "3GCUKFEL7TG396509": {
+    "vin": "3GCUKFEL7TG396509",
+    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-lt-trail-boss-four-wheel-drive-crew-cab-3gcukfel7tg396509/",
     "year": "2026",
     "make": "Chevrolet",
-    "model": "Silverado 1500 Custom Trail Boss Four Wheel Drive Crew Cab",
-    "trim": "3GCUKCED2TG509435"
+    "model": "Silverado 1500 Lt Trail Boss Four Wheel Drive Crew Cab",
+    "trim": "3GCUKFEL7TG396509"
+  },
+  "3GCUKFE83TG387270": {
+    "vin": "3GCUKFE83TG387270",
+    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-lt-trail-boss-four-wheel-drive-crew-cab-3gcukfe83tg387270/",
+    "year": "2026",
+    "make": "Chevrolet",
+    "model": "Silverado 1500 Lt Trail Boss Four Wheel Drive Crew Cab",
+    "trim": "3GCUKFE83TG387270"
+  },
+  "3GCUKFE8XTG403741": {
+    "vin": "3GCUKFE8XTG403741",
+    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-lt-trail-boss-four-wheel-drive-crew-cab-3gcukfe8xtg403741/",
+    "year": "2026",
+    "make": "Chevrolet",
+    "model": "Silverado 1500 Lt Trail Boss Four Wheel Drive Crew Cab",
+    "trim": "3GCUKFE8XTG403741"
   },
   "3GCUKHEL8TG431845": {
     "vin": "3GCUKHEL8TG431845",
@@ -359,77 +263,37 @@
     "model": "Silverado 1500 Zr2 Four Wheel Drive Crew Cab",
     "trim": "3GCUKHEL8TG431845"
   },
-  "3GCUKFE8XTG408762": {
-    "vin": "3GCUKFE8XTG408762",
-    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-lt-trail-boss-four-wheel-drive-crew-cab-3gcukfe8xtg408762/",
+  "3GCUKFEL8TG372283": {
+    "vin": "3GCUKFEL8TG372283",
+    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-lt-trail-boss-four-wheel-drive-crew-cab-3gcukfel8tg372283/",
     "year": "2026",
     "make": "Chevrolet",
     "model": "Silverado 1500 Lt Trail Boss Four Wheel Drive Crew Cab",
-    "trim": "3GCUKFE8XTG408762"
+    "trim": "3GCUKFEL8TG372283"
   },
-  "3GCUKFE85TG405218": {
-    "vin": "3GCUKFE85TG405218",
-    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-lt-trail-boss-four-wheel-drive-crew-cab-3gcukfe85tg405218/",
+  "3GCUKFE87TG408542": {
+    "vin": "3GCUKFE87TG408542",
+    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-lt-trail-boss-four-wheel-drive-crew-cab-3gcukfe87tg408542/",
     "year": "2026",
     "make": "Chevrolet",
     "model": "Silverado 1500 Lt Trail Boss Four Wheel Drive Crew Cab",
-    "trim": "3GCUKFE85TG405218"
+    "trim": "3GCUKFE87TG408542"
   },
-  "3GCUKFEL5TG396492": {
-    "vin": "3GCUKFEL5TG396492",
-    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-lt-trail-boss-four-wheel-drive-crew-cab-3gcukfel5tg396492/",
+  "3GCUKFE82TG404091": {
+    "vin": "3GCUKFE82TG404091",
+    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-lt-trail-boss-four-wheel-drive-crew-cab-3gcukfe82tg404091/",
     "year": "2026",
     "make": "Chevrolet",
     "model": "Silverado 1500 Lt Trail Boss Four Wheel Drive Crew Cab",
-    "trim": "3GCUKFEL5TG396492"
+    "trim": "3GCUKFE82TG404091"
   },
-  "3GCUKCED3TG504650": {
-    "vin": "3GCUKCED3TG504650",
-    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-custom-trail-boss-four-wheel-drive-crew-cab-3gcukced3tg504650/",
-    "year": "2026",
-    "make": "Chevrolet",
-    "model": "Silverado 1500 Custom Trail Boss Four Wheel Drive Crew Cab",
-    "trim": "3GCUKCED3TG504650"
-  },
-  "3GCUKCED6TG508126": {
-    "vin": "3GCUKCED6TG508126",
-    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-custom-trail-boss-four-wheel-drive-crew-cab-3gcukced6tg508126/",
-    "year": "2026",
-    "make": "Chevrolet",
-    "model": "Silverado 1500 Custom Trail Boss Four Wheel Drive Crew Cab",
-    "trim": "3GCUKCED6TG508126"
-  },
-  "3GCUKCED6TG507641": {
-    "vin": "3GCUKCED6TG507641",
-    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-custom-trail-boss-four-wheel-drive-crew-cab-3gcukced6tg507641/",
-    "year": "2026",
-    "make": "Chevrolet",
-    "model": "Silverado 1500 Custom Trail Boss Four Wheel Drive Crew Cab",
-    "trim": "3GCUKCED6TG507641"
-  },
-  "2GCPADED2T1243977": {
-    "vin": "2GCPADED2T1243977",
-    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-rst-rear-wheel-drive-crew-cab-2gcpaded2t1243977/",
-    "year": "2026",
-    "make": "Chevrolet",
-    "model": "Silverado 1500 Rst Rear Wheel Drive Crew Cab",
-    "trim": "2GCPADED2T1243977"
-  },
-  "3GCUKFE85TG396696": {
-    "vin": "3GCUKFE85TG396696",
-    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-lt-trail-boss-four-wheel-drive-crew-cab-3gcukfe85tg396696/",
+  "3GCUKFE83TG399337": {
+    "vin": "3GCUKFE83TG399337",
+    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-lt-trail-boss-four-wheel-drive-crew-cab-3gcukfe83tg399337/",
     "year": "2026",
     "make": "Chevrolet",
     "model": "Silverado 1500 Lt Trail Boss Four Wheel Drive Crew Cab",
-    "trim": "3GCUKFE85TG396696"
-  },
-  "2GCPADED5T1234366": {
-    "vin": "2GCPADED5T1234366",
-    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-rst-rear-wheel-drive-crew-cab-2gcpaded5t1234366/",
-    "year": "2026",
-    "make": "Chevrolet",
-    "model": "Silverado 1500 Rst Rear Wheel Drive Crew Cab",
-    "trim": "2GCPADED5T1234366"
+    "trim": "3GCUKFE83TG399337"
   },
   "3GCUKFE82TG403166": {
     "vin": "3GCUKFE82TG403166",
@@ -439,13 +303,37 @@
     "model": "Silverado 1500 Lt Trail Boss Four Wheel Drive Crew Cab",
     "trim": "3GCUKFE82TG403166"
   },
-  "3GCUKFEL4TG372281": {
-    "vin": "3GCUKFEL4TG372281",
-    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-lt-trail-boss-four-wheel-drive-crew-cab-3gcukfel4tg372281/",
+  "3GCUKFE86TG387666": {
+    "vin": "3GCUKFE86TG387666",
+    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-lt-trail-boss-four-wheel-drive-crew-cab-3gcukfe86tg387666/",
     "year": "2026",
     "make": "Chevrolet",
     "model": "Silverado 1500 Lt Trail Boss Four Wheel Drive Crew Cab",
-    "trim": "3GCUKFEL4TG372281"
+    "trim": "3GCUKFE86TG387666"
+  },
+  "3GCUKFEL1TG372657": {
+    "vin": "3GCUKFEL1TG372657",
+    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-lt-trail-boss-four-wheel-drive-crew-cab-3gcukfel1tg372657/",
+    "year": "2026",
+    "make": "Chevrolet",
+    "model": "Silverado 1500 Lt Trail Boss Four Wheel Drive Crew Cab",
+    "trim": "3GCUKFEL1TG372657"
+  },
+  "3GCUKCEDXTG504662": {
+    "vin": "3GCUKCEDXTG504662",
+    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-custom-trail-boss-four-wheel-drive-crew-cab-3gcukcedxtg504662/",
+    "year": "2026",
+    "make": "Chevrolet",
+    "model": "Silverado 1500 Custom Trail Boss Four Wheel Drive Crew Cab",
+    "trim": "3GCUKCEDXTG504662"
+  },
+  "3GCUKFEL5TG396492": {
+    "vin": "3GCUKFEL5TG396492",
+    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-lt-trail-boss-four-wheel-drive-crew-cab-3gcukfel5tg396492/",
+    "year": "2026",
+    "make": "Chevrolet",
+    "model": "Silverado 1500 Lt Trail Boss Four Wheel Drive Crew Cab",
+    "trim": "3GCUKFEL5TG396492"
   },
   "2GCPADED9T1243975": {
     "vin": "2GCPADED9T1243975",
@@ -463,13 +351,53 @@
     "model": "Silverado 1500 Custom Trail Boss Four Wheel Drive Crew Cab",
     "trim": "3GCUKCED5TG507596"
   },
-  "3GCUKFE80TG408253": {
-    "vin": "3GCUKFE80TG408253",
-    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-lt-trail-boss-four-wheel-drive-crew-cab-3gcukfe80tg408253/",
+  "3GCUKFE85TG396696": {
+    "vin": "3GCUKFE85TG396696",
+    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-lt-trail-boss-four-wheel-drive-crew-cab-3gcukfe85tg396696/",
     "year": "2026",
     "make": "Chevrolet",
     "model": "Silverado 1500 Lt Trail Boss Four Wheel Drive Crew Cab",
-    "trim": "3GCUKFE80TG408253"
+    "trim": "3GCUKFE85TG396696"
+  },
+  "3GCUKFE85TG405218": {
+    "vin": "3GCUKFE85TG405218",
+    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-lt-trail-boss-four-wheel-drive-crew-cab-3gcukfe85tg405218/",
+    "year": "2026",
+    "make": "Chevrolet",
+    "model": "Silverado 1500 Lt Trail Boss Four Wheel Drive Crew Cab",
+    "trim": "3GCUKFE85TG405218"
+  },
+  "3GCUKCED6TG508126": {
+    "vin": "3GCUKCED6TG508126",
+    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-custom-trail-boss-four-wheel-drive-crew-cab-3gcukced6tg508126/",
+    "year": "2026",
+    "make": "Chevrolet",
+    "model": "Silverado 1500 Custom Trail Boss Four Wheel Drive Crew Cab",
+    "trim": "3GCUKCED6TG508126"
+  },
+  "3GCUKFE88TG407724": {
+    "vin": "3GCUKFE88TG407724",
+    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-lt-trail-boss-four-wheel-drive-crew-cab-3gcukfe88tg407724/",
+    "year": "2026",
+    "make": "Chevrolet",
+    "model": "Silverado 1500 Lt Trail Boss Four Wheel Drive Crew Cab",
+    "trim": "3GCUKFE88TG407724"
+  },
+  "3GCUKFEL7TG396686": {
+    "vin": "3GCUKFEL7TG396686",
+    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-lt-trail-boss-four-wheel-drive-crew-cab-3gcukfel7tg396686/",
+    "year": "2026",
+    "make": "Chevrolet",
+    "model": "Silverado 1500 Lt Trail Boss Four Wheel Drive Crew Cab",
+    "trim": "3GCUKFEL7TG396686"
+  },
+  "2GCPADED2T1243977": {
+    "vin": "2GCPADED2T1243977",
+    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-rst-rear-wheel-drive-crew-cab-2gcpaded2t1243977/",
+    "year": "2026",
+    "make": "Chevrolet",
+    "model": "Silverado 1500 Rst Rear Wheel Drive Crew Cab",
+    "trim": "2GCPADED2T1243977"
   },
   "1GCUKDED7TZ530013": {
     "vin": "1GCUKDED7TZ530013",
@@ -479,141 +407,85 @@
     "model": "Silverado 1500 Lt Four Wheel Drive Crew Cab",
     "trim": "1GCUKDED7TZ530013"
   },
-  "1GTPUJEK4TZ457221": {
-    "vin": "1GTPUJEK4TZ457221",
-    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-elevation-four-wheel-drive-crew-cab-1gtpujek4tz457221/",
-    "year": "2026",
-    "make": "Gmc",
-    "model": "Sierra 1500 Elevation Four Wheel Drive Crew Cab",
-    "trim": "1GTPUJEK4TZ457221"
-  },
-  "2GCPADED7T1243974": {
-    "vin": "2GCPADED7T1243974",
-    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-rst-rear-wheel-drive-crew-cab-2gcpaded7t1243974/",
-    "year": "2026",
-    "make": "Chevrolet",
-    "model": "Silverado 1500 Rst Rear Wheel Drive Crew Cab",
-    "trim": "2GCPADED7T1243974"
-  },
-  "3GTPUJEK5TG381718": {
-    "vin": "3GTPUJEK5TG381718",
-    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-elevation-four-wheel-drive-crew-cab-3gtpujek5tg381718/",
-    "year": "2026",
-    "make": "Gmc",
-    "model": "Sierra 1500 Elevation Four Wheel Drive Crew Cab",
-    "trim": "3GTPUJEK5TG381718"
-  },
-  "3GTPHDED1TG321703": {
-    "vin": "3GTPHDED1TG321703",
-    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-slt-rear-wheel-drive-crew-cab-3gtphded1tg321703/",
-    "year": "2026",
-    "make": "Gmc",
-    "model": "Sierra 1500 Slt Rear Wheel Drive Crew Cab",
-    "trim": "3GTPHDED1TG321703"
-  },
-  "3GCUKCED4TG505886": {
-    "vin": "3GCUKCED4TG505886",
-    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-custom-trail-boss-four-wheel-drive-crew-cab-3gcukced4tg505886/",
+  "3GCUKCED6TG507638": {
+    "vin": "3GCUKCED6TG507638",
+    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-custom-trail-boss-four-wheel-drive-crew-cab-3gcukced6tg507638/",
     "year": "2026",
     "make": "Chevrolet",
     "model": "Silverado 1500 Custom Trail Boss Four Wheel Drive Crew Cab",
-    "trim": "3GCUKCED4TG505886"
+    "trim": "3GCUKCED6TG507638"
   },
-  "1GTPUJEK3TZ459803": {
-    "vin": "1GTPUJEK3TZ459803",
-    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-elevation-four-wheel-drive-crew-cab-1gtpujek3tz459803/",
-    "year": "2026",
-    "make": "Gmc",
-    "model": "Sierra 1500 Elevation Four Wheel Drive Crew Cab",
-    "trim": "1GTPUJEK3TZ459803"
-  },
-  "1GTPUJEKXTZ456963": {
-    "vin": "1GTPUJEKXTZ456963",
-    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-elevation-four-wheel-drive-crew-cab-1gtpujekxtz456963/",
-    "year": "2026",
-    "make": "Gmc",
-    "model": "Sierra 1500 Elevation Four Wheel Drive Crew Cab",
-    "trim": "1GTPUJEKXTZ456963"
-  },
-  "3GCUKCED9TG505849": {
-    "vin": "3GCUKCED9TG505849",
-    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-custom-trail-boss-four-wheel-drive-crew-cab-3gcukced9tg505849/",
+  "3GCUKCED5TG504603": {
+    "vin": "3GCUKCED5TG504603",
+    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-custom-trail-boss-four-wheel-drive-crew-cab-3gcukced5tg504603/",
     "year": "2026",
     "make": "Chevrolet",
     "model": "Silverado 1500 Custom Trail Boss Four Wheel Drive Crew Cab",
-    "trim": "3GCUKCED9TG505849"
+    "trim": "3GCUKCED5TG504603"
   },
-  "3GTPUJEK1TG383188": {
-    "vin": "3GTPUJEK1TG383188",
-    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-elevation-four-wheel-drive-crew-cab-3gtpujek1tg383188/",
-    "year": "2026",
-    "make": "Gmc",
-    "model": "Sierra 1500 Elevation Four Wheel Drive Crew Cab",
-    "trim": "3GTPUJEK1TG383188"
-  },
-  "2GCPADED2T1243932": {
-    "vin": "2GCPADED2T1243932",
-    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-rst-rear-wheel-drive-crew-cab-2gcpaded2t1243932/",
+  "3GCUKFE8XTG408762": {
+    "vin": "3GCUKFE8XTG408762",
+    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-lt-trail-boss-four-wheel-drive-crew-cab-3gcukfe8xtg408762/",
     "year": "2026",
     "make": "Chevrolet",
-    "model": "Silverado 1500 Rst Rear Wheel Drive Crew Cab",
-    "trim": "2GCPADED2T1243932"
+    "model": "Silverado 1500 Lt Trail Boss Four Wheel Drive Crew Cab",
+    "trim": "3GCUKFE8XTG408762"
   },
-  "2GCPADED8T1243935": {
-    "vin": "2GCPADED8T1243935",
-    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-rst-rear-wheel-drive-crew-cab-2gcpaded8t1243935/",
-    "year": "2026",
-    "make": "Chevrolet",
-    "model": "Silverado 1500 Rst Rear Wheel Drive Crew Cab",
-    "trim": "2GCPADED8T1243935"
-  },
-  "1GTPHDEDXTZ445842": {
-    "vin": "1GTPHDEDXTZ445842",
-    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-slt-rear-wheel-drive-crew-cab-1gtphdedxtz445842/",
-    "year": "2026",
-    "make": "Gmc",
-    "model": "Sierra 1500 Slt Rear Wheel Drive Crew Cab",
-    "trim": "1GTPHDEDXTZ445842"
-  },
-  "3GTPUJEK2TG297677": {
-    "vin": "3GTPUJEK2TG297677",
-    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-elevation-four-wheel-drive-crew-cab-3gtpujek2tg297677/",
-    "year": "2026",
-    "make": "Gmc",
-    "model": "Sierra 1500 Elevation Four Wheel Drive Crew Cab",
-    "trim": "3GTPUJEK2TG297677"
-  },
-  "1GCUKDED4TZ530650": {
-    "vin": "1GCUKDED4TZ530650",
-    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-lt-four-wheel-drive-crew-cab-1gcukded4tz530650/",
-    "year": "2026",
-    "make": "Chevrolet",
-    "model": "Silverado 1500 Lt Four Wheel Drive Crew Cab",
-    "trim": "1GCUKDED4TZ530650"
-  },
-  "1GCUKJED5TZ505397": {
-    "vin": "1GCUKJED5TZ505397",
-    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-high-country-four-wheel-drive-crew-cab-1gcukjed5tz505397/",
-    "year": "2026",
-    "make": "Chevrolet",
-    "model": "Silverado 1500 High Country Four Wheel Drive Crew Cab",
-    "trim": "1GCUKJED5TZ505397"
-  },
-  "3GCUKCEDXTG508114": {
-    "vin": "3GCUKCEDXTG508114",
-    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-custom-trail-boss-four-wheel-drive-crew-cab-3gcukcedxtg508114/",
+  "3GCUKCED2TG509435": {
+    "vin": "3GCUKCED2TG509435",
+    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-custom-trail-boss-four-wheel-drive-crew-cab-3gcukced2tg509435/",
     "year": "2026",
     "make": "Chevrolet",
     "model": "Silverado 1500 Custom Trail Boss Four Wheel Drive Crew Cab",
-    "trim": "3GCUKCEDXTG508114"
+    "trim": "3GCUKCED2TG509435"
   },
-  "1GTPUJEK8TZ457156": {
-    "vin": "1GTPUJEK8TZ457156",
-    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-elevation-four-wheel-drive-crew-cab-1gtpujek8tz457156/",
+  "3GCUKFEL4TG372281": {
+    "vin": "3GCUKFEL4TG372281",
+    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-lt-trail-boss-four-wheel-drive-crew-cab-3gcukfel4tg372281/",
     "year": "2026",
-    "make": "Gmc",
-    "model": "Sierra 1500 Elevation Four Wheel Drive Crew Cab",
-    "trim": "1GTPUJEK8TZ457156"
+    "make": "Chevrolet",
+    "model": "Silverado 1500 Lt Trail Boss Four Wheel Drive Crew Cab",
+    "trim": "3GCUKFEL4TG372281"
+  },
+  "3GCUKFE8XTG408535": {
+    "vin": "3GCUKFE8XTG408535",
+    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-lt-trail-boss-four-wheel-drive-crew-cab-3gcukfe8xtg408535/",
+    "year": "2026",
+    "make": "Chevrolet",
+    "model": "Silverado 1500 Lt Trail Boss Four Wheel Drive Crew Cab",
+    "trim": "3GCUKFE8XTG408535"
+  },
+  "2GCPADED5T1234366": {
+    "vin": "2GCPADED5T1234366",
+    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-rst-rear-wheel-drive-crew-cab-2gcpaded5t1234366/",
+    "year": "2026",
+    "make": "Chevrolet",
+    "model": "Silverado 1500 Rst Rear Wheel Drive Crew Cab",
+    "trim": "2GCPADED5T1234366"
+  },
+  "3GCUKCED3TG504650": {
+    "vin": "3GCUKCED3TG504650",
+    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-custom-trail-boss-four-wheel-drive-crew-cab-3gcukced3tg504650/",
+    "year": "2026",
+    "make": "Chevrolet",
+    "model": "Silverado 1500 Custom Trail Boss Four Wheel Drive Crew Cab",
+    "trim": "3GCUKCED3TG504650"
+  },
+  "1GCUKEEL1TZ454558": {
+    "vin": "1GCUKEEL1TZ454558",
+    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-rst-four-wheel-drive-crew-cab-1gcukeel1tz454558/",
+    "year": "2026",
+    "make": "Chevrolet",
+    "model": "Silverado 1500 Rst Four Wheel Drive Crew Cab",
+    "trim": "1GCUKEEL1TZ454558"
+  },
+  "3GCUKCED1TG509412": {
+    "vin": "3GCUKCED1TG509412",
+    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-custom-trail-boss-four-wheel-drive-crew-cab-3gcukced1tg509412/",
+    "year": "2026",
+    "make": "Chevrolet",
+    "model": "Silverado 1500 Custom Trail Boss Four Wheel Drive Crew Cab",
+    "trim": "3GCUKCED1TG509412"
   },
   "2GCPADEDXT1234346": {
     "vin": "2GCPADEDXT1234346",
@@ -623,6 +495,22 @@
     "model": "Silverado 1500 Rst Rear Wheel Drive Crew Cab",
     "trim": "2GCPADEDXT1234346"
   },
+  "3GTPHDED1TG321703": {
+    "vin": "3GTPHDED1TG321703",
+    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-slt-rear-wheel-drive-crew-cab-3gtphded1tg321703/",
+    "year": "2026",
+    "make": "Gmc",
+    "model": "Sierra 1500 Slt Rear Wheel Drive Crew Cab",
+    "trim": "3GTPHDED1TG321703"
+  },
+  "3GTPUJEK5TG381718": {
+    "vin": "3GTPUJEK5TG381718",
+    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-elevation-four-wheel-drive-crew-cab-3gtpujek5tg381718/",
+    "year": "2026",
+    "make": "Gmc",
+    "model": "Sierra 1500 Elevation Four Wheel Drive Crew Cab",
+    "trim": "3GTPUJEK5TG381718"
+  },
   "1GYXP3RL7TZ601294": {
     "vin": "1GYXP3RL7TZ601294",
     "url": "https://www.markchristopher.com/inventory/new-2026-cadillac-lyriq-v-series-premium-all-wheel-drive-suv-1gyxp3rl7tz601294/",
@@ -631,141 +519,125 @@
     "model": "Lyriq V Series Premium All Wheel Drive Suv",
     "trim": "1GYXP3RL7TZ601294"
   },
-  "1GTPUJEK6TZ459844": {
-    "vin": "1GTPUJEK6TZ459844",
-    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-elevation-four-wheel-drive-crew-cab-1gtpujek6tz459844/",
+  "3GTPUJEK2TG297677": {
+    "vin": "3GTPUJEK2TG297677",
+    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-elevation-four-wheel-drive-crew-cab-3gtpujek2tg297677/",
     "year": "2026",
     "make": "Gmc",
     "model": "Sierra 1500 Elevation Four Wheel Drive Crew Cab",
-    "trim": "1GTPUJEK6TZ459844"
+    "trim": "3GTPUJEK2TG297677"
   },
-  "1GTPUJEK9TZ456792": {
-    "vin": "1GTPUJEK9TZ456792",
-    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-elevation-four-wheel-drive-crew-cab-1gtpujek9tz456792/",
-    "year": "2026",
-    "make": "Gmc",
-    "model": "Sierra 1500 Elevation Four Wheel Drive Crew Cab",
-    "trim": "1GTPUJEK9TZ456792"
-  },
-  "3GTPUJEK9TG381723": {
-    "vin": "3GTPUJEK9TG381723",
-    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-elevation-four-wheel-drive-crew-cab-3gtpujek9tg381723/",
-    "year": "2026",
-    "make": "Gmc",
-    "model": "Sierra 1500 Elevation Four Wheel Drive Crew Cab",
-    "trim": "3GTPUJEK9TG381723"
-  },
-  "3GTPUJEK4TG367499": {
-    "vin": "3GTPUJEK4TG367499",
-    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-elevation-four-wheel-drive-crew-cab-3gtpujek4tg367499/",
-    "year": "2026",
-    "make": "Gmc",
-    "model": "Sierra 1500 Elevation Four Wheel Drive Crew Cab",
-    "trim": "3GTPUJEK4TG367499"
-  },
-  "1GCPKWEK7TZ475862": {
-    "vin": "1GCPKWEK7TZ475862",
-    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-rst-four-wheel-drive-crew-cab-1gcpkwek7tz475862/",
-    "year": "2026",
-    "make": "Chevrolet",
-    "model": "Silverado 1500 Rst Four Wheel Drive Crew Cab",
-    "trim": "1GCPKWEK7TZ475862"
-  },
-  "3GTPUJEK7TG383194": {
-    "vin": "3GTPUJEK7TG383194",
-    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-elevation-four-wheel-drive-crew-cab-3gtpujek7tg383194/",
-    "year": "2026",
-    "make": "Gmc",
-    "model": "Sierra 1500 Elevation Four Wheel Drive Crew Cab",
-    "trim": "3GTPUJEK7TG383194"
-  },
-  "1GCPKKEK4TZ473477": {
-    "vin": "1GCPKKEK4TZ473477",
-    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-lt-2fl-four-wheel-drive-crew-cab-1gcpkkek4tz473477/",
-    "year": "2026",
-    "make": "Chevrolet",
-    "model": "Silverado 1500 Lt 2fl Four Wheel Drive Crew Cab",
-    "trim": "1GCPKKEK4TZ473477"
-  },
-  "3GTPUJEK4TG381726": {
-    "vin": "3GTPUJEK4TG381726",
-    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-elevation-four-wheel-drive-crew-cab-3gtpujek4tg381726/",
-    "year": "2026",
-    "make": "Gmc",
-    "model": "Sierra 1500 Elevation Four Wheel Drive Crew Cab",
-    "trim": "3GTPUJEK4TG381726"
-  },
-  "1GTPUJEK1TZ456897": {
-    "vin": "1GTPUJEK1TZ456897",
-    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-elevation-four-wheel-drive-crew-cab-1gtpujek1tz456897/",
-    "year": "2026",
-    "make": "Gmc",
-    "model": "Sierra 1500 Elevation Four Wheel Drive Crew Cab",
-    "trim": "1GTPUJEK1TZ456897"
-  },
-  "1GTPUJEK9TZ456162": {
-    "vin": "1GTPUJEK9TZ456162",
-    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-elevation-four-wheel-drive-crew-cab-1gtpujek9tz456162/",
-    "year": "2026",
-    "make": "Gmc",
-    "model": "Sierra 1500 Elevation Four Wheel Drive Crew Cab",
-    "trim": "1GTPUJEK9TZ456162"
-  },
-  "1GTPUJEK6TZ457088": {
-    "vin": "1GTPUJEK6TZ457088",
-    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-elevation-four-wheel-drive-crew-cab-1gtpujek6tz457088/",
-    "year": "2026",
-    "make": "Gmc",
-    "model": "Sierra 1500 Elevation Four Wheel Drive Crew Cab",
-    "trim": "1GTPUJEK6TZ457088"
-  },
-  "3GTPUJEK8TG381714": {
-    "vin": "3GTPUJEK8TG381714",
-    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-elevation-four-wheel-drive-crew-cab-3gtpujek8tg381714/",
-    "year": "2026",
-    "make": "Gmc",
-    "model": "Sierra 1500 Elevation Four Wheel Drive Crew Cab",
-    "trim": "3GTPUJEK8TG381714"
-  },
-  "3GTPUJEK0TG366480": {
-    "vin": "3GTPUJEK0TG366480",
-    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-elevation-four-wheel-drive-crew-cab-3gtpujek0tg366480/",
-    "year": "2026",
-    "make": "Gmc",
-    "model": "Sierra 1500 Elevation Four Wheel Drive Crew Cab",
-    "trim": "3GTPUJEK0TG366480"
-  },
-  "1GTPUJEK6TZ456829": {
-    "vin": "1GTPUJEK6TZ456829",
-    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-elevation-four-wheel-drive-crew-cab-1gtpujek6tz456829/",
-    "year": "2026",
-    "make": "Gmc",
-    "model": "Sierra 1500 Elevation Four Wheel Drive Crew Cab",
-    "trim": "1GTPUJEK6TZ456829"
-  },
-  "3GCPKCEK7TG495236": {
-    "vin": "3GCPKCEK7TG495236",
-    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-custom-trail-boss-four-wheel-drive-crew-cab-3gcpkcek7tg495236/",
+  "3GCUKCED6TG507641": {
+    "vin": "3GCUKCED6TG507641",
+    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-custom-trail-boss-four-wheel-drive-crew-cab-3gcukced6tg507641/",
     "year": "2026",
     "make": "Chevrolet",
     "model": "Silverado 1500 Custom Trail Boss Four Wheel Drive Crew Cab",
-    "trim": "3GCPKCEK7TG495236"
+    "trim": "3GCUKCED6TG507641"
   },
-  "3GTPUJEK3TG366487": {
-    "vin": "3GTPUJEK3TG366487",
-    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-elevation-four-wheel-drive-crew-cab-3gtpujek3tg366487/",
+  "2GCPADED2T1243932": {
+    "vin": "2GCPADED2T1243932",
+    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-rst-rear-wheel-drive-crew-cab-2gcpaded2t1243932/",
+    "year": "2026",
+    "make": "Chevrolet",
+    "model": "Silverado 1500 Rst Rear Wheel Drive Crew Cab",
+    "trim": "2GCPADED2T1243932"
+  },
+  "2GCPADED7T1243974": {
+    "vin": "2GCPADED7T1243974",
+    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-rst-rear-wheel-drive-crew-cab-2gcpaded7t1243974/",
+    "year": "2026",
+    "make": "Chevrolet",
+    "model": "Silverado 1500 Rst Rear Wheel Drive Crew Cab",
+    "trim": "2GCPADED7T1243974"
+  },
+  "3GCUKCED4TG505886": {
+    "vin": "3GCUKCED4TG505886",
+    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-custom-trail-boss-four-wheel-drive-crew-cab-3gcukced4tg505886/",
+    "year": "2026",
+    "make": "Chevrolet",
+    "model": "Silverado 1500 Custom Trail Boss Four Wheel Drive Crew Cab",
+    "trim": "3GCUKCED4TG505886"
+  },
+  "1GTPHDEDXTZ445842": {
+    "vin": "1GTPHDEDXTZ445842",
+    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-slt-rear-wheel-drive-crew-cab-1gtphdedxtz445842/",
+    "year": "2026",
+    "make": "Gmc",
+    "model": "Sierra 1500 Slt Rear Wheel Drive Crew Cab",
+    "trim": "1GTPHDEDXTZ445842"
+  },
+  "3GTPUJEK1TG383188": {
+    "vin": "3GTPUJEK1TG383188",
+    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-elevation-four-wheel-drive-crew-cab-3gtpujek1tg383188/",
     "year": "2026",
     "make": "Gmc",
     "model": "Sierra 1500 Elevation Four Wheel Drive Crew Cab",
-    "trim": "3GTPUJEK3TG366487"
+    "trim": "3GTPUJEK1TG383188"
   },
-  "3GTPUJEK8TG366484": {
-    "vin": "3GTPUJEK8TG366484",
-    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-elevation-four-wheel-drive-crew-cab-3gtpujek8tg366484/",
+  "3GCUKCEDXTG508114": {
+    "vin": "3GCUKCEDXTG508114",
+    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-custom-trail-boss-four-wheel-drive-crew-cab-3gcukcedxtg508114/",
+    "year": "2026",
+    "make": "Chevrolet",
+    "model": "Silverado 1500 Custom Trail Boss Four Wheel Drive Crew Cab",
+    "trim": "3GCUKCEDXTG508114"
+  },
+  "3GCUKCED9TG505849": {
+    "vin": "3GCUKCED9TG505849",
+    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-custom-trail-boss-four-wheel-drive-crew-cab-3gcukced9tg505849/",
+    "year": "2026",
+    "make": "Chevrolet",
+    "model": "Silverado 1500 Custom Trail Boss Four Wheel Drive Crew Cab",
+    "trim": "3GCUKCED9TG505849"
+  },
+  "1GTPUJEK8TZ457156": {
+    "vin": "1GTPUJEK8TZ457156",
+    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-elevation-four-wheel-drive-crew-cab-1gtpujek8tz457156/",
     "year": "2026",
     "make": "Gmc",
     "model": "Sierra 1500 Elevation Four Wheel Drive Crew Cab",
-    "trim": "3GTPUJEK8TG366484"
+    "trim": "1GTPUJEK8TZ457156"
+  },
+  "1GCUKJED5TZ505397": {
+    "vin": "1GCUKJED5TZ505397",
+    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-high-country-four-wheel-drive-crew-cab-1gcukjed5tz505397/",
+    "year": "2026",
+    "make": "Chevrolet",
+    "model": "Silverado 1500 High Country Four Wheel Drive Crew Cab",
+    "trim": "1GCUKJED5TZ505397"
+  },
+  "1GTPUJEK3TZ459803": {
+    "vin": "1GTPUJEK3TZ459803",
+    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-elevation-four-wheel-drive-crew-cab-1gtpujek3tz459803/",
+    "year": "2026",
+    "make": "Gmc",
+    "model": "Sierra 1500 Elevation Four Wheel Drive Crew Cab",
+    "trim": "1GTPUJEK3TZ459803"
+  },
+  "2GCPADED8T1243935": {
+    "vin": "2GCPADED8T1243935",
+    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-rst-rear-wheel-drive-crew-cab-2gcpaded8t1243935/",
+    "year": "2026",
+    "make": "Chevrolet",
+    "model": "Silverado 1500 Rst Rear Wheel Drive Crew Cab",
+    "trim": "2GCPADED8T1243935"
+  },
+  "1GCUKDED4TZ530650": {
+    "vin": "1GCUKDED4TZ530650",
+    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-lt-four-wheel-drive-crew-cab-1gcukded4tz530650/",
+    "year": "2026",
+    "make": "Chevrolet",
+    "model": "Silverado 1500 Lt Four Wheel Drive Crew Cab",
+    "trim": "1GCUKDED4TZ530650"
+  },
+  "3GTPUJEK2TG383183": {
+    "vin": "3GTPUJEK2TG383183",
+    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-elevation-four-wheel-drive-crew-cab-3gtpujek2tg383183/",
+    "year": "2026",
+    "make": "Gmc",
+    "model": "Sierra 1500 Elevation Four Wheel Drive Crew Cab",
+    "trim": "3GTPUJEK2TG383183"
   },
   "1GTPUJEK3TZ460207": {
     "vin": "1GTPUJEK3TZ460207",
@@ -775,6 +647,94 @@
     "model": "Sierra 1500 Elevation Four Wheel Drive Crew Cab",
     "trim": "1GTPUJEK3TZ460207"
   },
+  "3GTPUJEK0TG366480": {
+    "vin": "3GTPUJEK0TG366480",
+    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-elevation-four-wheel-drive-crew-cab-3gtpujek0tg366480/",
+    "year": "2026",
+    "make": "Gmc",
+    "model": "Sierra 1500 Elevation Four Wheel Drive Crew Cab",
+    "trim": "3GTPUJEK0TG366480"
+  },
+  "3GTPUJEK4TG381726": {
+    "vin": "3GTPUJEK4TG381726",
+    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-elevation-four-wheel-drive-crew-cab-3gtpujek4tg381726/",
+    "year": "2026",
+    "make": "Gmc",
+    "model": "Sierra 1500 Elevation Four Wheel Drive Crew Cab",
+    "trim": "3GTPUJEK4TG381726"
+  },
+  "1GTPUJEK9TZ456792": {
+    "vin": "1GTPUJEK9TZ456792",
+    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-elevation-four-wheel-drive-crew-cab-1gtpujek9tz456792/",
+    "year": "2026",
+    "make": "Gmc",
+    "model": "Sierra 1500 Elevation Four Wheel Drive Crew Cab",
+    "trim": "1GTPUJEK9TZ456792"
+  },
+  "1GCPKKEK4TZ473477": {
+    "vin": "1GCPKKEK4TZ473477",
+    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-lt-2fl-four-wheel-drive-crew-cab-1gcpkkek4tz473477/",
+    "year": "2026",
+    "make": "Chevrolet",
+    "model": "Silverado 1500 Lt 2fl Four Wheel Drive Crew Cab",
+    "trim": "1GCPKKEK4TZ473477"
+  },
+  "3GTPUJEK8TG366484": {
+    "vin": "3GTPUJEK8TG366484",
+    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-elevation-four-wheel-drive-crew-cab-3gtpujek8tg366484/",
+    "year": "2026",
+    "make": "Gmc",
+    "model": "Sierra 1500 Elevation Four Wheel Drive Crew Cab",
+    "trim": "3GTPUJEK8TG366484"
+  },
+  "3GTPUJEK4TG367499": {
+    "vin": "3GTPUJEK4TG367499",
+    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-elevation-four-wheel-drive-crew-cab-3gtpujek4tg367499/",
+    "year": "2026",
+    "make": "Gmc",
+    "model": "Sierra 1500 Elevation Four Wheel Drive Crew Cab",
+    "trim": "3GTPUJEK4TG367499"
+  },
+  "3GTPUJEK7TG383194": {
+    "vin": "3GTPUJEK7TG383194",
+    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-elevation-four-wheel-drive-crew-cab-3gtpujek7tg383194/",
+    "year": "2026",
+    "make": "Gmc",
+    "model": "Sierra 1500 Elevation Four Wheel Drive Crew Cab",
+    "trim": "3GTPUJEK7TG383194"
+  },
+  "1GTPUJEK4TZ457221": {
+    "vin": "1GTPUJEK4TZ457221",
+    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-elevation-four-wheel-drive-crew-cab-1gtpujek4tz457221/",
+    "year": "2026",
+    "make": "Gmc",
+    "model": "Sierra 1500 Elevation Four Wheel Drive Crew Cab",
+    "trim": "1GTPUJEK4TZ457221"
+  },
+  "3GTPUJEK9TG381723": {
+    "vin": "3GTPUJEK9TG381723",
+    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-elevation-four-wheel-drive-crew-cab-3gtpujek9tg381723/",
+    "year": "2026",
+    "make": "Gmc",
+    "model": "Sierra 1500 Elevation Four Wheel Drive Crew Cab",
+    "trim": "3GTPUJEK9TG381723"
+  },
+  "1GTPUJEK6TZ457088": {
+    "vin": "1GTPUJEK6TZ457088",
+    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-elevation-four-wheel-drive-crew-cab-1gtpujek6tz457088/",
+    "year": "2026",
+    "make": "Gmc",
+    "model": "Sierra 1500 Elevation Four Wheel Drive Crew Cab",
+    "trim": "1GTPUJEK6TZ457088"
+  },
+  "1GTPUJEK6TZ459844": {
+    "vin": "1GTPUJEK6TZ459844",
+    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-elevation-four-wheel-drive-crew-cab-1gtpujek6tz459844/",
+    "year": "2026",
+    "make": "Gmc",
+    "model": "Sierra 1500 Elevation Four Wheel Drive Crew Cab",
+    "trim": "1GTPUJEK6TZ459844"
+  },
   "3GTPUJEK9TG366493": {
     "vin": "3GTPUJEK9TG366493",
     "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-elevation-four-wheel-drive-crew-cab-3gtpujek9tg366493/",
@@ -783,53 +743,21 @@
     "model": "Sierra 1500 Elevation Four Wheel Drive Crew Cab",
     "trim": "3GTPUJEK9TG366493"
   },
-  "3GCPKCEK4TG494996": {
-    "vin": "3GCPKCEK4TG494996",
-    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-custom-trail-boss-four-wheel-drive-crew-cab-3gcpkcek4tg494996/",
-    "year": "2026",
-    "make": "Chevrolet",
-    "model": "Silverado 1500 Custom Trail Boss Four Wheel Drive Crew Cab",
-    "trim": "3GCPKCEK4TG494996"
-  },
-  "3GTUUFELXTG330661": {
-    "vin": "3GTUUFELXTG330661",
-    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-at4x-four-wheel-drive-crew-cab-3gtuufelxtg330661/",
+  "1GTPUJEK1TZ456897": {
+    "vin": "1GTPUJEK1TZ456897",
+    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-elevation-four-wheel-drive-crew-cab-1gtpujek1tz456897/",
     "year": "2026",
     "make": "Gmc",
-    "model": "Sierra 1500 At4x Four Wheel Drive Crew Cab",
-    "trim": "3GTUUFELXTG330661"
+    "model": "Sierra 1500 Elevation Four Wheel Drive Crew Cab",
+    "trim": "1GTPUJEK1TZ456897"
   },
-  "3GTUUGEL7TG344149": {
-    "vin": "3GTUUGEL7TG344149",
-    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-denali-four-wheel-drive-crew-cab-3gtuugel7tg344149/",
+  "1GTPUJEK6TZ456829": {
+    "vin": "1GTPUJEK6TZ456829",
+    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-elevation-four-wheel-drive-crew-cab-1gtpujek6tz456829/",
     "year": "2026",
     "make": "Gmc",
-    "model": "Sierra 1500 Denali Four Wheel Drive Crew Cab",
-    "trim": "3GTUUGEL7TG344149"
-  },
-  "3GCPKCEK7TG495110": {
-    "vin": "3GCPKCEK7TG495110",
-    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-custom-trail-boss-four-wheel-drive-crew-cab-3gcpkcek7tg495110/",
-    "year": "2026",
-    "make": "Chevrolet",
-    "model": "Silverado 1500 Custom Trail Boss Four Wheel Drive Crew Cab",
-    "trim": "3GCPKCEK7TG495110"
-  },
-  "1GTUUHEL0TZ400583": {
-    "vin": "1GTUUHEL0TZ400583",
-    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-denali-ultimate-four-wheel-drive-crew-cab-1gtuuhel0tz400583/",
-    "year": "2026",
-    "make": "Gmc",
-    "model": "Sierra 1500 Denali Ultimate Four Wheel Drive Crew Cab",
-    "trim": "1GTUUHEL0TZ400583"
-  },
-  "3GCPKCEK5TG326218": {
-    "vin": "3GCPKCEK5TG326218",
-    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-custom-trail-boss-four-wheel-drive-crew-cab-3gcpkcek5tg326218/",
-    "year": "2026",
-    "make": "Chevrolet",
-    "model": "Silverado 1500 Custom Trail Boss Four Wheel Drive Crew Cab",
-    "trim": "3GCPKCEK5TG326218"
+    "model": "Sierra 1500 Elevation Four Wheel Drive Crew Cab",
+    "trim": "1GTPUJEK6TZ456829"
   },
   "1GTUUGEL1TZ372223": {
     "vin": "1GTUUGEL1TZ372223",
@@ -839,37 +767,53 @@
     "model": "Sierra 1500 Denali Four Wheel Drive Crew Cab",
     "trim": "1GTUUGEL1TZ372223"
   },
-  "3GTUUEEL8TG407389": {
-    "vin": "3GTUUEEL8TG407389",
-    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-at4-four-wheel-drive-crew-cab-3gtuueel8tg407389/",
+  "1GTPUJEK9TZ456162": {
+    "vin": "1GTPUJEK9TZ456162",
+    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-elevation-four-wheel-drive-crew-cab-1gtpujek9tz456162/",
     "year": "2026",
     "make": "Gmc",
-    "model": "Sierra 1500 At4 Four Wheel Drive Crew Cab",
-    "trim": "3GTUUEEL8TG407389"
+    "model": "Sierra 1500 Elevation Four Wheel Drive Crew Cab",
+    "trim": "1GTPUJEK9TZ456162"
   },
-  "3GTUUGEL3TG376449": {
-    "vin": "3GTUUGEL3TG376449",
-    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-denali-four-wheel-drive-crew-cab-3gtuugel3tg376449/",
+  "3GTPUJEK3TG366487": {
+    "vin": "3GTPUJEK3TG366487",
+    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-elevation-four-wheel-drive-crew-cab-3gtpujek3tg366487/",
     "year": "2026",
     "make": "Gmc",
-    "model": "Sierra 1500 Denali Four Wheel Drive Crew Cab",
-    "trim": "3GTUUGEL3TG376449"
+    "model": "Sierra 1500 Elevation Four Wheel Drive Crew Cab",
+    "trim": "3GTPUJEK3TG366487"
   },
-  "1GTUUHEL5TZ415659": {
-    "vin": "1GTUUHEL5TZ415659",
-    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-denali-ultimate-four-wheel-drive-crew-cab-1gtuuhel5tz415659/",
+  "1GTPUJEKXTZ456963": {
+    "vin": "1GTPUJEKXTZ456963",
+    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-elevation-four-wheel-drive-crew-cab-1gtpujekxtz456963/",
     "year": "2026",
     "make": "Gmc",
-    "model": "Sierra 1500 Denali Ultimate Four Wheel Drive Crew Cab",
-    "trim": "1GTUUHEL5TZ415659"
+    "model": "Sierra 1500 Elevation Four Wheel Drive Crew Cab",
+    "trim": "1GTPUJEKXTZ456963"
   },
-  "3GCPKWEK6TG341523": {
-    "vin": "3GCPKWEK6TG341523",
-    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-rst-four-wheel-drive-crew-cab-3gcpkwek6tg341523/",
+  "3GTPUJEK8TG381714": {
+    "vin": "3GTPUJEK8TG381714",
+    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-elevation-four-wheel-drive-crew-cab-3gtpujek8tg381714/",
+    "year": "2026",
+    "make": "Gmc",
+    "model": "Sierra 1500 Elevation Four Wheel Drive Crew Cab",
+    "trim": "3GTPUJEK8TG381714"
+  },
+  "3GCPKCEK5TG326218": {
+    "vin": "3GCPKCEK5TG326218",
+    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-custom-trail-boss-four-wheel-drive-crew-cab-3gcpkcek5tg326218/",
     "year": "2026",
     "make": "Chevrolet",
-    "model": "Silverado 1500 Rst Four Wheel Drive Crew Cab",
-    "trim": "3GCPKWEK6TG341523"
+    "model": "Silverado 1500 Custom Trail Boss Four Wheel Drive Crew Cab",
+    "trim": "3GCPKCEK5TG326218"
+  },
+  "3GTUUFELXTG330661": {
+    "vin": "3GTUUFELXTG330661",
+    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-at4x-four-wheel-drive-crew-cab-3gtuufelxtg330661/",
+    "year": "2026",
+    "make": "Gmc",
+    "model": "Sierra 1500 At4x Four Wheel Drive Crew Cab",
+    "trim": "3GTUUFELXTG330661"
   },
   "3GTUUEEL9TG407384": {
     "vin": "3GTUUEEL9TG407384",
@@ -879,61 +823,21 @@
     "model": "Sierra 1500 At4 Four Wheel Drive Crew Cab",
     "trim": "3GTUUEEL9TG407384"
   },
-  "3GCPKCEK3TG427970": {
-    "vin": "3GCPKCEK3TG427970",
-    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-custom-trail-boss-four-wheel-drive-crew-cab-3gcpkcek3tg427970/",
-    "year": "2026",
-    "make": "Chevrolet",
-    "model": "Silverado 1500 Custom Trail Boss Four Wheel Drive Crew Cab",
-    "trim": "3GCPKCEK3TG427970"
-  },
-  "3GCPKCEK1TG428115": {
-    "vin": "3GCPKCEK1TG428115",
-    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-custom-trail-boss-four-wheel-drive-crew-cab-3gcpkcek1tg428115/",
-    "year": "2026",
-    "make": "Chevrolet",
-    "model": "Silverado 1500 Custom Trail Boss Four Wheel Drive Crew Cab",
-    "trim": "3GCPKCEK1TG428115"
-  },
-  "3GCPKCEK7TG246760": {
-    "vin": "3GCPKCEK7TG246760",
-    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-custom-trail-boss-four-wheel-drive-crew-cab-3gcpkcek7tg246760/",
-    "year": "2026",
-    "make": "Chevrolet",
-    "model": "Silverado 1500 Custom Trail Boss Four Wheel Drive Crew Cab",
-    "trim": "3GCPKCEK7TG246760"
-  },
-  "1GCPABEK0TZ430614": {
-    "vin": "1GCPABEK0TZ430614",
-    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-custom-rear-wheel-drive-crew-cab-1gcpabek0tz430614/",
-    "year": "2026",
-    "make": "Chevrolet",
-    "model": "Silverado 1500 Custom Rear Wheel Drive Crew Cab",
-    "trim": "1GCPABEK0TZ430614"
-  },
-  "3GCPKCEK2TG494933": {
-    "vin": "3GCPKCEK2TG494933",
-    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-custom-trail-boss-four-wheel-drive-crew-cab-3gcpkcek2tg494933/",
-    "year": "2026",
-    "make": "Chevrolet",
-    "model": "Silverado 1500 Custom Trail Boss Four Wheel Drive Crew Cab",
-    "trim": "3GCPKCEK2TG494933"
-  },
-  "3GTUUGEL1TG374537": {
-    "vin": "3GTUUGEL1TG374537",
-    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-denali-four-wheel-drive-crew-cab-3gtuugel1tg374537/",
+  "3GTUUEEL5TG407513": {
+    "vin": "3GTUUEEL5TG407513",
+    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-at4-four-wheel-drive-crew-cab-3gtuueel5tg407513/",
     "year": "2026",
     "make": "Gmc",
-    "model": "Sierra 1500 Denali Four Wheel Drive Crew Cab",
-    "trim": "3GTUUGEL1TG374537"
+    "model": "Sierra 1500 At4 Four Wheel Drive Crew Cab",
+    "trim": "3GTUUEEL5TG407513"
   },
-  "3GCPKCEK5TG428621": {
-    "vin": "3GCPKCEK5TG428621",
-    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-custom-trail-boss-four-wheel-drive-crew-cab-3gcpkcek5tg428621/",
+  "3GCPKWEK6TG341523": {
+    "vin": "3GCPKWEK6TG341523",
+    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-rst-four-wheel-drive-crew-cab-3gcpkwek6tg341523/",
     "year": "2026",
     "make": "Chevrolet",
-    "model": "Silverado 1500 Custom Trail Boss Four Wheel Drive Crew Cab",
-    "trim": "3GCPKCEK5TG428621"
+    "model": "Silverado 1500 Rst Four Wheel Drive Crew Cab",
+    "trim": "3GCPKWEK6TG341523"
   },
   "1GTUUHEL0TZ418226": {
     "vin": "1GTUUHEL0TZ418226",
@@ -943,13 +847,237 @@
     "model": "Sierra 1500 Denali Ultimate Four Wheel Drive Crew Cab",
     "trim": "1GTUUHEL0TZ418226"
   },
-  "3GTUUEEL5TG407513": {
-    "vin": "3GTUUEEL5TG407513",
-    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-at4-four-wheel-drive-crew-cab-3gtuueel5tg407513/",
+  "3GCPKCEK7TG246760": {
+    "vin": "3GCPKCEK7TG246760",
+    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-custom-trail-boss-four-wheel-drive-crew-cab-3gcpkcek7tg246760/",
+    "year": "2026",
+    "make": "Chevrolet",
+    "model": "Silverado 1500 Custom Trail Boss Four Wheel Drive Crew Cab",
+    "trim": "3GCPKCEK7TG246760"
+  },
+  "1GCPKWEK7TZ475862": {
+    "vin": "1GCPKWEK7TZ475862",
+    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-rst-four-wheel-drive-crew-cab-1gcpkwek7tz475862/",
+    "year": "2026",
+    "make": "Chevrolet",
+    "model": "Silverado 1500 Rst Four Wheel Drive Crew Cab",
+    "trim": "1GCPKWEK7TZ475862"
+  },
+  "3GTUUGEL1TG374537": {
+    "vin": "3GTUUGEL1TG374537",
+    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-denali-four-wheel-drive-crew-cab-3gtuugel1tg374537/",
+    "year": "2026",
+    "make": "Gmc",
+    "model": "Sierra 1500 Denali Four Wheel Drive Crew Cab",
+    "trim": "3GTUUGEL1TG374537"
+  },
+  "1GTUUHEL5TZ415659": {
+    "vin": "1GTUUHEL5TZ415659",
+    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-denali-ultimate-four-wheel-drive-crew-cab-1gtuuhel5tz415659/",
+    "year": "2026",
+    "make": "Gmc",
+    "model": "Sierra 1500 Denali Ultimate Four Wheel Drive Crew Cab",
+    "trim": "1GTUUHEL5TZ415659"
+  },
+  "1GTUUGEL9TZ278509": {
+    "vin": "1GTUUGEL9TZ278509",
+    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-denali-four-wheel-drive-crew-cab-1gtuugel9tz278509/",
+    "year": "2026",
+    "make": "Gmc",
+    "model": "Sierra 1500 Denali Four Wheel Drive Crew Cab",
+    "trim": "1GTUUGEL9TZ278509"
+  },
+  "3GTUUGEL3TG376449": {
+    "vin": "3GTUUGEL3TG376449",
+    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-denali-four-wheel-drive-crew-cab-3gtuugel3tg376449/",
+    "year": "2026",
+    "make": "Gmc",
+    "model": "Sierra 1500 Denali Four Wheel Drive Crew Cab",
+    "trim": "3GTUUGEL3TG376449"
+  },
+  "3GCPKCEK4TG494996": {
+    "vin": "3GCPKCEK4TG494996",
+    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-custom-trail-boss-four-wheel-drive-crew-cab-3gcpkcek4tg494996/",
+    "year": "2026",
+    "make": "Chevrolet",
+    "model": "Silverado 1500 Custom Trail Boss Four Wheel Drive Crew Cab",
+    "trim": "3GCPKCEK4TG494996"
+  },
+  "3GCPKCEK7TG495236": {
+    "vin": "3GCPKCEK7TG495236",
+    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-custom-trail-boss-four-wheel-drive-crew-cab-3gcpkcek7tg495236/",
+    "year": "2026",
+    "make": "Chevrolet",
+    "model": "Silverado 1500 Custom Trail Boss Four Wheel Drive Crew Cab",
+    "trim": "3GCPKCEK7TG495236"
+  },
+  "3GTUUGEL7TG344149": {
+    "vin": "3GTUUGEL7TG344149",
+    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-denali-four-wheel-drive-crew-cab-3gtuugel7tg344149/",
+    "year": "2026",
+    "make": "Gmc",
+    "model": "Sierra 1500 Denali Four Wheel Drive Crew Cab",
+    "trim": "3GTUUGEL7TG344149"
+  },
+  "3GCPKCEK3TG427970": {
+    "vin": "3GCPKCEK3TG427970",
+    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-custom-trail-boss-four-wheel-drive-crew-cab-3gcpkcek3tg427970/",
+    "year": "2026",
+    "make": "Chevrolet",
+    "model": "Silverado 1500 Custom Trail Boss Four Wheel Drive Crew Cab",
+    "trim": "3GCPKCEK3TG427970"
+  },
+  "1GTUUGEL2TZ265567": {
+    "vin": "1GTUUGEL2TZ265567",
+    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-denali-four-wheel-drive-crew-cab-1gtuugel2tz265567/",
+    "year": "2026",
+    "make": "Gmc",
+    "model": "Sierra 1500 Denali Four Wheel Drive Crew Cab",
+    "trim": "1GTUUGEL2TZ265567"
+  },
+  "1GTUUHEL0TZ400583": {
+    "vin": "1GTUUHEL0TZ400583",
+    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-denali-ultimate-four-wheel-drive-crew-cab-1gtuuhel0tz400583/",
+    "year": "2026",
+    "make": "Gmc",
+    "model": "Sierra 1500 Denali Ultimate Four Wheel Drive Crew Cab",
+    "trim": "1GTUUHEL0TZ400583"
+  },
+  "1GCPABEK0TZ430614": {
+    "vin": "1GCPABEK0TZ430614",
+    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-custom-rear-wheel-drive-crew-cab-1gcpabek0tz430614/",
+    "year": "2026",
+    "make": "Chevrolet",
+    "model": "Silverado 1500 Custom Rear Wheel Drive Crew Cab",
+    "trim": "1GCPABEK0TZ430614"
+  },
+  "3GTUUEEL8TG407389": {
+    "vin": "3GTUUEEL8TG407389",
+    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-at4-four-wheel-drive-crew-cab-3gtuueel8tg407389/",
     "year": "2026",
     "make": "Gmc",
     "model": "Sierra 1500 At4 Four Wheel Drive Crew Cab",
-    "trim": "3GTUUEEL5TG407513"
+    "trim": "3GTUUEEL8TG407389"
+  },
+  "3GTUUEEL8TG378248": {
+    "vin": "3GTUUEEL8TG378248",
+    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-at4-four-wheel-drive-crew-cab-3gtuueel8tg378248/",
+    "year": "2026",
+    "make": "Gmc",
+    "model": "Sierra 1500 At4 Four Wheel Drive Crew Cab",
+    "trim": "3GTUUEEL8TG378248"
+  },
+  "1GCPABEK9TZ466155": {
+    "vin": "1GCPABEK9TZ466155",
+    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-custom-rear-wheel-drive-crew-cab-1gcpabek9tz466155/",
+    "year": "2026",
+    "make": "Chevrolet",
+    "model": "Silverado 1500 Custom Rear Wheel Drive Crew Cab",
+    "trim": "1GCPABEK9TZ466155"
+  },
+  "1GCPABEK7TZ429072": {
+    "vin": "1GCPABEK7TZ429072",
+    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-custom-rear-wheel-drive-crew-cab-1gcpabek7tz429072/",
+    "year": "2026",
+    "make": "Chevrolet",
+    "model": "Silverado 1500 Custom Rear Wheel Drive Crew Cab",
+    "trim": "1GCPABEK7TZ429072"
+  },
+  "3GCPKCEK7TG495110": {
+    "vin": "3GCPKCEK7TG495110",
+    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-custom-trail-boss-four-wheel-drive-crew-cab-3gcpkcek7tg495110/",
+    "year": "2026",
+    "make": "Chevrolet",
+    "model": "Silverado 1500 Custom Trail Boss Four Wheel Drive Crew Cab",
+    "trim": "3GCPKCEK7TG495110"
+  },
+  "3GCPKCEK2TG494933": {
+    "vin": "3GCPKCEK2TG494933",
+    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-custom-trail-boss-four-wheel-drive-crew-cab-3gcpkcek2tg494933/",
+    "year": "2026",
+    "make": "Chevrolet",
+    "model": "Silverado 1500 Custom Trail Boss Four Wheel Drive Crew Cab",
+    "trim": "3GCPKCEK2TG494933"
+  },
+  "3GCPKCEK4TG494559": {
+    "vin": "3GCPKCEK4TG494559",
+    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-custom-trail-boss-four-wheel-drive-crew-cab-3gcpkcek4tg494559/",
+    "year": "2026",
+    "make": "Chevrolet",
+    "model": "Silverado 1500 Custom Trail Boss Four Wheel Drive Crew Cab",
+    "trim": "3GCPKCEK4TG494559"
+  },
+  "3GTUUGEL9TG475602": {
+    "vin": "3GTUUGEL9TG475602",
+    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-denali-four-wheel-drive-crew-cab-3gtuugel9tg475602/",
+    "year": "2026",
+    "make": "Gmc",
+    "model": "Sierra 1500 Denali Four Wheel Drive Crew Cab",
+    "trim": "3GTUUGEL9TG475602"
+  },
+  "1GTUUEEL2TZ363423": {
+    "vin": "1GTUUEEL2TZ363423",
+    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-at4-four-wheel-drive-crew-cab-1gtuueel2tz363423/",
+    "year": "2026",
+    "make": "Gmc",
+    "model": "Sierra 1500 At4 Four Wheel Drive Crew Cab",
+    "trim": "1GTUUEEL2TZ363423"
+  },
+  "1GTUUHEL6TZ418912": {
+    "vin": "1GTUUHEL6TZ418912",
+    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-denali-ultimate-four-wheel-drive-crew-cab-1gtuuhel6tz418912/",
+    "year": "2026",
+    "make": "Gmc",
+    "model": "Sierra 1500 Denali Ultimate Four Wheel Drive Crew Cab",
+    "trim": "1GTUUHEL6TZ418912"
+  },
+  "3GTUUGEL0TG374531": {
+    "vin": "3GTUUGEL0TG374531",
+    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-denali-four-wheel-drive-crew-cab-3gtuugel0tg374531/",
+    "year": "2026",
+    "make": "Gmc",
+    "model": "Sierra 1500 Denali Four Wheel Drive Crew Cab",
+    "trim": "3GTUUGEL0TG374531"
+  },
+  "3GCPKCEK9TG495173": {
+    "vin": "3GCPKCEK9TG495173",
+    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-custom-trail-boss-four-wheel-drive-crew-cab-3gcpkcek9tg495173/",
+    "year": "2026",
+    "make": "Chevrolet",
+    "model": "Silverado 1500 Custom Trail Boss Four Wheel Drive Crew Cab",
+    "trim": "3GCPKCEK9TG495173"
+  },
+  "1GTUUHEL8TZ415672": {
+    "vin": "1GTUUHEL8TZ415672",
+    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-denali-ultimate-four-wheel-drive-crew-cab-1gtuuhel8tz415672/",
+    "year": "2026",
+    "make": "Gmc",
+    "model": "Sierra 1500 Denali Ultimate Four Wheel Drive Crew Cab",
+    "trim": "1GTUUHEL8TZ415672"
+  },
+  "1GTUUHEL8TZ415283": {
+    "vin": "1GTUUHEL8TZ415283",
+    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-denali-ultimate-four-wheel-drive-crew-cab-1gtuuhel8tz415283/",
+    "year": "2026",
+    "make": "Gmc",
+    "model": "Sierra 1500 Denali Ultimate Four Wheel Drive Crew Cab",
+    "trim": "1GTUUHEL8TZ415283"
+  },
+  "1GTUUHEL8TZ402128": {
+    "vin": "1GTUUHEL8TZ402128",
+    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-denali-ultimate-four-wheel-drive-crew-cab-1gtuuhel8tz402128/",
+    "year": "2026",
+    "make": "Gmc",
+    "model": "Sierra 1500 Denali Ultimate Four Wheel Drive Crew Cab",
+    "trim": "1GTUUHEL8TZ402128"
+  },
+  "3GCPKWEK8TG341670": {
+    "vin": "3GCPKWEK8TG341670",
+    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-rst-four-wheel-drive-crew-cab-3gcpkwek8tg341670/",
+    "year": "2026",
+    "make": "Chevrolet",
+    "model": "Silverado 1500 Rst Four Wheel Drive Crew Cab",
+    "trim": "3GCPKWEK8TG341670"
   },
   "3GCPKWEK7TG341529": {
     "vin": "3GCPKWEK7TG341529",
@@ -967,110 +1095,6 @@
     "model": "Sierra 1500 Elevation Four Wheel Drive Crew Cab",
     "trim": "3GTUUCE86TG182471"
   },
-  "3GCPKCEK9TG495173": {
-    "vin": "3GCPKCEK9TG495173",
-    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-custom-trail-boss-four-wheel-drive-crew-cab-3gcpkcek9tg495173/",
-    "year": "2026",
-    "make": "Chevrolet",
-    "model": "Silverado 1500 Custom Trail Boss Four Wheel Drive Crew Cab",
-    "trim": "3GCPKCEK9TG495173"
-  },
-  "1GCPABEK7TZ429072": {
-    "vin": "1GCPABEK7TZ429072",
-    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-custom-rear-wheel-drive-crew-cab-1gcpabek7tz429072/",
-    "year": "2026",
-    "make": "Chevrolet",
-    "model": "Silverado 1500 Custom Rear Wheel Drive Crew Cab",
-    "trim": "1GCPABEK7TZ429072"
-  },
-  "1GTUUHEL8TZ402128": {
-    "vin": "1GTUUHEL8TZ402128",
-    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-denali-ultimate-four-wheel-drive-crew-cab-1gtuuhel8tz402128/",
-    "year": "2026",
-    "make": "Gmc",
-    "model": "Sierra 1500 Denali Ultimate Four Wheel Drive Crew Cab",
-    "trim": "1GTUUHEL8TZ402128"
-  },
-  "3GTUUEEL8TG378248": {
-    "vin": "3GTUUEEL8TG378248",
-    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-at4-four-wheel-drive-crew-cab-3gtuueel8tg378248/",
-    "year": "2026",
-    "make": "Gmc",
-    "model": "Sierra 1500 At4 Four Wheel Drive Crew Cab",
-    "trim": "3GTUUEEL8TG378248"
-  },
-  "1GTPHAED2TZ513212": {
-    "vin": "1GTPHAED2TZ513212",
-    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-pro-rear-wheel-drive-crew-cab-1gtphaed2tz513212/",
-    "year": "2026",
-    "make": "Gmc",
-    "model": "Sierra 1500 Pro Rear Wheel Drive Crew Cab",
-    "trim": "1GTPHAED2TZ513212"
-  },
-  "1GTUUGEL2TZ265567": {
-    "vin": "1GTUUGEL2TZ265567",
-    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-denali-four-wheel-drive-crew-cab-1gtuugel2tz265567/",
-    "year": "2026",
-    "make": "Gmc",
-    "model": "Sierra 1500 Denali Four Wheel Drive Crew Cab",
-    "trim": "1GTUUGEL2TZ265567"
-  },
-  "3GTUUGEL0TG374531": {
-    "vin": "3GTUUGEL0TG374531",
-    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-denali-four-wheel-drive-crew-cab-3gtuugel0tg374531/",
-    "year": "2026",
-    "make": "Gmc",
-    "model": "Sierra 1500 Denali Four Wheel Drive Crew Cab",
-    "trim": "3GTUUGEL0TG374531"
-  },
-  "1GCPABEK9TZ466155": {
-    "vin": "1GCPABEK9TZ466155",
-    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-custom-rear-wheel-drive-crew-cab-1gcpabek9tz466155/",
-    "year": "2026",
-    "make": "Chevrolet",
-    "model": "Silverado 1500 Custom Rear Wheel Drive Crew Cab",
-    "trim": "1GCPABEK9TZ466155"
-  },
-  "1GTUUHEL8TZ415672": {
-    "vin": "1GTUUHEL8TZ415672",
-    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-denali-ultimate-four-wheel-drive-crew-cab-1gtuuhel8tz415672/",
-    "year": "2026",
-    "make": "Gmc",
-    "model": "Sierra 1500 Denali Ultimate Four Wheel Drive Crew Cab",
-    "trim": "1GTUUHEL8TZ415672"
-  },
-  "3GCPKCEK4TG494559": {
-    "vin": "3GCPKCEK4TG494559",
-    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-custom-trail-boss-four-wheel-drive-crew-cab-3gcpkcek4tg494559/",
-    "year": "2026",
-    "make": "Chevrolet",
-    "model": "Silverado 1500 Custom Trail Boss Four Wheel Drive Crew Cab",
-    "trim": "3GCPKCEK4TG494559"
-  },
-  "1GTUUEEL2TZ363423": {
-    "vin": "1GTUUEEL2TZ363423",
-    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-at4-four-wheel-drive-crew-cab-1gtuueel2tz363423/",
-    "year": "2026",
-    "make": "Gmc",
-    "model": "Sierra 1500 At4 Four Wheel Drive Crew Cab",
-    "trim": "1GTUUEEL2TZ363423"
-  },
-  "1GCPABEK3TZ416755": {
-    "vin": "1GCPABEK3TZ416755",
-    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-custom-rear-wheel-drive-crew-cab-1gcpabek3tz416755/",
-    "year": "2026",
-    "make": "Chevrolet",
-    "model": "Silverado 1500 Custom Rear Wheel Drive Crew Cab",
-    "trim": "1GCPABEK3TZ416755"
-  },
-  "1GTUUGEL9TZ278509": {
-    "vin": "1GTUUGEL9TZ278509",
-    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-denali-four-wheel-drive-crew-cab-1gtuugel9tz278509/",
-    "year": "2026",
-    "make": "Gmc",
-    "model": "Sierra 1500 Denali Four Wheel Drive Crew Cab",
-    "trim": "1GTUUGEL9TZ278509"
-  },
   "3GTUUGEL3TG374457": {
     "vin": "3GTUUGEL3TG374457",
     "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-denali-four-wheel-drive-crew-cab-3gtuugel3tg374457/",
@@ -1079,77 +1103,21 @@
     "model": "Sierra 1500 Denali Four Wheel Drive Crew Cab",
     "trim": "3GTUUGEL3TG374457"
   },
-  "1GTUUHEL6TZ418912": {
-    "vin": "1GTUUHEL6TZ418912",
-    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-denali-ultimate-four-wheel-drive-crew-cab-1gtuuhel6tz418912/",
-    "year": "2026",
-    "make": "Gmc",
-    "model": "Sierra 1500 Denali Ultimate Four Wheel Drive Crew Cab",
-    "trim": "1GTUUHEL6TZ418912"
-  },
-  "1GTUUHEL8TZ415283": {
-    "vin": "1GTUUHEL8TZ415283",
-    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-denali-ultimate-four-wheel-drive-crew-cab-1gtuuhel8tz415283/",
-    "year": "2026",
-    "make": "Gmc",
-    "model": "Sierra 1500 Denali Ultimate Four Wheel Drive Crew Cab",
-    "trim": "1GTUUHEL8TZ415283"
-  },
-  "3GCPKWEK8TG341670": {
-    "vin": "3GCPKWEK8TG341670",
-    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-1500-rst-four-wheel-drive-crew-cab-3gcpkwek8tg341670/",
-    "year": "2026",
-    "make": "Chevrolet",
-    "model": "Silverado 1500 Rst Four Wheel Drive Crew Cab",
-    "trim": "3GCPKWEK8TG341670"
-  },
-  "1GTUUCE86TZ349217": {
-    "vin": "1GTUUCE86TZ349217",
-    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-elevation-four-wheel-drive-crew-cab-1gtuuce86tz349217/",
-    "year": "2026",
-    "make": "Gmc",
-    "model": "Sierra 1500 Elevation Four Wheel Drive Crew Cab",
-    "trim": "1GTUUCE86TZ349217"
-  },
-  "1GTUUCE89TZ309181": {
-    "vin": "1GTUUCE89TZ309181",
-    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-elevation-four-wheel-drive-crew-cab-1gtuuce89tz309181/",
-    "year": "2026",
-    "make": "Gmc",
-    "model": "Sierra 1500 Elevation Four Wheel Drive Crew Cab",
-    "trim": "1GTUUCE89TZ309181"
-  },
-  "1GTPHAED1TZ501438": {
-    "vin": "1GTPHAED1TZ501438",
-    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-pro-rear-wheel-drive-crew-cab-1gtphaed1tz501438/",
-    "year": "2026",
-    "make": "Gmc",
-    "model": "Sierra 1500 Pro Rear Wheel Drive Crew Cab",
-    "trim": "1GTPHAED1TZ501438"
-  },
-  "1GT4UPEY8TF365041": {
-    "vin": "1GT4UPEY8TF365041",
-    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-2500-hd-at4-four-wheel-drive-crew-cab-1gt4upey8tf365041/",
+  "1GT4UPEY2TF365052": {
+    "vin": "1GT4UPEY2TF365052",
+    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-2500-hd-at4-four-wheel-drive-crew-cab-1gt4upey2tf365052/",
     "year": "2026",
     "make": "Gmc",
     "model": "Sierra 2500 Hd At4 Four Wheel Drive Crew Cab",
-    "trim": "1GT4UPEY8TF365041"
+    "trim": "1GT4UPEY2TF365052"
   },
-  "1GTPHAED1TZ502329": {
-    "vin": "1GTPHAED1TZ502329",
-    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-pro-rear-wheel-drive-crew-cab-1gtphaed1tz502329/",
+  "1GT4UPEY6TF365202": {
+    "vin": "1GT4UPEY6TF365202",
+    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-2500-hd-at4-four-wheel-drive-crew-cab-1gt4upey6tf365202/",
     "year": "2026",
     "make": "Gmc",
-    "model": "Sierra 1500 Pro Rear Wheel Drive Crew Cab",
-    "trim": "1GTPHAED1TZ502329"
-  },
-  "3GTUUEE81TG441976": {
-    "vin": "3GTUUEE81TG441976",
-    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-at4-four-wheel-drive-crew-cab-3gtuuee81tg441976/",
-    "year": "2026",
-    "make": "Gmc",
-    "model": "Sierra 1500 At4 Four Wheel Drive Crew Cab",
-    "trim": "3GTUUEE81TG441976"
+    "model": "Sierra 2500 Hd At4 Four Wheel Drive Crew Cab",
+    "trim": "1GT4UPEY6TF365202"
   },
   "1GTPHAED2TZ501061": {
     "vin": "1GTPHAED2TZ501061",
@@ -1159,30 +1127,6 @@
     "model": "Sierra 1500 Pro Rear Wheel Drive Crew Cab",
     "trim": "1GTPHAED2TZ501061"
   },
-  "1GTPHAED4TZ501112": {
-    "vin": "1GTPHAED4TZ501112",
-    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-pro-rear-wheel-drive-crew-cab-1gtphaed4tz501112/",
-    "year": "2026",
-    "make": "Gmc",
-    "model": "Sierra 1500 Pro Rear Wheel Drive Crew Cab",
-    "trim": "1GTPHAED4TZ501112"
-  },
-  "1GTUUCE80TZ349634": {
-    "vin": "1GTUUCE80TZ349634",
-    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-elevation-four-wheel-drive-crew-cab-1gtuuce80tz349634/",
-    "year": "2026",
-    "make": "Gmc",
-    "model": "Sierra 1500 Elevation Four Wheel Drive Crew Cab",
-    "trim": "1GTUUCE80TZ349634"
-  },
-  "1GTPHAED5TZ513334": {
-    "vin": "1GTPHAED5TZ513334",
-    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-pro-rear-wheel-drive-crew-cab-1gtphaed5tz513334/",
-    "year": "2026",
-    "make": "Gmc",
-    "model": "Sierra 1500 Pro Rear Wheel Drive Crew Cab",
-    "trim": "1GTPHAED5TZ513334"
-  },
   "3GTUUCE8XTG378980": {
     "vin": "3GTUUCE8XTG378980",
     "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-elevation-four-wheel-drive-crew-cab-3gtuuce8xtg378980/",
@@ -1190,6 +1134,30 @@
     "make": "Gmc",
     "model": "Sierra 1500 Elevation Four Wheel Drive Crew Cab",
     "trim": "3GTUUCE8XTG378980"
+  },
+  "1GTPHAED1TZ501438": {
+    "vin": "1GTPHAED1TZ501438",
+    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-pro-rear-wheel-drive-crew-cab-1gtphaed1tz501438/",
+    "year": "2026",
+    "make": "Gmc",
+    "model": "Sierra 1500 Pro Rear Wheel Drive Crew Cab",
+    "trim": "1GTPHAED1TZ501438"
+  },
+  "3GTUUCE83TG436041": {
+    "vin": "3GTUUCE83TG436041",
+    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-elevation-four-wheel-drive-crew-cab-3gtuuce83tg436041/",
+    "year": "2026",
+    "make": "Gmc",
+    "model": "Sierra 1500 Elevation Four Wheel Drive Crew Cab",
+    "trim": "3GTUUCE83TG436041"
+  },
+  "1GT4UPEY8TF365041": {
+    "vin": "1GT4UPEY8TF365041",
+    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-2500-hd-at4-four-wheel-drive-crew-cab-1gt4upey8tf365041/",
+    "year": "2026",
+    "make": "Gmc",
+    "model": "Sierra 2500 Hd At4 Four Wheel Drive Crew Cab",
+    "trim": "1GT4UPEY8TF365041"
   },
   "1GTPHAED3TZ513137": {
     "vin": "1GTPHAED3TZ513137",
@@ -1199,61 +1167,21 @@
     "model": "Sierra 1500 Pro Rear Wheel Drive Crew Cab",
     "trim": "1GTPHAED3TZ513137"
   },
-  "3GTUUCE81TG378687": {
-    "vin": "3GTUUCE81TG378687",
-    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-elevation-four-wheel-drive-crew-cab-3gtuuce81tg378687/",
+  "1GC4KNEY9TF359047": {
+    "vin": "1GC4KNEY9TF359047",
+    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-2500-hd-lt-four-wheel-drive-crew-cab-1gc4kney9tf359047/",
     "year": "2026",
-    "make": "Gmc",
-    "model": "Sierra 1500 Elevation Four Wheel Drive Crew Cab",
-    "trim": "3GTUUCE81TG378687"
+    "make": "Chevrolet",
+    "model": "Silverado 2500 Hd Lt Four Wheel Drive Crew Cab",
+    "trim": "1GC4KNEY9TF359047"
   },
-  "1GTPHAED3TZ501053": {
-    "vin": "1GTPHAED3TZ501053",
-    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-pro-rear-wheel-drive-crew-cab-1gtphaed3tz501053/",
+  "1GC4KNEYXTF376925": {
+    "vin": "1GC4KNEYXTF376925",
+    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-2500-hd-lt-four-wheel-drive-crew-cab-1gc4kneyxtf376925/",
     "year": "2026",
-    "make": "Gmc",
-    "model": "Sierra 1500 Pro Rear Wheel Drive Crew Cab",
-    "trim": "1GTPHAED3TZ501053"
-  },
-  "1GTPHAED9TZ513322": {
-    "vin": "1GTPHAED9TZ513322",
-    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-pro-rear-wheel-drive-crew-cab-1gtphaed9tz513322/",
-    "year": "2026",
-    "make": "Gmc",
-    "model": "Sierra 1500 Pro Rear Wheel Drive Crew Cab",
-    "trim": "1GTPHAED9TZ513322"
-  },
-  "3GTUUCE82TG182693": {
-    "vin": "3GTUUCE82TG182693",
-    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-elevation-four-wheel-drive-crew-cab-3gtuuce82tg182693/",
-    "year": "2026",
-    "make": "Gmc",
-    "model": "Sierra 1500 Elevation Four Wheel Drive Crew Cab",
-    "trim": "3GTUUCE82TG182693"
-  },
-  "3GTUUCE85TG378627": {
-    "vin": "3GTUUCE85TG378627",
-    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-elevation-four-wheel-drive-crew-cab-3gtuuce85tg378627/",
-    "year": "2026",
-    "make": "Gmc",
-    "model": "Sierra 1500 Elevation Four Wheel Drive Crew Cab",
-    "trim": "3GTUUCE85TG378627"
-  },
-  "1GTPHAED4TZ500851": {
-    "vin": "1GTPHAED4TZ500851",
-    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-pro-rear-wheel-drive-crew-cab-1gtphaed4tz500851/",
-    "year": "2026",
-    "make": "Gmc",
-    "model": "Sierra 1500 Pro Rear Wheel Drive Crew Cab",
-    "trim": "1GTPHAED4TZ500851"
-  },
-  "1GTPHAED7TZ513285": {
-    "vin": "1GTPHAED7TZ513285",
-    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-pro-rear-wheel-drive-crew-cab-1gtphaed7tz513285/",
-    "year": "2026",
-    "make": "Gmc",
-    "model": "Sierra 1500 Pro Rear Wheel Drive Crew Cab",
-    "trim": "1GTPHAED7TZ513285"
+    "make": "Chevrolet",
+    "model": "Silverado 2500 Hd Lt Four Wheel Drive Crew Cab",
+    "trim": "1GC4KNEYXTF376925"
   },
   "1GTPHAED9TZ500991": {
     "vin": "1GTPHAED9TZ500991",
@@ -1263,77 +1191,29 @@
     "model": "Sierra 1500 Pro Rear Wheel Drive Crew Cab",
     "trim": "1GTPHAED9TZ500991"
   },
-  "3GTUUCE8XTG436571": {
-    "vin": "3GTUUCE8XTG436571",
-    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-elevation-four-wheel-drive-crew-cab-3gtuuce8xtg436571/",
+  "1GTPHAED5TZ513334": {
+    "vin": "1GTPHAED5TZ513334",
+    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-pro-rear-wheel-drive-crew-cab-1gtphaed5tz513334/",
     "year": "2026",
     "make": "Gmc",
-    "model": "Sierra 1500 Elevation Four Wheel Drive Crew Cab",
-    "trim": "3GTUUCE8XTG436571"
+    "model": "Sierra 1500 Pro Rear Wheel Drive Crew Cab",
+    "trim": "1GTPHAED5TZ513334"
   },
-  "3GTUUCE82TG405251": {
-    "vin": "3GTUUCE82TG405251",
-    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-elevation-four-wheel-drive-crew-cab-3gtuuce82tg405251/",
+  "1GTPHAED7TZ513285": {
+    "vin": "1GTPHAED7TZ513285",
+    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-pro-rear-wheel-drive-crew-cab-1gtphaed7tz513285/",
     "year": "2026",
     "make": "Gmc",
-    "model": "Sierra 1500 Elevation Four Wheel Drive Crew Cab",
-    "trim": "3GTUUCE82TG405251"
+    "model": "Sierra 1500 Pro Rear Wheel Drive Crew Cab",
+    "trim": "1GTPHAED7TZ513285"
   },
-  "2GC4KNEYXT1214140": {
-    "vin": "2GC4KNEYXT1214140",
-    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-2500-hd-lt-four-wheel-drive-crew-cab-2gc4kneyxt1214140/",
-    "year": "2026",
-    "make": "Chevrolet",
-    "model": "Silverado 2500 Hd Lt Four Wheel Drive Crew Cab",
-    "trim": "2GC4KNEYXT1214140"
-  },
-  "1GT4UPEY4TF365232": {
-    "vin": "1GT4UPEY4TF365232",
-    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-2500-hd-at4-four-wheel-drive-crew-cab-1gt4upey4tf365232/",
+  "1GT4UPEY0TF378513": {
+    "vin": "1GT4UPEY0TF378513",
+    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-2500-hd-at4-four-wheel-drive-crew-cab-1gt4upey0tf378513/",
     "year": "2026",
     "make": "Gmc",
     "model": "Sierra 2500 Hd At4 Four Wheel Drive Crew Cab",
-    "trim": "1GT4UPEY4TF365232"
-  },
-  "3GTUUCE88TG405125": {
-    "vin": "3GTUUCE88TG405125",
-    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-elevation-four-wheel-drive-crew-cab-3gtuuce88tg405125/",
-    "year": "2026",
-    "make": "Gmc",
-    "model": "Sierra 1500 Elevation Four Wheel Drive Crew Cab",
-    "trim": "3GTUUCE88TG405125"
-  },
-  "3GTUUEE84TG440885": {
-    "vin": "3GTUUEE84TG440885",
-    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-at4-four-wheel-drive-crew-cab-3gtuuee84tg440885/",
-    "year": "2026",
-    "make": "Gmc",
-    "model": "Sierra 1500 At4 Four Wheel Drive Crew Cab",
-    "trim": "3GTUUEE84TG440885"
-  },
-  "3GTUUEE8XTG440485": {
-    "vin": "3GTUUEE8XTG440485",
-    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-at4-four-wheel-drive-crew-cab-3gtuuee8xtg440485/",
-    "year": "2026",
-    "make": "Gmc",
-    "model": "Sierra 1500 At4 Four Wheel Drive Crew Cab",
-    "trim": "3GTUUEE8XTG440485"
-  },
-  "3GTUUCE88TG436102": {
-    "vin": "3GTUUCE88TG436102",
-    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-elevation-four-wheel-drive-crew-cab-3gtuuce88tg436102/",
-    "year": "2026",
-    "make": "Gmc",
-    "model": "Sierra 1500 Elevation Four Wheel Drive Crew Cab",
-    "trim": "3GTUUCE88TG436102"
-  },
-  "1GTPHCED3TZ498845": {
-    "vin": "1GTPHCED3TZ498845",
-    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-elevation-rear-wheel-drive-crew-cab-1gtphced3tz498845/",
-    "year": "2026",
-    "make": "Gmc",
-    "model": "Sierra 1500 Elevation Rear Wheel Drive Crew Cab",
-    "trim": "1GTPHCED3TZ498845"
+    "trim": "1GT4UPEY0TF378513"
   },
   "3GTUUCE85TG469820": {
     "vin": "3GTUUCE85TG469820",
@@ -1343,13 +1223,45 @@
     "model": "Sierra 1500 Elevation Four Wheel Drive Crew Cab",
     "trim": "3GTUUCE85TG469820"
   },
-  "1GTPHAED3TZ513266": {
-    "vin": "1GTPHAED3TZ513266",
-    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-pro-rear-wheel-drive-crew-cab-1gtphaed3tz513266/",
+  "3GTUUCE82TG182693": {
+    "vin": "3GTUUCE82TG182693",
+    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-elevation-four-wheel-drive-crew-cab-3gtuuce82tg182693/",
+    "year": "2026",
+    "make": "Gmc",
+    "model": "Sierra 1500 Elevation Four Wheel Drive Crew Cab",
+    "trim": "3GTUUCE82TG182693"
+  },
+  "1GTPHAED2TZ513212": {
+    "vin": "1GTPHAED2TZ513212",
+    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-pro-rear-wheel-drive-crew-cab-1gtphaed2tz513212/",
     "year": "2026",
     "make": "Gmc",
     "model": "Sierra 1500 Pro Rear Wheel Drive Crew Cab",
-    "trim": "1GTPHAED3TZ513266"
+    "trim": "1GTPHAED2TZ513212"
+  },
+  "3GTUUCE89TG469593": {
+    "vin": "3GTUUCE89TG469593",
+    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-elevation-four-wheel-drive-crew-cab-3gtuuce89tg469593/",
+    "year": "2026",
+    "make": "Gmc",
+    "model": "Sierra 1500 Elevation Four Wheel Drive Crew Cab",
+    "trim": "3GTUUCE89TG469593"
+  },
+  "1GT4UPEY4TF365232": {
+    "vin": "1GT4UPEY4TF365232",
+    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-2500-hd-at4-four-wheel-drive-crew-cab-1gt4upey4tf365232/",
+    "year": "2026",
+    "make": "Gmc",
+    "model": "Sierra 2500 Hd At4 Four Wheel Drive Crew Cab",
+    "trim": "1GT4UPEY4TF365232"
+  },
+  "1GTPHAED4TZ500851": {
+    "vin": "1GTPHAED4TZ500851",
+    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-pro-rear-wheel-drive-crew-cab-1gtphaed4tz500851/",
+    "year": "2026",
+    "make": "Gmc",
+    "model": "Sierra 1500 Pro Rear Wheel Drive Crew Cab",
+    "trim": "1GTPHAED4TZ500851"
   },
   "3GTUUCE8XTG469814": {
     "vin": "3GTUUCE8XTG469814",
@@ -1359,93 +1271,117 @@
     "model": "Sierra 1500 Elevation Four Wheel Drive Crew Cab",
     "trim": "3GTUUCE8XTG469814"
   },
-  "3GTUUCE81TG435891": {
-    "vin": "3GTUUCE81TG435891",
-    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-elevation-four-wheel-drive-crew-cab-3gtuuce81tg435891/",
+  "1GTPHCED3TZ498845": {
+    "vin": "1GTPHCED3TZ498845",
+    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-elevation-rear-wheel-drive-crew-cab-1gtphced3tz498845/",
     "year": "2026",
     "make": "Gmc",
-    "model": "Sierra 1500 Elevation Four Wheel Drive Crew Cab",
-    "trim": "3GTUUCE81TG435891"
+    "model": "Sierra 1500 Elevation Rear Wheel Drive Crew Cab",
+    "trim": "1GTPHCED3TZ498845"
   },
-  "3GTUUCE84TG200580": {
-    "vin": "3GTUUCE84TG200580",
-    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-elevation-four-wheel-drive-crew-cab-3gtuuce84tg200580/",
-    "year": "2026",
-    "make": "Gmc",
-    "model": "Sierra 1500 Elevation Four Wheel Drive Crew Cab",
-    "trim": "3GTUUCE84TG200580"
-  },
-  "3GTUUCE87TG436494": {
-    "vin": "3GTUUCE87TG436494",
-    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-elevation-four-wheel-drive-crew-cab-3gtuuce87tg436494/",
-    "year": "2026",
-    "make": "Gmc",
-    "model": "Sierra 1500 Elevation Four Wheel Drive Crew Cab",
-    "trim": "3GTUUCE87TG436494"
-  },
-  "1GT4UPEY5TF264779": {
-    "vin": "1GT4UPEY5TF264779",
-    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-2500-hd-at4-four-wheel-drive-crew-cab-1gt4upey5tf264779/",
-    "year": "2026",
-    "make": "Gmc",
-    "model": "Sierra 2500 Hd At4 Four Wheel Drive Crew Cab",
-    "trim": "1GT4UPEY5TF264779"
-  },
-  "1GTPHAED4TZ513373": {
-    "vin": "1GTPHAED4TZ513373",
-    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-pro-rear-wheel-drive-crew-cab-1gtphaed4tz513373/",
+  "1GTPHAED3TZ501053": {
+    "vin": "1GTPHAED3TZ501053",
+    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-pro-rear-wheel-drive-crew-cab-1gtphaed3tz501053/",
     "year": "2026",
     "make": "Gmc",
     "model": "Sierra 1500 Pro Rear Wheel Drive Crew Cab",
-    "trim": "1GTPHAED4TZ513373"
+    "trim": "1GTPHAED3TZ501053"
   },
-  "3GTUUCE82TG436113": {
-    "vin": "3GTUUCE82TG436113",
-    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-elevation-four-wheel-drive-crew-cab-3gtuuce82tg436113/",
+  "3GTUUCE81TG378687": {
+    "vin": "3GTUUCE81TG378687",
+    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-elevation-four-wheel-drive-crew-cab-3gtuuce81tg378687/",
     "year": "2026",
     "make": "Gmc",
     "model": "Sierra 1500 Elevation Four Wheel Drive Crew Cab",
-    "trim": "3GTUUCE82TG436113"
+    "trim": "3GTUUCE81TG378687"
   },
-  "1GTPHAED7TZ513108": {
-    "vin": "1GTPHAED7TZ513108",
-    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-pro-rear-wheel-drive-crew-cab-1gtphaed7tz513108/",
-    "year": "2026",
-    "make": "Gmc",
-    "model": "Sierra 1500 Pro Rear Wheel Drive Crew Cab",
-    "trim": "1GTPHAED7TZ513108"
-  },
-  "1GTPHAED4TZ500865": {
-    "vin": "1GTPHAED4TZ500865",
-    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-pro-rear-wheel-drive-crew-cab-1gtphaed4tz500865/",
-    "year": "2026",
-    "make": "Gmc",
-    "model": "Sierra 1500 Pro Rear Wheel Drive Crew Cab",
-    "trim": "1GTPHAED4TZ500865"
-  },
-  "1GT4UPEY4TF339729": {
-    "vin": "1GT4UPEY4TF339729",
-    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-2500-hd-at4-four-wheel-drive-crew-cab-1gt4upey4tf339729/",
-    "year": "2026",
-    "make": "Gmc",
-    "model": "Sierra 2500 Hd At4 Four Wheel Drive Crew Cab",
-    "trim": "1GT4UPEY4TF339729"
-  },
-  "3GTUUCE80TG405457": {
-    "vin": "3GTUUCE80TG405457",
-    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-elevation-four-wheel-drive-crew-cab-3gtuuce80tg405457/",
+  "3GTUUCE82TG405251": {
+    "vin": "3GTUUCE82TG405251",
+    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-elevation-four-wheel-drive-crew-cab-3gtuuce82tg405251/",
     "year": "2026",
     "make": "Gmc",
     "model": "Sierra 1500 Elevation Four Wheel Drive Crew Cab",
-    "trim": "3GTUUCE80TG405457"
+    "trim": "3GTUUCE82TG405251"
   },
-  "1GT4UPEY3TF306964": {
-    "vin": "1GT4UPEY3TF306964",
-    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-2500-hd-at4-four-wheel-drive-crew-cab-1gt4upey3tf306964/",
+  "1GTUUCE89TZ309181": {
+    "vin": "1GTUUCE89TZ309181",
+    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-elevation-four-wheel-drive-crew-cab-1gtuuce89tz309181/",
     "year": "2026",
     "make": "Gmc",
-    "model": "Sierra 2500 Hd At4 Four Wheel Drive Crew Cab",
-    "trim": "1GT4UPEY3TF306964"
+    "model": "Sierra 1500 Elevation Four Wheel Drive Crew Cab",
+    "trim": "1GTUUCE89TZ309181"
+  },
+  "3GTUUCE88TG436102": {
+    "vin": "3GTUUCE88TG436102",
+    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-elevation-four-wheel-drive-crew-cab-3gtuuce88tg436102/",
+    "year": "2026",
+    "make": "Gmc",
+    "model": "Sierra 1500 Elevation Four Wheel Drive Crew Cab",
+    "trim": "3GTUUCE88TG436102"
+  },
+  "1GTPHAED9TZ513322": {
+    "vin": "1GTPHAED9TZ513322",
+    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-pro-rear-wheel-drive-crew-cab-1gtphaed9tz513322/",
+    "year": "2026",
+    "make": "Gmc",
+    "model": "Sierra 1500 Pro Rear Wheel Drive Crew Cab",
+    "trim": "1GTPHAED9TZ513322"
+  },
+  "1GTPHCED1TZ498360": {
+    "vin": "1GTPHCED1TZ498360",
+    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-elevation-rear-wheel-drive-crew-cab-1gtphced1tz498360/",
+    "year": "2026",
+    "make": "Gmc",
+    "model": "Sierra 1500 Elevation Rear Wheel Drive Crew Cab",
+    "trim": "1GTPHCED1TZ498360"
+  },
+  "1GTUUCE80TZ349634": {
+    "vin": "1GTUUCE80TZ349634",
+    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-elevation-four-wheel-drive-crew-cab-1gtuuce80tz349634/",
+    "year": "2026",
+    "make": "Gmc",
+    "model": "Sierra 1500 Elevation Four Wheel Drive Crew Cab",
+    "trim": "1GTUUCE80TZ349634"
+  },
+  "1GTPHAED1TZ502329": {
+    "vin": "1GTPHAED1TZ502329",
+    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-pro-rear-wheel-drive-crew-cab-1gtphaed1tz502329/",
+    "year": "2026",
+    "make": "Gmc",
+    "model": "Sierra 1500 Pro Rear Wheel Drive Crew Cab",
+    "trim": "1GTPHAED1TZ502329"
+  },
+  "1GTUUCE86TZ349217": {
+    "vin": "1GTUUCE86TZ349217",
+    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-elevation-four-wheel-drive-crew-cab-1gtuuce86tz349217/",
+    "year": "2026",
+    "make": "Gmc",
+    "model": "Sierra 1500 Elevation Four Wheel Drive Crew Cab",
+    "trim": "1GTUUCE86TZ349217"
+  },
+  "1GTPHAED4TZ501112": {
+    "vin": "1GTPHAED4TZ501112",
+    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-pro-rear-wheel-drive-crew-cab-1gtphaed4tz501112/",
+    "year": "2026",
+    "make": "Gmc",
+    "model": "Sierra 1500 Pro Rear Wheel Drive Crew Cab",
+    "trim": "1GTPHAED4TZ501112"
+  },
+  "3GTUUEE84TG440885": {
+    "vin": "3GTUUEE84TG440885",
+    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-at4-four-wheel-drive-crew-cab-3gtuuee84tg440885/",
+    "year": "2026",
+    "make": "Gmc",
+    "model": "Sierra 1500 At4 Four Wheel Drive Crew Cab",
+    "trim": "3GTUUEE84TG440885"
+  },
+  "2GC4KNEYXT1214140": {
+    "vin": "2GC4KNEYXT1214140",
+    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-2500-hd-lt-four-wheel-drive-crew-cab-2gc4kneyxt1214140/",
+    "year": "2026",
+    "make": "Chevrolet",
+    "model": "Silverado 2500 Hd Lt Four Wheel Drive Crew Cab",
+    "trim": "2GC4KNEYXT1214140"
   },
   "3GTUUEE80TG441998": {
     "vin": "3GTUUEE80TG441998",
@@ -1463,37 +1399,21 @@
     "model": "Sierra 1500 Pro Rear Wheel Drive Crew Cab",
     "trim": "1GTPHAED3TZ501165"
   },
-  "3GTUUCE89TG378923": {
-    "vin": "3GTUUCE89TG378923",
-    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-elevation-four-wheel-drive-crew-cab-3gtuuce89tg378923/",
-    "year": "2026",
-    "make": "Gmc",
-    "model": "Sierra 1500 Elevation Four Wheel Drive Crew Cab",
-    "trim": "3GTUUCE89TG378923"
-  },
-  "3GTUUCE89TG404713": {
-    "vin": "3GTUUCE89TG404713",
-    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-elevation-four-wheel-drive-crew-cab-3gtuuce89tg404713/",
-    "year": "2026",
-    "make": "Gmc",
-    "model": "Sierra 1500 Elevation Four Wheel Drive Crew Cab",
-    "trim": "3GTUUCE89TG404713"
-  },
-  "1GT4UPEYXTF297566": {
-    "vin": "1GT4UPEYXTF297566",
-    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-2500-hd-at4-four-wheel-drive-crew-cab-1gt4upeyxtf297566/",
+  "1GT4UPEYXTF339721": {
+    "vin": "1GT4UPEYXTF339721",
+    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-2500-hd-at4-four-wheel-drive-crew-cab-1gt4upeyxtf339721/",
     "year": "2026",
     "make": "Gmc",
     "model": "Sierra 2500 Hd At4 Four Wheel Drive Crew Cab",
-    "trim": "1GT4UPEYXTF297566"
+    "trim": "1GT4UPEYXTF339721"
   },
-  "3GTUUCE86TG436163": {
-    "vin": "3GTUUCE86TG436163",
-    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-elevation-four-wheel-drive-crew-cab-3gtuuce86tg436163/",
+  "1GTPHAED4TZ500865": {
+    "vin": "1GTPHAED4TZ500865",
+    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-pro-rear-wheel-drive-crew-cab-1gtphaed4tz500865/",
     "year": "2026",
     "make": "Gmc",
-    "model": "Sierra 1500 Elevation Four Wheel Drive Crew Cab",
-    "trim": "3GTUUCE86TG436163"
+    "model": "Sierra 1500 Pro Rear Wheel Drive Crew Cab",
+    "trim": "1GTPHAED4TZ500865"
   },
   "3GTUUCE88TG378976": {
     "vin": "3GTUUCE88TG378976",
@@ -1503,6 +1423,110 @@
     "model": "Sierra 1500 Elevation Four Wheel Drive Crew Cab",
     "trim": "3GTUUCE88TG378976"
   },
+  "3GTUUCE81TG435891": {
+    "vin": "3GTUUCE81TG435891",
+    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-elevation-four-wheel-drive-crew-cab-3gtuuce81tg435891/",
+    "year": "2026",
+    "make": "Gmc",
+    "model": "Sierra 1500 Elevation Four Wheel Drive Crew Cab",
+    "trim": "3GTUUCE81TG435891"
+  },
+  "1GTPHAED4TZ513373": {
+    "vin": "1GTPHAED4TZ513373",
+    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-pro-rear-wheel-drive-crew-cab-1gtphaed4tz513373/",
+    "year": "2026",
+    "make": "Gmc",
+    "model": "Sierra 1500 Pro Rear Wheel Drive Crew Cab",
+    "trim": "1GTPHAED4TZ513373"
+  },
+  "1GC4KNEY4TF376936": {
+    "vin": "1GC4KNEY4TF376936",
+    "url": "https://www.markchristopher.com/inventory/new-2026-chevrolet-silverado-2500-hd-lt-four-wheel-drive-crew-cab-1gc4kney4tf376936/",
+    "year": "2026",
+    "make": "Chevrolet",
+    "model": "Silverado 2500 Hd Lt Four Wheel Drive Crew Cab",
+    "trim": "1GC4KNEY4TF376936"
+  },
+  "3GTUUCE84TG200580": {
+    "vin": "3GTUUCE84TG200580",
+    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-elevation-four-wheel-drive-crew-cab-3gtuuce84tg200580/",
+    "year": "2026",
+    "make": "Gmc",
+    "model": "Sierra 1500 Elevation Four Wheel Drive Crew Cab",
+    "trim": "3GTUUCE84TG200580"
+  },
+  "1GT4UPEY4TF339729": {
+    "vin": "1GT4UPEY4TF339729",
+    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-2500-hd-at4-four-wheel-drive-crew-cab-1gt4upey4tf339729/",
+    "year": "2026",
+    "make": "Gmc",
+    "model": "Sierra 2500 Hd At4 Four Wheel Drive Crew Cab",
+    "trim": "1GT4UPEY4TF339729"
+  },
+  "1GT4UPEYXTF297566": {
+    "vin": "1GT4UPEYXTF297566",
+    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-2500-hd-at4-four-wheel-drive-crew-cab-1gt4upeyxtf297566/",
+    "year": "2026",
+    "make": "Gmc",
+    "model": "Sierra 2500 Hd At4 Four Wheel Drive Crew Cab",
+    "trim": "1GT4UPEYXTF297566"
+  },
+  "3GTUUCE89TG404713": {
+    "vin": "3GTUUCE89TG404713",
+    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-elevation-four-wheel-drive-crew-cab-3gtuuce89tg404713/",
+    "year": "2026",
+    "make": "Gmc",
+    "model": "Sierra 1500 Elevation Four Wheel Drive Crew Cab",
+    "trim": "3GTUUCE89TG404713"
+  },
+  "3GTUUCE82TG436113": {
+    "vin": "3GTUUCE82TG436113",
+    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-elevation-four-wheel-drive-crew-cab-3gtuuce82tg436113/",
+    "year": "2026",
+    "make": "Gmc",
+    "model": "Sierra 1500 Elevation Four Wheel Drive Crew Cab",
+    "trim": "3GTUUCE82TG436113"
+  },
+  "1GT4UPEY3TF306964": {
+    "vin": "1GT4UPEY3TF306964",
+    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-2500-hd-at4-four-wheel-drive-crew-cab-1gt4upey3tf306964/",
+    "year": "2026",
+    "make": "Gmc",
+    "model": "Sierra 2500 Hd At4 Four Wheel Drive Crew Cab",
+    "trim": "1GT4UPEY3TF306964"
+  },
+  "3GTUUCE80TG405457": {
+    "vin": "3GTUUCE80TG405457",
+    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-elevation-four-wheel-drive-crew-cab-3gtuuce80tg405457/",
+    "year": "2026",
+    "make": "Gmc",
+    "model": "Sierra 1500 Elevation Four Wheel Drive Crew Cab",
+    "trim": "3GTUUCE80TG405457"
+  },
+  "1GT4UPEY5TF264779": {
+    "vin": "1GT4UPEY5TF264779",
+    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-2500-hd-at4-four-wheel-drive-crew-cab-1gt4upey5tf264779/",
+    "year": "2026",
+    "make": "Gmc",
+    "model": "Sierra 2500 Hd At4 Four Wheel Drive Crew Cab",
+    "trim": "1GT4UPEY5TF264779"
+  },
+  "3GTUUCE87TG436494": {
+    "vin": "3GTUUCE87TG436494",
+    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-elevation-four-wheel-drive-crew-cab-3gtuuce87tg436494/",
+    "year": "2026",
+    "make": "Gmc",
+    "model": "Sierra 1500 Elevation Four Wheel Drive Crew Cab",
+    "trim": "3GTUUCE87TG436494"
+  },
+  "3GTUUCE86TG436163": {
+    "vin": "3GTUUCE86TG436163",
+    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-elevation-four-wheel-drive-crew-cab-3gtuuce86tg436163/",
+    "year": "2026",
+    "make": "Gmc",
+    "model": "Sierra 1500 Elevation Four Wheel Drive Crew Cab",
+    "trim": "3GTUUCE86TG436163"
+  },
   "1GT4UPEY3TF346557": {
     "vin": "1GT4UPEY3TF346557",
     "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-2500-hd-at4-four-wheel-drive-crew-cab-1gt4upey3tf346557/",
@@ -1511,12 +1535,12 @@
     "model": "Sierra 2500 Hd At4 Four Wheel Drive Crew Cab",
     "trim": "1GT4UPEY3TF346557"
   },
-  "1GTPHAED6TZ500589": {
-    "vin": "1GTPHAED6TZ500589",
-    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-pro-rear-wheel-drive-crew-cab-1gtphaed6tz500589/",
+  "1GTPHAED7TZ513108": {
+    "vin": "1GTPHAED7TZ513108",
+    "url": "https://www.markchristopher.com/inventory/new-2026-gmc-sierra-1500-pro-rear-wheel-drive-crew-cab-1gtphaed7tz513108/",
     "year": "2026",
     "make": "Gmc",
     "model": "Sierra 1500 Pro Rear Wheel Drive Crew Cab",
-    "trim": "1GTPHAED6TZ500589"
+    "trim": "1GTPHAED7TZ513108"
   }
 }
